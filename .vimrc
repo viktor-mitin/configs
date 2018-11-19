@@ -3,7 +3,8 @@ autocmd FileType c,cpp,php,python,bash set expandtab
 
 autocmd FileType vim noremap <buffer> <C-k> 0i"<esc>j
 
-noremap <C-k> 0i#<esc>j
+noremap <C-k> 0i//<esc>j
+noremap <C-l> 0i#<esc>j
 
 
 "auto reload vimrc
@@ -222,7 +223,7 @@ map  <m-Down> ]c
 "get all changes from other buffer
 "nmap a :1,$+1diffget<CR>:w<CR>:qa!<CR>
 "
-"nmap ] <Esc>:mksession! ~/work/vim_temp.vim<CR>:qa<CR>
+nmap Ý <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
 "nmap x <Esc>:qa!<CR>  
 
 

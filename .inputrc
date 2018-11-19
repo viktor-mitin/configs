@@ -1,6 +1,9 @@
 #"\M-k": "test"
 #"k": "test"
 
+#copy last word
+"®":"!#:$\e^"
+
 #"\C-k": "sudo apt-get install "
 
 #Alt+k
@@ -8,7 +11,7 @@
 
 
 "x": "~/work/vimdiff_changed_files.sh\n"
-"]": "rm ~/.vim/swp/*; cd ~/prestera && vim -S ~/work/vim_temp.vim && cd - \n"
+"Ý": "rm ~/.vim/swp/*; vim -S ~/w/vim_temp.vim \n"
 
 #"p": "cd `pwd`\n ;"
 

@@ -367,9 +367,14 @@
         <command>xbacklight -dec 10</command>
       </action>
     </keybind>
-    <keybind key="C-F11">
+    <keybind key="F11">
       <action name="Execute">
-        <command>xbacklight -inc 10</command>
+        <command>amixer -D pulse sset Master 5%-</command>
+      </action>
+    </keybind>
+    <keybind key="F12">
+      <action name="Execute">
+        <command>amixer -D pulse sset Master 5%+</command>
       </action>
     </keybind>
     <!-- Launch scrot when Print is pressed -->
