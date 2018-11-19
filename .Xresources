@@ -1,0 +1,56 @@
+!
+!xrdb -merge .Xdefaults-cd
+!
+!or
+!
+!xrdb < ~/.Xdefaults-cd
+
+!allow to change window title
+!XTerm*AllowTitleOps:    true
+
+xterm*maximized: true
+xterm*fullscreen: true
+
+XTerm.vt100.background: black
+XTerm.vt100.foreground: #e5e5e5
+XTerm.vt100.pointerColor: ivory
+XTerm.vt100.cursorColor: yellow
+
+!allow to scroll by lines
+*VT100.Translations:      #override Shift<Key>Up: scroll-back(1,line) \n \
+                                    Shift<Key>Down: scroll-forw(1,line) \n 
+
+!Alt key fix
+!XTerm*metaSendsEscape: true
+!XTerm*eightBitInput: true
+
+!increase scrollback buffer size
+*saveLines:    55000
+
+!XTerm*faceName: Consolas
+!XTerm*faceName: Monospace
+XTerm*faceName:  DejaVu Sans Mono Book
+
+XTerm*allowBoldFonts:       false
+
+XTerm*faceSize:     18 
+XTerm*faceSize1:    10 
+XTerm*faceSize2:    16 
+XTerm*faceSize3:    18 
+XTerm*faceSize4:    20 
+XTerm*faceSize5:    22 
+XTerm*faceSize6:    24 
+XTerm*faceSize7:    27 
+
+
+!Xft settings
+!Xft.dpi: 144 
+!Xft.autohint: 0 
+!Xft.lcdfilter: lcddefault
+!Xft.dpi: 144 
+!Xft.hinting: 1
+!Xft.hintstyle: hintfull
+!Xft.antialias: 1 
+!Xft.rgba: rgb
+
+

@@ -1,0 +1,35 @@
+#"\M-k": "test"
+#"k": "test"
+
+"\C-k": "sudo apt-get install -y "
+
+
+"x": "~/work/vimdiff_changed_files.sh\n"
+"]": "rm ~/.vim/swp/*; cd ~/prestera && vim -S ~/work/vim_temp.vim && cd - \n"
+
+#"p": "cd `pwd`\n ;"
+
+"l": "bash -x ~/work/new_vers.sh\n"
+"k": "bash -x ~/work/new_kp.sh\n"
+
+#"c": "cd /home/c/cs_ver &&  time ~/prestera/tools/genScripts/codeChecks/cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
+"c": "cd /home/c/cs_ver &&  time ./cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
+
+"d": "~/work/diff_with_orig_and_cp.sh\n"
+
+set completion-ignore-case On
+
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+#"mappings for Ctrl-left-arrow and Ctrl-right-arrow for word moving
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+
+
+#set meta-flag on
+#set input-meta on
+#set convert-meta on
+#set output-meta on
+
+
