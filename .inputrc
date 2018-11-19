@@ -1,7 +1,10 @@
 #"\M-k": "test"
 #"k": "test"
 
-"\C-k": "sudo apt-get install -y "
+#"\C-k": "sudo apt-get install "
+
+#Alt+k
+"ë": "sudo apt-get install -y "
 
 
 "x": "~/work/vimdiff_changed_files.sh\n"
