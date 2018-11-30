@@ -21,8 +21,8 @@ XTerm.vt100.cursorColor: yellow
                                     Shift<Key>Down: scroll-forw(1,line) \n 
 
 !Alt key fix
-!XTerm*metaSendsEscape: true
-!XTerm*eightBitInput: true
+XTerm*metaSendsEscape: true
+XTerm*eightBitInput: true
 
 !increase scrollback buffer size
 *saveLines:    55000

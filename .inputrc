@@ -2,26 +2,23 @@
 #"k": "test"
 
 #copy last word
-"®":"!#:$\e^"
+#"®":"!#:$\e^"
 
 #"\C-k": "sudo apt-get install "
 
 #Alt+k
-"ë": "sudo apt-get install -y "
+"\ek": "sudo apt-get install -y "
+
+#"\ex": "~/work/vimdiff_changed_files.sh\n"
+"\ex": "rm -f ~/.vim/swp/*; vim -S ~/w/vim_temp.vim \n"
+
+#"\ep": "cd `pwd`\n ;"
 
 
-"x": "~/work/vimdiff_changed_files.sh\n"
-"Ý": "rm ~/.vim/swp/*; vim -S ~/w/vim_temp.vim \n"
+#"\ec": "cd /home/c/cs_ver &&  time ~/prestera/tools/genScripts/codeChecks/cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
+"\ec": "cd /home/c/cs_ver &&  time ./cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
 
-#"p": "cd `pwd`\n ;"
-
-"l": "bash -x ~/work/new_vers.sh\n"
-"k": "bash -x ~/work/new_kp.sh\n"
-
-#"c": "cd /home/c/cs_ver &&  time ~/prestera/tools/genScripts/codeChecks/cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
-"c": "cd /home/c/cs_ver &&  time ./cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
-
-"d": "~/work/diff_with_orig_and_cp.sh\n"
+"\ed": "~/work/diff_with_orig_and_cp.sh\n"
 
 set completion-ignore-case On
 

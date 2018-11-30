@@ -221,10 +221,10 @@ map  <m-Left> do
 map  <m-Up> [c
 map  <m-Down> ]c
 "get all changes from other buffer
-"nmap a :1,$+1diffget<CR>:w<CR>:qa!<CR>
+"nmap \ea :1,$+1diffget<CR>:w<CR>:qa!<CR>
 "
-nmap Ý <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
-"nmap x <Esc>:qa!<CR>  
+nmap \ex <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
+"nmap \ex <Esc>:qa!<CR>  
 
 
 let _curfile = expand("%:t")
