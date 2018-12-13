@@ -16,9 +16,9 @@
 
 
 #"\ec": "cd /home/c/cs_ver &&  time ~/prestera/tools/genScripts/codeChecks/cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
-"\ec": "cd /home/c/cs_ver &&  time ./cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
+#"\ec": "cd /home/c/cs_ver &&  time ./cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
 
-"\ed": "~/work/diff_with_orig_and_cp.sh\n"
+#"\ed": "~/work/diff_with_orig_and_cp.sh\n"
 
 set completion-ignore-case On
 
