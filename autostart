@@ -1,0 +1,10 @@
+@lxpanel --profile Lubuntu
+@xscreensaver -no-splash
+
+#@xfce4-power-manager
+#@pcmanfm --desktop --profile lubuntu
+
+@/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+
+@/home/c/caesar_scripts/ubuntu_start_apps.sh
+
