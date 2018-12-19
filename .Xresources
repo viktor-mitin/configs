@@ -35,12 +35,12 @@ XTerm*allowBoldFonts:       false
 
 XTerm*faceSize:     16 
 XTerm*faceSize1:    10 
-XTerm*faceSize2:    16 
-XTerm*faceSize3:    18 
-XTerm*faceSize4:    20 
-XTerm*faceSize5:    22 
-XTerm*faceSize6:    24 
-XTerm*faceSize7:    27 
+XTerm*faceSize2:    12 
+XTerm*faceSize3:    14 
+XTerm*faceSize4:    16 
+XTerm*faceSize5:    18 
+XTerm*faceSize6:    22 
+XTerm*faceSize7:    28 
 
 
 !Xft settings
