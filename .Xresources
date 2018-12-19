@@ -6,7 +6,9 @@
 !xrdb < ~/.Xdefaults-cd
 
 !allow to change window title
-!XTerm*AllowTitleOps:    true
+*VT100*allowSendEvents: on
+XTerm*allowTitleOps: true
+XTerm*allowWindowOps: true
 
 xterm*maximized: true
 xterm*fullscreen: true
