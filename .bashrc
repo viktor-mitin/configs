@@ -122,7 +122,7 @@ fi
 
 stty -ixon
 
-export PATH="/home/c/rumprun/./rumprun/bin:${PATH}"
+#export PATH="/home/c/rumprun/./rumprun/bin:${PATH}"
 
 #export MAKEFLAGS="-j$(nproc) -l$(nproc)"
 

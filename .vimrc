@@ -223,7 +223,7 @@ map  <m-Down> ]c
 "get all changes from other buffer
 "nmap \ea :1,$+1diffget<CR>:w<CR>:qa!<CR>
 "
-nmap \ex <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
+nmap x <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
 "nmap \ex <Esc>:qa!<CR>  
 
 
