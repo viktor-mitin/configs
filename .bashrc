@@ -126,3 +126,5 @@ stty -ixon
 
 #export MAKEFLAGS="-j$(nproc) -l$(nproc)"
 
+export VISUAL=vim
+export EDITOR="$VISUAL"

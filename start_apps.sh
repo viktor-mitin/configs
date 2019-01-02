@@ -13,14 +13,14 @@ google-chrome &
 (xterm -T term5)&
 (xterm -T term6)&
 
-#sleep 1
+sleep 1
 (xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
 #skype&
 
 ##################### move apps to workspases ###################
-sleep 2
+sleep 3
 wmctrl -r "term1"  -t0 
 wmctrl -r "term2"  -t0 
 wmctrl -r "term3"  -t1 
