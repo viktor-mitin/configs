@@ -3,7 +3,7 @@ autocmd FileType c,cpp,php,python,bash set expandtab
 
 autocmd FileType vim noremap <buffer> <C-k> 0i"<esc>j
 
-noremap <C-k> 0i//<esc>j
+noremap <C-k> 0^i//<esc>j
 noremap <C-l> 0i#<esc>j
 
 
