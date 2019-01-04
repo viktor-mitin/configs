@@ -41,3 +41,9 @@ sleep 1
 wmctrl -s 8
 
 
+
+sudo ifconfig enp2s0 192.168.1.1 up
+sudo iptables -t nat -A POSTROUTING -o eno1 -j MASQUERADE
+sudo service tftpd-hpa start
+sudo service nfs-kernel-server start
+
