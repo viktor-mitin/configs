@@ -6,8 +6,12 @@
 
 #"\C-k": "sudo apt-get install "
 
+############################################################
 #Alt+k
-"\ek": "sudo apt-get install -y "
+#sudo showkey -a 
+#"\ek": "sudo apt-get install -y "
+"\x1b\x6b": "sudo apt-get install -y "
+###########################################################
 
 #"\ex": "~/work/vimdiff_changed_files.sh\n"
 "\ex": "rm -f ~/.vim/swp/*; vim -S ~/w/vim_temp.vim \n"
