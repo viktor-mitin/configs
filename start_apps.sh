@@ -41,9 +41,12 @@ sleep 1
 wmctrl -s 8
 
 
-
 sudo ifconfig enp2s0 192.168.1.1 up
 sudo iptables -t nat -A POSTROUTING -o eno1 -j MASQUERADE
 sudo service tftpd-hpa start
 sudo service nfs-kernel-server start
+
+
+test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/update-manager_bak
+test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
