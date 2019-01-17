@@ -10,10 +10,16 @@ esac
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
-HISTCONTROL=ignoreboth
+#HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
 shopt -s histappend
+
+# Avoid duplicates
+#export HISTCONTROL=ignoredups:erasedups  
+
+# After each command, append to the history file and reread it
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=10000
@@ -88,12 +94,16 @@ fi
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -alFt'
+alias l='ls -alFt'
 alias la='ls -A'
-alias l='ls -CF'
 
 alias f='find -name '
 alias g='grep -r '
+alias d='du -sh '
+alias gst='git status '
+alias gd='git diff '
+alias up='cd ..'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
