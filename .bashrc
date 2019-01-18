@@ -99,11 +99,20 @@ alias l='ls -alFt'
 alias la='ls -A'
 
 alias f='find -name '
-alias g='grep -r '
 alias d='du -sh '
-alias gst='git status '
 alias gd='git diff '
 alias up='cd ..'
+
+#alias g='grep -r '
+#alias gst='git status '
+g() {
+	if [ $# -eq 0 ]; then
+		git st
+	else
+		grep -r $1
+	fi
+}
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
