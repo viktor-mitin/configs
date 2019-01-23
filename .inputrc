@@ -1,16 +1,13 @@
-#"\M-k": "test"
-#"k": "test"
-
 #copy last word
 #"®":"!#:$\e^"
 
 #"\C-k": "sudo apt-get install "
 
 ############################################################
-#Alt+k
+#Example of key mapping using hex key code: Alt+k
 #sudo showkey -a 
-#"\ek": "sudo apt-get install -y "
 "\x1b\x6b": "sudo apt-get install -y "
+#"\ek": "sudo apt-get install -y "
 ###########################################################
 
 #"\ex": "~/work/vimdiff_changed_files.sh\n"
@@ -18,11 +15,6 @@
 
 #"\ep": "cd `pwd`\n ;"
 
-
-#"\ec": "cd /home/c/cs_ver &&  time ~/prestera/tools/genScripts/codeChecks/cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
-#"\ec": "cd /home/c/cs_ver &&  time ./cs_verification.sh -FDU -a ; cd - ;  firefox file:///home/c/cs_ver/CS_VERIFICATION/summary.html \n"
-
-#"\ed": "~/work/diff_with_orig_and_cp.sh\n"
 
 set completion-ignore-case On
 
