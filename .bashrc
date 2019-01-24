@@ -100,8 +100,9 @@ alias la='ls -A'
 
 alias f='find -name '
 alias d='du -sh '
+#alias up='cd ..'
 alias gd='git diff '
-alias up='cd ..'
+alias gl='git lol '
 
 #alias g='grep -r '
 #alias gst='git status '
