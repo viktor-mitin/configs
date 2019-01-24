@@ -1,7 +1,7 @@
-#!/bin/bash -x
+#!/bin/sh -x
 
 set -e
-set -E
+set -u
 
 cd $HOME
 
