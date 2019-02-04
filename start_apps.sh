@@ -13,7 +13,7 @@ google-chrome &
 (xterm -T term5)&
 (xterm -T term6)&
 
-sleep 1
+sleep 2
 (xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
