@@ -1,43 +1,69 @@
-#!/bin/sh
+#!/bin/sh -x
 
-sleep 1
+
+#send stdout to the log file
+exec > /tmp/start_apps.log
+#redirect stderr to stdout
+exec 2>&1
+
+date
+
+#set -eu
+
+die ()
+{
+    echo '>> ERROR:'
+    echo '>>' $*
+    exit 1
+}
+
+
+move_window ()
+{
+#    for i in {1..5} #bash only loop (not sh)
+    for i in `seq 5`
+    do
+        wmctrl -r "$1" -t$2 && return 0
+        sleep 1
+        echo "sleeping attempt $i"
+    done
+
+    echo "Cannot move window $1 to desktop $2"
+}
+
 #touch /forcefsck
 
 ############################## run apps ###########################
-google-chrome & 
-
 (xterm -T term1)&
 (xterm -T term2)&
 (xterm -T term3)&
 (xterm -T term4)&
 (xterm -T term5)&
 (xterm -T term6)&
-
-sleep 2
 (xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
-#skype&
+skypeforlinux&
+google-chrome & 
 
 ##################### move apps to workspases ###################
-sleep 3
-wmctrl -r "term1"  -t0 
-wmctrl -r "term2"  -t0 
-wmctrl -r "term3"  -t1 
-wmctrl -r "term4"  -t1 
-wmctrl -r "term5"  -t2 
-wmctrl -r "term6"  -t2 
-
-wmctrl -r "htop"   -t5 
-wmctrl -r "skype"  -t6 
-wmctrl -r "Google" -t8 
+#wmctrl -r "term1"  -t0 
+#wmctrl -r "Google" -t8 
+move_window term1  0
+move_window term2  0 
+move_window term3  1 
+move_window term4  1 
+move_window term5  2 
+move_window term6  2 
+move_window htop   5 
+move_window skype  6 
+move_window Google 8
 
 ##################### toggle fullscreen #########################
 #wmctrl -r "Google Chrome" -b toggle,maximized_vert
 #wmctrl -r "Google Chrome" -b toggle,maximized_horz
 
 ############################# switch to last desktop ###########
-sleep 1
 wmctrl -s 8
 
 
