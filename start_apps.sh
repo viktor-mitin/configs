@@ -40,6 +40,10 @@ move_window ()
 (xterm -T term4)&
 (xterm -T term5)&
 (xterm -T term6)&
+(xterm -T term7)&
+(xterm -T term8)&
+(xterm -T term9)&
+(xterm -T term10)&
 (xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
@@ -55,6 +59,10 @@ move_window term3  1
 move_window term4  1 
 move_window term5  2 
 move_window term6  2 
+move_window term7  3 
+move_window term8  3 
+move_window term9  4 
+move_window term10 4 
 move_window htop   5 
 move_window skype  6 
 move_window Google 8
