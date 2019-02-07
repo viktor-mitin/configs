@@ -1,6 +1,12 @@
 autocmd!
 autocmd FileType c,cpp,php,python,bash set expandtab
 
+let _curfile = expand("%:t")
+if _curfile =~ "Makefile" || _curfile =~ "makefile" || _curfile =~ ".*\.mk"
+set noexpandtab
+endif
+
+
 autocmd FileType vim noremap <buffer> <C-k> 0i"<esc>j
 
 noremap <C-k> 0^i//<esc>j
@@ -56,7 +62,6 @@ map ;t <Esc>:w <CR>:execute "!time ~/work/bld_some_code_sim_and_run.sh <cword>" 
 
 map ;q <Esc>:w <CR>:execute "!time ~/work/run_some_code.sh <cword>" SuitNamePreview()<CR> 
 
-map ;w <Esc>:w <CR>:execute "!time ~/work/run_lua_some_code.sh <cword>" <CR> 
 
 "debug wrappers
 "map ;d <Esc>:w <CR>:execute "!time ~/work/start_gdb_br.sh <cword>" FuncToWrap()<CR> 
@@ -89,11 +94,6 @@ nmap ,, <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp
 
 nmap ,s <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ~/some_code/**/*.c"<CR>
 nmap ,h <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ~/some_code/**/*.h"<CR>
-
-nmap ,A <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ~/prestera/**/*[ch]"<CR>
-nmap ,z <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ~/prestera/mainUT/**/*"<CR>
-nmap ,Z <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ~/prestera/mainUT/utfTraffic/**/*"<CR>
-nmap ,x <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ~/lua_cli/**/*"<CR>
 
 nmap ,e <Esc>:e .<CR>
 
@@ -235,7 +235,5 @@ nmap x <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
 "nmap \ex <Esc>:qa!<CR>  
 
 
-let _curfile = expand("%:t")
-if _curfile =~ "Makefile" || _curfile =~ "makefile" || _curfile =~ ".*\.mk"
-set noexpandtab
-endif
+
+let g:netrw_liststyle=1 "enable netrw browser detailed view by default
