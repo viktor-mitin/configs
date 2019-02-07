@@ -12,6 +12,8 @@
 
 #"\ex": "~/work/vimdiff_changed_files.sh\n"
 "\ex": "rm -f ~/.vim/swp/*; vim -S ~/w/vim_temp.vim \n"
+"\el": "ll \n"
+"\eu": "cd .. \n"
 
 #"\ep": "cd `pwd`\n ;"
 
