@@ -143,9 +143,6 @@ set ttyfast
 set ruler
 set scrolloff=15
 
-"ignore whitespace in vimdiff
-"set diffopt+=iwhite
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nobackup       "no backup files
 set nowritebackup  "only in case you don't want a backup file while editing
@@ -214,15 +211,26 @@ endfunction
 nmap ,f :cal FuncPreview()<CR>
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""  diff options  """""""""""""""""""""""""""""""""""""""""""""""""""""
 "keys for vimdiff
 map  <m-Right> dp
 map  <m-Left> do
 map  <m-Up> [c
 map  <m-Down> ]c
+
+"ignore whitespace in vimdiff
+"set diffopt+=iwhite
+
 "get all changes from other buffer
 "nmap \ea :1,$+1diffget<CR>:w<CR>:qa!<CR>
 "
+
+if &diff
+    colorscheme pablo
+endif
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
 nmap x <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
 "nmap \ex <Esc>:qa!<CR>  
 
