@@ -98,7 +98,6 @@ alias ll='ls -alFt'
 alias l='ls -alFt'
 alias la='ls -A'
 
-alias f='find -name '
 alias d='du -sh '
 #alias up='cd ..'
 alias gd='git diff '
@@ -114,6 +113,14 @@ g() {
 	fi
 }
 
+#alias f='find -name '
+f() {
+	if [ $# -eq 0 ]; then
+		find
+	else
+		find -name $1
+	fi
+}
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
