@@ -50,9 +50,7 @@ move_window ()
 skypeforlinux&
 google-chrome & 
 
-##################### move apps to workspases ###################
-#wmctrl -r "term1"  -t0 
-#wmctrl -r "Google" -t8 
+##################### move apps to workspaces ###################
 move_window term1  0
 move_window term2  0 
 move_window term3  1 
@@ -71,7 +69,7 @@ move_window Google 8
 #wmctrl -r "Google Chrome" -b toggle,maximized_vert
 #wmctrl -r "Google Chrome" -b toggle,maximized_horz
 
-############################# switch to last desktop ###########
+##################### switch to the last desktop ################
 wmctrl -s 8
 
 
