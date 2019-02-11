@@ -236,4 +236,10 @@ nmap x <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
 
 
 
-let g:netrw_liststyle=1 "enable netrw browser detailed view by default
+""""""   netrw settings     """""""""""""""""""""""""""""""""""""""""""""""""""
+let g:netrw_banner = 0 "disable netrw banner
+let g:netrw_liststyle=3 "enable netrw browser detailed view by default
+let g:netrw_preview=1 "open preview window with vertical split on top right (use p key)
+let g:netrw_altv=1 "open vertical window with vertical split on top right (use v key)
+let g:netrw_winsize=35 "set netrw winsize to take 40% of the window width
+
