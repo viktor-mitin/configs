@@ -2,5 +2,5 @@
 #sudo apt-get install -y  
 
 #man pages
-manpages manpages-dev freebsd-manpages man2html manpages-posix manpages-posix-dev
+manpages manpages-dev freebsd-manpages manpages-posix manpages-posix-dev
 
