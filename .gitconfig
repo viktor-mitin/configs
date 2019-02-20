@@ -8,3 +8,5 @@
 	br = branch
 	st = status
 	lol = log --oneline --decorate --graph --all
+[color]
+	ui = auto
