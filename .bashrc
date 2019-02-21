@@ -109,7 +109,7 @@ g() {
 	if [ $# -eq 0 ]; then
 		git st
 	else
-		grep -r $1
+		grep -r "$1"
 	fi
 }
 
@@ -118,7 +118,7 @@ f() {
 	if [ $# -eq 0 ]; then
 		find
 	else
-		find -name $1
+		find -name "$1"
 	fi
 }
 
