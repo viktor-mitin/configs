@@ -28,7 +28,9 @@ move_window ()
         echo "sleeping attempt $i"
     done
 
-    echo "Cannot move window $1 to desktop $2"
+	STR="ERROR: Cannot move window $1 to desktop $2"
+    echo $STR #for log file output
+    notify-send -t 0 $STR
 }
 
 #touch /forcefsck
@@ -81,4 +83,9 @@ wmctrl -s 8
 
 test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/update-manager_bak
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
+
+sleep 5 
+##### /etc/fstab #####
+### xen-troops-fs:/home/xtfs/storage/4VM /home/c/w/n   nfs    auto  0  0
+test -f "$HOME/w/n/test" || notify-send -t 0 "ERROR: NFS server (mount point ~/w/n) is NOT available"
 
