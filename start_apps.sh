@@ -85,7 +85,16 @@ test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/upda
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
 sleep 5 
-##### /etc/fstab #####
-### xen-troops-fs:/home/xtfs/storage/4VM /home/c/w/n   nfs    auto  0  0
-test -f "$HOME/w/n/test" || notify-send -t 0 "ERROR: NFS server (mount point ~/w/n) is NOT available"
+if cat /etc/hostname | grep 3489  ; then  
 
+	##### /etc/fstab #####
+	### xen-troops-fs:/home/xtfs/storage/4VM /home/c/w/n   nfs    auto  0  0
+	test -f "$HOME/w/n/test" || notify-send -t 0 "ERROR: NFS server (mount point ~/w/n) is NOT available"
+
+	##### ARP configuration ########
+	sudo ip link set dev eno1 arp off #disable ARP completely
+	sudo ip -s -s neigh flush all #clear ARP cache
+	sudo arp -f #load static entries from /etc/ethers (format: mac ip)
+	#arp -s 10.0.0.2 00:0c:29:c0:94:bf
+
+fi
