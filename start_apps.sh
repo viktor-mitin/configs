@@ -85,7 +85,7 @@ test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/upda
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
 sleep 5 
-if cat /etc/hostname | grep 3489  ; then  
+if grep -q 3489 /etc/hostname ; then  
 
 	##### /etc/fstab #####
 	### xen-troops-fs:/home/xtfs/storage/4VM /home/c/w/n   nfs    auto  0  0
