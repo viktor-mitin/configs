@@ -24,7 +24,12 @@ set showcmd
 "enable spellcheck
 "set spell spelllang=en_us
 "set spellcapcheck=
-set nospell
+"set nospell
+"enable spell check for *.md files and git commits only
+"use zg to add new word to the dictionary
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd FileType gitcommit setlocal spell
+
 
 "remove all trail whitespaces from the end of line
 "autocmd BufWritePre *.c :%s/\s\+$//e " ???
