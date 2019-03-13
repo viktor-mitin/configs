@@ -67,7 +67,7 @@ move_window htop   5
 move_window skype  6 
 move_window Google 8
 
-##################### toggle fullscreen #########################
+##################### toggle full screen #########################
 #wmctrl -r "Google Chrome" -b toggle,maximized_vert
 #wmctrl -r "Google Chrome" -b toggle,maximized_horz
 
