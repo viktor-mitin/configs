@@ -42,6 +42,12 @@ move_window ()
 (xterm -T term4)&
 (xterm -T term5)&
 (xterm -T term6)&
+
+#Ubuntu 18.04 has some 'strange' bug with xterm: 
+#Sometimes some of xterm windows cannot go to full screen mode after startup
+#This sleep tries to overcome this issue. TBD
+sleep 3
+
 (xterm -T term7)&
 (xterm -T term8)&
 (xterm -T term9)&
@@ -84,12 +90,12 @@ wmctrl -s 8
 test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/update-manager_bak
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
-sleep 5 
 if grep -q 3489 /etc/hostname ; then  
 
+	#NFS mount timing issue workaround, TBD
+	sleep 9 
+
 	##### ARP configuration ########
-	#NFS mount timing issue
-	sleep 7
 	#disable ARP completely
 	sudo ip link set dev eno1 arp off
     #clear ARP cache
