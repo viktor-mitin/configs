@@ -1,6 +1,5 @@
 #!/bin/sh -x
 
-
 #send stdout to the log file
 exec > /tmp/start_apps.log
 #redirect stderr to stdout
@@ -21,33 +20,34 @@ die ()
 move_window ()
 {
 #    for i in {1..5} #bash only loop (not sh)
-    for i in `seq 5`
+    for i in `seq 25`
     do
         wmctrl -r "$1" -t$2 && return 0
         sleep 1
-        echo "sleeping attempt $i"
+        echo "Sleep for 1 second, attempt #$i"
     done
 
 	STR="ERROR: Cannot move window $1 to desktop $2"
-    echo $STR #for log file output
-    notify-send -t 0 $STR
+    echo "$STR" #for log file output
+    notify-send -t 0 "$STR"
 }
 
 #touch /forcefsck
 
 ############################## run apps ###########################
+skypeforlinux&
+
+#Lubuntu 18.04 has bug with Xserver+xterm: 
+#Sometimes xterm windows cannot switch to full screen mode after startup
+#The next sleep overcomes the issue. TBD
+sleep 3
+
 (xterm -T term1)&
 (xterm -T term2)&
 (xterm -T term3)&
 (xterm -T term4)&
 (xterm -T term5)&
 (xterm -T term6)&
-
-#Ubuntu 18.04 has some 'strange' bug with xterm: 
-#Sometimes some of xterm windows cannot go to full screen mode after startup
-#This sleep tries to overcome this issue. TBD
-sleep 3
-
 (xterm -T term7)&
 (xterm -T term8)&
 (xterm -T term9)&
@@ -55,7 +55,6 @@ sleep 3
 (xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
-skypeforlinux&
 google-chrome & 
 
 ##################### move apps to workspaces ###################
@@ -80,31 +79,33 @@ move_window Google 8
 ##################### switch to the last desktop ################
 wmctrl -s 8
 
-
-#sudo ifconfig enp2s0 192.168.1.1 up
-#sudo iptables -t nat -A POSTROUTING -o eno1 -j MASQUERADE
-#sudo service tftpd-hpa start
-#sudo service nfs-kernel-server start
-
-
 test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/update-manager_bak
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
 if grep -q 3489 /etc/hostname ; then  
 
-	#NFS mount timing issue workaround, TBD
-	sleep 9 
+	#configure 'internal' net card 
+	sudo ifconfig enp2s0 192.168.1.1 up
+	sudo iptables -t nat -A POSTROUTING -o eno1 -j MASQUERADE
+	sudo service tftpd-hpa start
+	sudo service nfs-kernel-server start
 
-	##### ARP configuration ########
-	#disable ARP completely
-	sudo ip link set dev eno1 arp off
-    #clear ARP cache
-	sudo ip -s -s neigh flush all
-	#load static entries from /etc/ethers (format: mac ip)
-	sudo arp -f       
-	#arp -s 10.0.0.2 00:0c:29:c0:94:bf
+	#NFS mount timing issue workaround, TBD
+#	sleep 12 
+
+#	##### ARP configuration ########
+#	#disable ARP completely
+#	sudo ip link set dev eno1 arp off
+#    #clear ARP cache
+#	sudo ip -s -s neigh flush all
+#	#load static entries from /etc/ethers (format: mac ip)
+#	sudo arp -f       
+#	#arp -s 10.0.0.2 00:0c:29:c0:94:bf
 
 	##### /etc/fstab ###############
 	### xen-troops-fs:/home/xtfs/storage/4VM /home/c/w/n   nfs    auto  0  0
-	test -f "$HOME/w/n/test" || notify-send -t 0 "ERROR: NFS server (mount point ~/w/n) is NOT available"
+
+	##### /etc/fstab ###############
+	#/dev/sda1        /n              ext4      noatime        1      1
+	test -f "/n/test" || notify-send -t 0 "Warning: /dev/sda1 (mount point /n) is NOT available"
 fi
