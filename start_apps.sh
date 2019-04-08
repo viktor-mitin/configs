@@ -42,17 +42,17 @@ skypeforlinux&
 #The next sleep overcomes the issue. TBD
 sleep 3
 
-(xterm -T term1)&
-(xterm -T term2)&
-(xterm -T term3)&
-(xterm -T term4)&
-(xterm -T term5)&
-(xterm -T term6)&
-(xterm -T term7)&
-(xterm -T term8)&
-(xterm -T term9)&
-(xterm -T term10)&
-(xterm -e 'while true; do sudo htop ; done')&
+(nice -n 10 xterm -T term1)&
+(nice -n 11 xterm -T term2)&
+(nice -n 12 xterm -T term3)&
+(nice -n 13 xterm -T term4)&
+(nice -n 14 xterm -T term5)&
+(nice -n 15 xterm -T term6)&
+(nice -n 16 xterm -T term7)&
+(nice -n 17 xterm -T term8)&
+(nice -n 18 xterm -T term9)&
+(nice -n 19 xterm -T term10)&
+(nice -n  9 xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
 google-chrome & 
