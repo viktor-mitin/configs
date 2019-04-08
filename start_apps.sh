@@ -107,5 +107,5 @@ if grep -q 3489 /etc/hostname ; then
 
 	##### /etc/fstab ###############
 	#/dev/sda1        /n              ext4      noatime        1      1
-	test -f "/n/test" || notify-send -t 0 "Warning: /dev/sda1 (mount point /n) is NOT available"
+	test -f "~/w/s/test" || notify-send -t 0 "Warning: /dev/sda1 mount point is NOT available"
 fi
