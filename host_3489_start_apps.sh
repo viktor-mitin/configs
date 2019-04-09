@@ -23,4 +23,4 @@ sudo service nfs-kernel-server start
 
 ##### /etc/fstab ###############
 #/dev/sda1        /n              ext4      noatime        1      1
-test -f "~/w/s/test" || notify-send -t 0 "Warning: /dev/sda1 mount point is NOT available"
+test -f ~/w/s/test || notify-send -t 0 "Warning: /dev/sda1 mount point is NOT available"
