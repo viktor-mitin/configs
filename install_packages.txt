@@ -4,3 +4,5 @@
 #man pages
 manpages manpages-dev freebsd-manpages manpages-posix manpages-posix-dev
 
+xtrlock
+

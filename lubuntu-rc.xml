@@ -325,7 +325,7 @@
     <!-- Lock the screen on Ctrl + Alt + l-->
     <keybind key="C-A-s">
       <action name="Execute">
-        <command>xscreensaver-command -lock</command>
+        <command>xtrlock -b</command>
       </action>
     </keybind>
     <keybind key="C-A-l">
