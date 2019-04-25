@@ -1,5 +1,6 @@
 autocmd!
 autocmd FileType c,cpp,php,python,bash set expandtab
+autocmd BufRead,BufNewFile *.bb setfiletype conf "enable bitbake (only *.bb) colors highlighting
 
 let _curfile = expand("%:t")
 if _curfile =~ "Makefile" || _curfile =~ "makefile" || _curfile =~ ".*\.mk"
