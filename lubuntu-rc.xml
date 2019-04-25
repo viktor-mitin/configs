@@ -330,7 +330,7 @@
     </keybind>
     <keybind key="C-A-l">
       <action name="Execute">
-        <command>dm-tool lock</command>
+        <command>xtrlock</command>
       </action>
     </keybind>
     <!-- Keybinding for terminal button-->
