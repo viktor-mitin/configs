@@ -26,3 +26,4 @@ ln -s ~/configs/lubuntu-rc.xml ~/.config/openbox/lubuntu-rc.xml
 ln -s ~/configs/panel ~/.config/lxpanel/Lubuntu/panels/panel
 ln -s ~/configs/autostart ~/.config/lxsession/Lubuntu/autostart
 ln -s ~/configs/htoprc ~/.config/htop/htoprc
+ln -s ~/configs/muttrc ~/.mutt/muttrc
