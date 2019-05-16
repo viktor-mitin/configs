@@ -10,3 +10,9 @@
 	lol = log --oneline --decorate --graph --all
 [color]
 	ui = auto
+[sendemail]
+	from = Viktor Mitin <viktor.mitin.19@gmail.com>
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpuser = viktor.mitin.19@gmail.com
+	smtpencryption = tls
