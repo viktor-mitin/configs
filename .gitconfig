@@ -22,5 +22,5 @@
 #	suppresscc = self #do not send email to myself
 
 [format]
-    subjectprefix = "Xen-devel] [PATCH"
-#	signoff = true
+#    subjectprefix = "Xen-devel] [PATCH"
+	signoff = true
