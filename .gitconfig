@@ -16,3 +16,11 @@
 	smtpserverport = 587
 	smtpuser = viktor.mitin.19@gmail.com
 	smtpencryption = tls
+
+	to = xen-devel@lists.xenproject.org
+	cc = julien.grall@arm.com,sstabellini@kernel.org
+#	suppresscc = self #do not send email to myself
+
+[format]
+    subjectprefix = "Xen-devel] [PATCH"
+#	signoff = true
