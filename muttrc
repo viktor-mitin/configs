@@ -4,7 +4,11 @@ set imap_user = 'viktor.mitin.19@gmail.com'
 set imap_pass = `cat /etc/ppppp`
 set spoolfile = imaps://imap.gmail.com/INBOX
 set folder = imaps://imap.gmail.com/
-set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
+
+#Gmail's SMTP server stores the message automatically.
+#So record should be disabled to prevent mail duplication
+#set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"  
+
 set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
 set mbox="imaps://imap.gmail.com/[Gmail]/All Mail"
 
@@ -28,3 +32,8 @@ set use_from = yes
 set sort=threads
 set sort_browser=reverse-date
 set sort_aux=reverse-last-date-received
+
+# ================  Key Mappings  ====================
+bind pager <up> previous-line
+bind pager <down> next-line
+
