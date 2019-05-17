@@ -27,13 +27,25 @@ set realname = "Viktor Mitin"
 set from = "viktor.mitin.19@gmail.com"
 set use_from = yes
 
-#set sort = reverse-date-received
-#set sort_aux = reverse-last-date-received
-set sort=threads
-set sort_browser=reverse-date
-set sort_aux=reverse-last-date-received
+set sort = reverse-date-received
+set sort_aux = reverse-last-date-received
+
+#set sort=threads
+#set sort_browser=reverse-date
+#set sort_aux=reverse-last-date-received
 
 # ================  Key Mappings  ====================
 bind pager <up> previous-line
 bind pager <down> next-line
+bind index,pager   N   search-opposite #search back, like in vim
+
+# Gmail-style keyboard shortcuts
+macro index ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
+macro index gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
+macro index gi "<change-folder>=INBOX<enter>" "Go to inbox"
+#macro index gs "<change-folder>=Sent<enter>" "Go to sent messages"
+macro index gt "<change-folder>=[Gmail]/Trash<enter>" "Go to trash"
+macro index,pager d "<save-message>=[Gmail]/Trash<enter><enter>" "Trash"
+#macro index,pager y "<save-message>=[Gmail]/All Mail<enter><enter>" "Archive"
+macro index gx "<change-folder>=xen_devel<enter>" "Go to xen_devel"
 
