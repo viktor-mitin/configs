@@ -16,14 +16,14 @@ esac
 shopt -s histappend
 
 # Avoid duplicates
-#export HISTCONTROL=ignoredups:erasedups  
+export HISTCONTROL=ignoredups:erasedups  
 
 # After each command, append to the history file and reread it
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=100000
-HISTFILESIZE=200000
+HISTSIZE=-1
+HISTFILESIZE=-1
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
