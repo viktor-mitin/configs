@@ -37,7 +37,7 @@ move_window ()
 ############################## run apps ###########################
 skypeforlinux&
 
-#Lubuntu 18.04 has bug with Xserver+xterm: 
+#Lubuntu 18.04 has bug with Xserver+xterm:
 #Sometimes xterm windows cannot switch to full screen mode after startup
 #The next sleep overcomes the issue. TBD
 sleep 3
@@ -56,22 +56,22 @@ sleep 3
 (nice -n  9 xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
-google-chrome & 
+google-chrome &
 
 ##################### move apps to workspaces ###################
 move_window term1  0
-move_window term2  0 
-move_window term3  1 
-move_window term4  1 
-move_window term5  2 
-move_window term6  2 
-move_window term7  3 
-move_window term8  3 
-move_window term9  4 
-move_window term10 4 
-move_window htop   5 
-move_window skype  6 
-move_window term11 7 
+move_window term2  0
+move_window term3  1
+move_window term4  1
+move_window term5  2
+move_window term6  2
+move_window term7  3
+move_window term8  3
+move_window term9  4
+move_window term10 4
+move_window htop   5
+move_window skype  6
+move_window term11 7
 move_window Google 8
 
 ##################### toggle full screen #########################
@@ -85,7 +85,7 @@ test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/upda
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
 #run hosts specific applications or configuration
-if grep -q 3489 /etc/hostname ; then  
+if grep -q 3489 /etc/hostname ; then
 	~/configs/host_3489_start_apps.sh
 fi
 
