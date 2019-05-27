@@ -52,6 +52,7 @@ sleep 3
 (nice -n 17 xterm -T term8)&
 (nice -n 18 xterm -T term9)&
 (nice -n 19 xterm -T term10)&
+(cd ~/configs && nice -n 9 xterm -T term11)&
 (nice -n  9 xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
@@ -70,6 +71,7 @@ move_window term9  4
 move_window term10 4 
 move_window htop   5 
 move_window skype  6 
+move_window term11 7 
 move_window Google 8
 
 ##################### toggle full screen #########################
@@ -87,3 +89,9 @@ if grep -q 3489 /etc/hostname ; then
 	~/configs/host_3489_start_apps.sh
 fi
 
+
+#################################################################
+#Lxde logout after config modification
+#Allows to test the script after the updates
+#
+# pkill -SIGTERM -f lxsession
