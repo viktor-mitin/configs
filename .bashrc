@@ -160,3 +160,6 @@ stty -ixon
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# Display Return Status in PS1
+PS1='$? '$PS1
