@@ -1,5 +1,5 @@
 autocmd!
-autocmd FileType c,cpp,php,python,bash set expandtab
+autocmd FileType c,cpp,php,python,bash,sh set expandtab
 autocmd BufRead,BufNewFile *.bb,*.bbappend setfiletype conf "enable bitbake colors highlighting
 
 let _curfile = expand("%:t")
