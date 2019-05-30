@@ -27,8 +27,8 @@ set realname = "Viktor Mitin"
 set from = "viktor.mitin.19@gmail.com"
 set use_from = yes
 
-set sort = reverse-date-received
-set sort_aux = reverse-last-date-received
+#set sort = reverse-date-received
+#set sort_aux = reverse-last-date-received
 
 #set sort=threads
 #set sort_browser=reverse-date
