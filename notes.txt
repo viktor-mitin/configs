@@ -2,10 +2,10 @@
 
 # in /etc/sysctl.conf
 
-# increase default TTL
 # Uncomment the next line to enable packet forwarding for IPv4
 net.ipv4.ip_forward=1
 
 # increase default TTL
 net.ipv4.ip_default_ttl=65
+
 
