@@ -48,4 +48,5 @@ macro index gt "<change-folder>=[Gmail]/Trash<enter>" "Go to trash"
 macro index,pager d "<save-message>=[Gmail]/Trash<enter><enter>" "Trash"
 #macro index,pager y "<save-message>=[Gmail]/All Mail<enter><enter>" "Archive"
 macro index gx "<change-folder>=xen_devel<enter>" "Go to xen_devel"
+macro index gm "<change-folder>=minios<enter>" "Go to minios"
 
