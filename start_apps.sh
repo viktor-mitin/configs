@@ -12,7 +12,7 @@ date
 die ()
 {
     echo '>> ERROR:'
-    echo '>>' $*
+    echo '>>' "$*"
     exit 1
 }
 
@@ -20,9 +20,9 @@ die ()
 move_window ()
 {
 #    for i in {1..5} #bash only loop (not sh)
-    for i in `seq 25`
+    for i in $(seq 25)
     do
-        wmctrl -r "$1" -t$2 && return 0
+        wmctrl -r "$1" -t"$2" && return 0
         sleep 1
         echo "Sleep for 1 second, attempt #$i"
     done
