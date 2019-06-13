@@ -105,6 +105,7 @@ alias la='ls -A'
 alias d='du -sh '
 #alias up='cd ..'
 alias gd='git diff '
+alias gb='git branch -av '
 alias gl='git lol '
 
 #alias g='grep -r '

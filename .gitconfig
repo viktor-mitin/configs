@@ -6,6 +6,7 @@
 [alias]
 	co = checkout
 	br = branch
+	bra = branch -av
 	st = status
 	lol = log --oneline --decorate --graph --all
 [color]
