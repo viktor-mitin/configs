@@ -16,7 +16,7 @@ noremap <C-l> 0i#<esc>j
 
 "auto reload vimrc
 autocmd! bufwritepost .vimrc source %
-    
+
 
 "autocmd BufNewFile,BufRead *.py set textwidth=155
 
@@ -66,11 +66,11 @@ map ;R <Esc>:w <CR>:execute "!time ~/work/bld_some_code_sim_and_run.sh <cword>" 
 
 map ;t <Esc>:w <CR>:execute "!time ~/work/bld_some_code_sim_and_run.sh <cword>" SuitNamePreview() <CR>
 
-map ;q <Esc>:w <CR>:execute "!time ~/work/run_some_code.sh <cword>" SuitNamePreview()<CR> 
+map ;q <Esc>:w <CR>:execute "!time ~/work/run_some_code.sh <cword>" SuitNamePreview()<CR>
 
 
 "debug wrappers
-"map ;d <Esc>:w <CR>:execute "!time ~/work/start_gdb_br.sh <cword>" FuncToWrap()<CR> 
+"map ;d <Esc>:w <CR>:execute "!time ~/work/start_gdb_br.sh <cword>" FuncToWrap()<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ",v brings up my .vimrc
@@ -124,7 +124,7 @@ nmap <F11> <Esc>:e!<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <CR> :!read<CR> 
+nmap <CR> :!read<CR>
 nmap ' `
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set backspace=indent,eol,start whichwrap+=<,>,[,] " allow to use backspace instead of "x"
@@ -144,10 +144,10 @@ set listchars+=precedes:<,extends:>
 set sidescroll=5
 set sidescrolloff=5
 set showmatch
-set history=700
+set history=900
 set ttyfast
 set ruler
-set scrolloff=15
+set scrolloff=7
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nobackup       "no backup files
@@ -157,7 +157,7 @@ set noswapfile     "no swap files
 "set dir=~/.vim/swp
 
 "set wrap by words (not by chars)
-set wrap 
+set wrap
 "set linebreak
 au FileType * setl fo-=cro
 
@@ -167,11 +167,11 @@ function! ShortTabLine()
   for i in range(tabpagenr('$'))
     " select the color group for highlighting active tab
       if i + 1 == tabpagenr()
-     
+
       let ret .= '%#errorMsg#'
     else
      let ret .= '%#TabLine#'
-                
+
     endif
     " find the buffername for the tablabel
     let buflist = tabpagebuflist(i+1)
@@ -202,7 +202,7 @@ endfunction
 set tabline=%!ShortTabLine()
 
 map ,t :tabedit .<CR>
-                          
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "function declaration preview (double-backslash with default <Leader>)
 function! FuncPreview()
@@ -238,7 +238,7 @@ endif
 
 
 nmap x <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
-"nmap \ex <Esc>:qa!<CR>  
+"nmap \ex <Esc>:qa!<CR>
 
 
 set path+=** "add file names autocompletion in current directory
