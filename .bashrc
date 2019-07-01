@@ -165,3 +165,7 @@ export EDITOR="$VISUAL"
 
 # Display Return Status in PS1
 PS1='$? '$PS1
+
+##### Expand terminal sizes
+#shopt -s checkwinsize
+#resize
