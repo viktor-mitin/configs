@@ -19,7 +19,7 @@
 	smtpencryption = tls
 
 	to = xen-devel@lists.xenproject.org
-	cc = julien.grall@arm.com,sstabellini@kernel.org
+#	cc = julien.grall@arm.com,sstabellini@kernel.org
 #	suppresscc = self #do not send email to myself
 
 [format]
