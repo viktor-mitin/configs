@@ -263,3 +263,14 @@ autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 "Remove unwanted whitespace
 :nnoremap <silent> <F10> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
+
+
+"Highlight column 80 with blue color
+"set colorcolumn=80
+"highlight ColorColumn ctermbg=Blue
+
+"Highlight column 80 with blue color
+highlight OverLength ctermbg=blue ctermfg=white
+match OverLength /\%76v.\+/
+
+
