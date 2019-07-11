@@ -270,7 +270,8 @@ autocmd BufWinLeave * call clearmatches()
 "highlight ColorColumn ctermbg=Blue
 
 "Highlight column 80 with blue color
-highlight OverLength ctermbg=blue ctermfg=white
+highlight OverLength ctermbg=blue
 match OverLength /\%76v.\+/
+autocmd BufWinEnter * match OverLength /\%76v.\+/
 
 
