@@ -273,5 +273,7 @@ autocmd BufWinLeave * call clearmatches()
 highlight OverLength ctermbg=blue
 match OverLength /\%76v.\+/
 autocmd BufWinEnter * match OverLength /\%76v.\+/
+autocmd InsertEnter * match OverLength /\%76v.\+/
+autocmd InsertLeave * match OverLength /\%76v.\+/
 
 
