@@ -254,7 +254,19 @@ let g:netrw_altv=1 "open vertical window with vertical split on top right (use v
 let g:netrw_winsize=35 "set netrw winsize to take 40% of the window width
 
 
-"Highlight trailing whitespaces in red
+"Highlight column 80 with blue color
+set colorcolumn=80
+highlight ColorColumn ctermbg=Blue
+
+""Highlight column 80 with blue color
+"highlight OverLength ctermbg=blue
+"match OverLength /\%80v.\+/
+"autocmd BufWinEnter * match OverLength /\%80v.\+/
+"autocmd InsertEnter * match OverLength /\%80v.\+/
+"autocmd InsertLeave * match OverLength /\%80v.\+/
+
+
+"Highlight trailing whitespaces in red 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
@@ -263,17 +275,5 @@ autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 "Remove unwanted whitespace
 :nnoremap <silent> <F10> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
-
-
-"Highlight column 80 with blue color
-"set colorcolumn=80
-"highlight ColorColumn ctermbg=Blue
-
-"Highlight column 80 with blue color
-highlight OverLength ctermbg=blue
-match OverLength /\%80v.\+/
-autocmd BufWinEnter * match OverLength /\%80v.\+/
-autocmd InsertEnter * match OverLength /\%80v.\+/
-autocmd InsertLeave * match OverLength /\%80v.\+/
 
 
