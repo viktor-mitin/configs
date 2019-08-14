@@ -50,12 +50,13 @@ sleep 3
 (nice -n 15 xterm -T term6)&
 (nice -n 16 xterm -T term7)&
 (nice -n 17 xterm -T term8)&
-(nice -n 18 xterm -T term9)&
-(nice -n 19 xterm -T term10)&
+#(nice -n 18 xterm -T term9)&
+#(nice -n 19 xterm -T term10)&
 (cd ~/configs && nice -n 9 xterm -T term11)&
 (nice -n  9 xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
+firefox &
 google-chrome &
 
 ##################### move apps to workspaces ###################
@@ -67,11 +68,11 @@ move_window term5  2
 move_window term6  2
 move_window term7  3
 move_window term8  3
-move_window term9  4
-move_window term10 4
+#move_window term9  4
+move_window term11 4
 move_window htop   5
 move_window skype  6
-move_window term11 7
+move_window firefox 7
 move_window Google 8
 
 ##################### toggle full screen #########################
