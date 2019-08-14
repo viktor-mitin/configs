@@ -255,8 +255,8 @@ let g:netrw_winsize=35 "set netrw winsize to take 40% of the window width
 
 
 "Highlight column 80 with blue color
-set colorcolumn=80
-highlight ColorColumn ctermbg=Blue
+"set colorcolumn=80
+"highlight ColorColumn ctermbg=Blue
 
 ""Highlight column 80 with blue color
 "highlight OverLength ctermbg=blue
