@@ -48,8 +48,8 @@ sleep 3
 (nice -n 13 xterm -T term4)&
 (nice -n 14 xterm -T term5)&
 (nice -n 15 xterm -T term6)&
-(nice -n 16 xterm -T term7)&
-(nice -n 17 xterm -T term8)&
+#(nice -n 16 xterm -T term7)&
+#(nice -n 17 xterm -T term8)&
 #(nice -n 18 xterm -T term9)&
 #(nice -n 19 xterm -T term10)&
 (cd ~/configs && nice -n 9 xterm -T term11)&
@@ -58,6 +58,7 @@ sleep 3
 
 firefox &
 google-chrome &
+/opt/telegram/telegram &
 
 ##################### move apps to workspaces ###################
 move_window term1  0
@@ -66,8 +67,9 @@ move_window term3  1
 move_window term4  1
 move_window term5  2
 move_window term6  2
-move_window term7  3
-move_window term8  3
+#move_window term7  3
+#move_window term8  3
+move_window Telegram  3
 #move_window term9  4
 move_window term11 4
 move_window htop   5
