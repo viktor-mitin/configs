@@ -20,4 +20,7 @@ expect "accept? "   { send "y\r" }
 
 expect "VPN>"
 
+###disabled, unstable
+#set led [exec sudo sh -c "setleds -D +num < /dev/tty7"]
+
 exit
