@@ -96,7 +96,7 @@ command! -nargs=+ Grep execute 'silent grep! -I -r -n . -e "\<<args>\>"' | copen
 
 nmap ,a <Esc>:Grep <c-r>=expand("<cword>")<cr><cr>
 
-nmap ,, <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ./**/*"<CR>
+"nmap ,, <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ./**/*"<CR>
 "nmap ,a <Esc>/<C-R><C-W><CR>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "grep -r /".temp."/ ."<CR><CR>
 
 nmap ,s <Esc>:let temp=expand("<cword>")<CR>:tabe .<CR>:execute "vimgrep /".temp."/ ~/some_code/**/*.c"<CR>
@@ -277,3 +277,4 @@ autocmd BufWinLeave * call clearmatches()
 :nnoremap <silent> <F10> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 
 
+map ,, yiw<Esc>oprint(<C-R>")<Esc>
