@@ -379,7 +379,7 @@
     </keybind>
     <keybind key="Scroll_Lock">
       <action name="Execute">
-        <command>/home/c/configs/vpn_touch.sh</command>
+        <command>/home/c/w/TR/vpn_touch.sh</command>
       </action>
     </keybind>
     <!-- Launch scrot when Print is pressed -->
