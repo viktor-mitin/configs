@@ -377,6 +377,11 @@
         <command>amixer -D pulse sset Master 5%+</command>
       </action>
     </keybind>
+    <keybind key="Scroll_Lock">
+      <action name="Execute">
+        <command>/home/c/configs/vpn_touch.sh</command>
+      </action>
+    </keybind>
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
