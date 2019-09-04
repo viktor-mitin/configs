@@ -4,6 +4,7 @@
 #https://github.com/dlenski/python-vipaccess
 
 set timeout 60
+log_file /home/c/w/tr_vpn.log
 
 #set vip_code [lindex $argv 0];
 set vip_code [exec vipaccess show]
