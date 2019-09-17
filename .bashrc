@@ -157,7 +157,7 @@ fi
 
 stty -ixon
 
-#export PATH="/home/c/rumprun/./rumprun/bin:${PATH}"
+export PATH="/home/c/.local/bin/:${PATH}"
 
 #export MAKEFLAGS="-j$(nproc) -l$(nproc)"
 
@@ -170,3 +170,12 @@ PS1='$? '$PS1
 ##### Expand terminal sizes
 #shopt -s checkwinsize
 #resize
+
+
+### pyenv settings
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+alias python=python3
