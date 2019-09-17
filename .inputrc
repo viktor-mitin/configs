@@ -5,7 +5,7 @@
 
 ############################################################
 #Example of key mapping using hex key code: Alt+k
-#sudo showkey -a 
+#sudo showkey -a
 "\x1b\x6b": "sudo apt-get install -y "
 #"\ek": "sudo apt-get install -y "
 ###########################################################
@@ -14,6 +14,7 @@
 "\ex": "rm -f ~/.vim/swp/*; vim -S ~/w/vim_temp.vim \n"
 "\el": "ll \n"
 "\eu": "cd .. \n"
+"\e-": "cd - \n"
 "\ee": "echo $? \n"
 
 #"\ep": "cd `pwd`\n ;"
