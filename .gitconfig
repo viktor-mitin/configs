@@ -1,8 +1,8 @@
 [user]
 	email = viktor.mitin.19@gmail.com
 	name = Viktor Mitin
-[credential "https://github.com"]
-	username = Viktor.Mitin.19@gmail.com
+#[credential "https://github.com"]
+#	username = Viktor.Mitin.19@gmail.com
 [alias]
 	co = checkout
 	br = branch
