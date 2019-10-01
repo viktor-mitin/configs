@@ -25,3 +25,8 @@
 [format]
 #    subjectprefix = "Xen-devel] [PATCH"
 #	signoff = true
+
+[credential "https://github.com/tr/acorn_troa-publish.git"]
+	username = viktor.mitin
+[credential]
+	helper = store
