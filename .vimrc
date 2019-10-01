@@ -55,7 +55,7 @@ endwhile
 unlet spath
 
 "let &tags=$HOME."/code/tags"
-let &tags=$HOME."/w/xen_mainline/tags"
+"let &tags=$HOME."/w/xen_mainline/tags"
 
 map <C-]>  <Esc>:w <CR>:execute "tj ".expand("<cword>")<CR>
 
