@@ -385,7 +385,7 @@
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot</command>
+        <command>scrot ~/screenshot.png</command>
       </action>
     </keybind>
     <!-- Launch logout when push on the shutdown button -->
