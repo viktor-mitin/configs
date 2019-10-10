@@ -277,4 +277,4 @@ autocmd BufWinLeave * call clearmatches()
 :nnoremap <silent> <F10> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 
 
-map ,, yiw<Esc>oprint(<C-R>")<Esc>
+map ,, yiw<Esc>oprint(<C-R>")<Esc>==
