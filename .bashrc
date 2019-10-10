@@ -179,3 +179,5 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 alias python=python3
+
+export PIPENV_VENV_IN_PROJECT="enabled"
