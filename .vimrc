@@ -279,3 +279,4 @@ autocmd BufWinLeave * call clearmatches()
 
 
 map ,, yiw<Esc>oprint(f'<C-R>"={<C-R>"}')<Esc>==
+map <F9> yiw<Esc>ofrom pprint import pprint<CR>pprint(<C-R>")<Esc>==
