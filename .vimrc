@@ -122,7 +122,7 @@ nmap <F6> zg]s
 nmap <F7> <Esc>:cp<CR>
 nmap <F8> <Esc>:cn<CR>
 
-nmap <F11> <Esc>:e!<CR>
+"nmap <F11> <Esc>:e!<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -280,3 +280,19 @@ autocmd BufWinLeave * call clearmatches()
 
 map ,, yiw<Esc>oprint(f'<C-R>"={<C-R>"}')<Esc>==
 map <F9> yiw<Esc>ofrom pprint import pprint<CR>pprint(<C-R>")<Esc>==
+
+
+
+"Change UNDER_SCORES to CamelCase Edit
+" Convert each NAME_LIKE_THIS to NameLikeThis in the current line.
+nmap <F1> <Esc>:s/_\([a-z]\)/\u\1/g<CR>
+
+" Alternative: accept numbers in name.
+"nmap <F2> <Esc>:s#\C\(\<\u[a-z0-9]\+\|[a-z0-9]\+\)\(\u\)#\l\1_\l\2#g<CR>
+" Convert each NameLikeThis to name_like_this in current line.
+"nmap <F2> <Esc>:s#\(\<\u\l\+\|\l\+\)\(\u\)#\l\1_\l\2#g<CR>
+nmap <F2> <Esc>:s/\(\u\)/_\l\1/g<CR>
+
+
+"test_11_test
+" ttt11Kkk
