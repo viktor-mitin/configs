@@ -48,8 +48,8 @@ sleep 3
 (nice -n 13 xterm -T term4)&
 (nice -n 14 xterm -T term5)&
 (nice -n 15 xterm -T term6)&
-#(nice -n 16 xterm -T term7)&
-#(nice -n 17 xterm -T term8)&
+(nice -n 16 xterm -T term7)&
+(nice -n 17 xterm -T term8)&
 #(nice -n 18 xterm -T term9)&
 #(nice -n 19 xterm -T term10)&
 (nice -n 9 xterm -T term11 -e 'ping google.com')&
