@@ -59,6 +59,7 @@ sleep 3
 #firefox &
 google-chrome &
 /opt/telegram/telegram &
+/opt/viber/Viber &
 
 ##################### move apps to workspaces ###################
 move_window term1  0
@@ -75,6 +76,7 @@ move_window htop   5
 move_window skype  6
 #move_window firefox 7
 move_window Telegram  7
+move_window Viber  7
 move_window Google 8
 
 ##################### toggle full screen #########################
