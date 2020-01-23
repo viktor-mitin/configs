@@ -20,7 +20,7 @@ XTerm.vt100.cursorColor: yellow
 
 !allow to scroll by lines
 *VT100.Translations:      #override Shift<Key>Up: scroll-back(1,line) \n \
-                                    Shift<Key>Down: scroll-forw(1,line) \n 
+                                    Shift<Key>Down: scroll-forw(1,line) \n
 
 !Alt key fix
 XTerm*metaSendsEscape: true
@@ -35,23 +35,23 @@ XTerm*faceName:  DejaVu Sans Mono Book
 
 XTerm*allowBoldFonts:       false
 
-XTerm*faceSize:     16 
-XTerm*faceSize1:    10 
-XTerm*faceSize2:    12 
-XTerm*faceSize3:    14 
-XTerm*faceSize4:    16 
-XTerm*faceSize5:    18 
-XTerm*faceSize6:    22 
-XTerm*faceSize7:    28 
+XTerm*faceSize:     14
+XTerm*faceSize1:    10
+XTerm*faceSize2:    12
+XTerm*faceSize3:    14
+XTerm*faceSize4:    16
+XTerm*faceSize5:    18
+XTerm*faceSize6:    22
+XTerm*faceSize7:    28
 
 
 !Xft settings
-Xft.dpi: 170 
-Xft.autohint: 0 
+Xft.dpi: 120
+Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hinting: 1
 Xft.hintstyle: hintfull
-Xft.antialias: 1 
+Xft.antialias: 1
 Xft.rgba: rgb
 
 

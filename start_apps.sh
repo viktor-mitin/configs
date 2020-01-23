@@ -23,7 +23,7 @@ move_window ()
     for i in $(seq 25)
     do
         wmctrl -r "$1" -t"$2" && return 0
-        sleep 1
+        sleep 2
         echo "Sleep for 1 second, attempt #$i"
     done
 
@@ -56,9 +56,10 @@ sleep 3
 (nice -n  9 xterm -e 'while true; do sudo htop ; done')&
 #(xterm -e 'sudo htop')$
 
+sleep 3
 #firefox &
 google-chrome &
-/opt/telegram/telegram &
+telegram-desktop &
 /opt/viber/Viber &
 
 ##################### move apps to workspaces ###################

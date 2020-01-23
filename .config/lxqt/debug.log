@@ -1,0 +1,1876 @@
+2020-01-21 18:18:43.270 (0x7fff9381b210) Debug: New PolkitAgentListener  0x55fe91631ca0
+2020-01-21 18:18:43.270 (0x7fff9381b210) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fff9381b220) for  0x55fe91631ca0
+2020-01-21 18:18:43.337 (0x7ffe1df44d50) Warning: Icon theme "elementary" not found.
+2020-01-21 18:18:43.341 (0x7ffd0139f520) Warning: Icon theme "elementary" not found.
+2020-01-21 18:18:43.351 (0x7ffd0139f520) Debug: systemd: "CanHibernate" = "na"
+2020-01-21 18:18:43.352 (0x7ffd0139f520) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-21 18:18:43.352 (0x7ffd0139f520) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-21 18:18:43.355 (0x7ffd0139f520) Debug: systemd: "CanSuspend" = "yes"
+2020-01-21 18:18:43.368 (0x7fff4745f920) Debug: systemd: "CanReboot" = "yes"
+2020-01-21 18:18:43.372 (0x7fff4745f920) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-21 18:18:43.621 (0x7ffe1df44d50) Debug: ()
+2020-01-21 18:18:43.639 (0x7ffe1df44d50) Debug: WinIdChange 1000008 handle QWidgetWindow(0x561f70ee6420, name="LXQtPanel panel1Window") QScreen(0x561f70c5add0, name="eDP-1")
+2020-01-21 18:18:43.662 (0x7ffe1df44d50) Debug: Systray started
+2020-01-21 18:18:43.765 (0x7ffe35e8aca0) Warning: Icon theme "elementary" not found.
+2020-01-21 18:18:43.778 (0x7ffe35e8aca0) Debug: BatteryChanged discharging: false chargeLevel: 98.9854 actionTime: QTime(Invalid)
+2020-01-21 18:18:43.782 (0x7ffe35e8aca0) Debug: Inhibit got: 28
+2020-01-21 18:18:43.795 (0x7ffd8b95b9f0) Warning: Icon theme "elementary" not found.
+2020-01-21 18:18:43.897 (0x7ffe35e8aca0) Debug: Starting idlenesswatcher
+2020-01-21 18:18:44.754 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:18:44.754 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:18:44.754 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:18:46.313 (0x7ffe35e8aca0) Debug: action invoked: "0"
+2020-01-21 18:18:46.386 (0x7fffc3d5efd0) Warning: Icon theme "elementary" not found.
+2020-01-21 18:19:13.592 (0x7ffe1df44d50) Debug: Service "org.freedesktop.StatusNotifierItem-1421-1" unregistered
+2020-01-21 18:19:47.129 (0x7ffe1df44d50) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1645, resource id: 12583022, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 18:20:31.055 (0x7ffe1df44d50) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1887, resource id: 12583065, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 18:20:39.996 (0x7fffb348be20) Warning: Icon theme "elementary" not found.
+2020-01-21 18:20:42.340 (0x7fff80288e40) Warning: Icon theme "elementary" not found.
+2020-01-21 18:21:26.426 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:26.426 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:26.427 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:26.440 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:26.440 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:26.440 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:31.186 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:31.186 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:31.191 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:31.191 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:31.191 (0x7ffe1df44d50) Debug: Unknown property margin-button
+2020-01-21 18:21:36.343 (0x7ffe1df44d50) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 4333, resource id: 31457286, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 18:21:41.429 (0x7ffe0f492b20) Warning: Icon theme "elementary" not found.
+2020-01-21 18:21:47.174 (0x7ffe1df44d50) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 5117, resource id: 31457714, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 18:22:36.145 (0x7ffe1df44d50) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8216, resource id: 29360180, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 18:23:00.327 (0x7ffdc8434a00) Warning: Icon theme "elementary" not found.
+2020-01-21 18:23:15.987 (0x7ffe1df44d50) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 10512, resource id: 33554438, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 18:23:47.444 (0x7ffe1df44d50) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-21 18:24:41.052 (0x7ffd8b95b9f0) Debug: Notification app "NetworkManager(nm-tray)" summary "Connection lost" is already registered but this request is not an update. Broken app?
+2020-01-21 18:24:41.193 (0x7ffd8b95b9f0) Debug: Notification app "NetworkManager(nm-tray)" summary "Connection established" is already registered but this request is not an update. Broken app?
+2020-01-21 16:25:35.496 (0x7fffcffd0a50) Warning: Icon theme "elementary" not found.
+2020-01-21 16:29:41.098 (0x7ffe1df44d50) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-21 16:30:24.552 (0x7ffe903a1200) Debug: New PolkitAgentListener  0x55e0bfe14ca0
+2020-01-21 16:30:24.553 (0x7ffe903a1200) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffe903a1210) for  0x55e0bfe14ca0
+2020-01-21 16:30:24.607 (0x7ffed9c22850) Warning: Icon theme "elementary" not found.
+2020-01-21 16:30:24.633 (0x7ffd5be16480) Warning: Icon theme "elementary" not found.
+2020-01-21 16:30:24.639 (0x7ffd5be16480) Debug: systemd: "CanHibernate" = "na"
+2020-01-21 16:30:24.639 (0x7ffd5be16480) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-21 16:30:24.639 (0x7ffd5be16480) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-21 16:30:24.642 (0x7ffd5be16480) Debug: systemd: "CanSuspend" = "yes"
+2020-01-21 16:30:24.649 (0x7ffde6eb1c00) Debug: systemd: "CanReboot" = "yes"
+2020-01-21 16:30:24.654 (0x7ffde6eb1c00) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-21 16:30:24.920 (0x7ffed9c22850) Debug: ()
+2020-01-21 16:30:24.934 (0x7ffed9c22850) Debug: WinIdChange c00008 handle QWidgetWindow(0x55ac54c6ac70, name="LXQtPanel panel1Window") QScreen(0x55ac549d6fa0, name="eDP-1")
+2020-01-21 16:30:24.944 (0x7ffed9c22850) Debug: Systray started
+2020-01-21 16:30:25.041 (0x7ffd606c13e0) Debug: Inhibit got: 18
+2020-01-21 16:30:25.042 (0x7ffd606c13e0) Debug: Starting idlenesswatcher
+2020-01-21 16:30:26.043 (0x7ffed9c22850) Debug: Unknown property margin-button
+2020-01-21 16:30:26.043 (0x7ffed9c22850) Debug: Unknown property margin-button
+2020-01-21 16:30:26.043 (0x7ffed9c22850) Debug: Unknown property margin-button
+2020-01-21 16:30:29.342 (0x7fff1330bbb0) Warning: Icon theme "elementary" not found.
+2020-01-21 16:30:51.441 (0x7ffed9c22850) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1586, resource id: 8388640, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 16:31:07.968 (0x7ffce94436b0) Warning: Icon theme "elementary" not found.
+2020-01-21 16:31:17.424 (0x7ffed9c22850) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 4208, resource id: 33554438, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 16:32:02.050 (0x7ffed9c22850) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-21 16:33:32.045 (0x7ffed9c22850) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 5491, resource id: 33554435, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 16:33:39.682 (0x7ffca659e430) Warning: Icon theme "elementary" not found.
+2020-01-21 16:37:08.937 (0x7ffed9c22850) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 10067, resource id: 31457287, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 16:38:40.405 (0x7fff1330bbb0) Debug: Notification app "NetworkManager(nm-tray)" summary "Connection lost" is already registered but this request is not an update. Broken app?
+2020-01-21 16:40:13.332 (0x7ffed9c22850) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-21 16:40:58.693 (0x7ffed9c22850) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-21 16:41:26.426 (0x7ffe43e21290) Warning: Icon theme "elementary" not found.
+2020-01-21 16:42:17.134 (0x7ffeb1974180) Warning: Icon theme "elementary" not found.
+2020-01-21 16:42:53.787 (0x7ffeb1974180) Debug: ("usermod", "-c", "viktor_mitin", "viktor_mitin")
+2020-01-21 16:42:53.817 (0x7ffe903a1200) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+2020-01-21 16:42:53.817 (0x7ffe903a1200) Debug: GSimpleAsyncResult: 0x55e0bfecf600
+2020-01-21 16:42:53.817 (0x7ffe903a1200) Debug: polkit_qt_listener_initiate_authentication callback for  0x55e0bfe14ca0
+2020-01-21 16:42:53.827 (0x7ffe903a1200) Warning: Icon theme "elementary" not found.
+2020-01-21 16:42:53.843 (0x7ffe903a1200) Debug: REQUEST
+2020-01-21 16:43:08.728 (0x7ffe903a1200) Debug: COMPLETED
+2020-01-21 16:43:10.440 (0x7ffe903a1200) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+2020-01-21 16:43:10.440 (0x7ffe903a1200) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55e0bfe14ca0
+2020-01-21 16:43:10.442 (0x7ffeb1974180) Debug: "Error executing command as another user: Not authorized\n\nThis incident has been reported.\n"
+2020-01-21 16:43:24.766 (0x7ffeb1974180) Debug: ("usermod", "-c", "viktor_mitin", "viktor_mitin")
+2020-01-21 16:43:24.783 (0x7ffe903a1200) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+2020-01-21 16:43:24.783 (0x7ffe903a1200) Debug: GSimpleAsyncResult: 0x55e0bfecf750
+2020-01-21 16:43:24.783 (0x7ffe903a1200) Debug: polkit_qt_listener_initiate_authentication callback for  0x55e0bfe14ca0
+2020-01-21 16:43:24.789 (0x7ffe903a1200) Debug: REQUEST
+2020-01-21 16:43:28.027 (0x7ffe903a1200) Debug: COMPLETED
+2020-01-21 16:43:28.027 (0x7ffe903a1200) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+2020-01-21 16:43:28.027 (0x7ffe903a1200) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55e0bfe14ca0
+2020-01-21 16:43:28.042 (0x7ffeb1974180) Debug: ""
+2020-01-21 16:43:43.392 (0x7ffeb1974180) Debug: ("passwd", "viktor_mitin")
+2020-01-21 16:43:43.425 (0x7ffeb1974180) Debug: "New password: Retype new password: passwd: password updated successfully\n"
+2020-01-21 16:51:47.758 (0x7ffde6eb1c00) Warning: The X11 connection broke (error 1). Did the X11 server die?
+2020-01-21 16:52:40.036 (0x7ffea7e69b20) Warning: Icon theme "elementary" not found.
+2020-01-21 16:52:40.061 (0x7ffd14eb4220) Debug: New PolkitAgentListener  0x55591ee2a0a0
+2020-01-21 16:52:40.061 (0x7ffd14eb4220) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffd14eb4230) for  0x55591ee2a0a0
+2020-01-21 16:52:40.063 (0x7ffeb2a78c10) Warning: Icon theme "elementary" not found.
+2020-01-21 16:52:40.070 (0x7ffeb2a78c10) Debug: systemd: "CanHibernate" = "na"
+2020-01-21 16:52:40.070 (0x7ffeb2a78c10) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-21 16:52:40.071 (0x7ffeb2a78c10) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-21 16:52:40.074 (0x7ffeb2a78c10) Debug: systemd: "CanSuspend" = "yes"
+2020-01-21 16:52:40.082 (0x7fff7068b840) Debug: systemd: "CanReboot" = "yes"
+2020-01-21 16:52:40.087 (0x7fff7068b840) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-21 16:52:40.348 (0x7ffea7e69b20) Debug: ()
+2020-01-21 16:52:40.363 (0x7ffea7e69b20) Debug: WinIdChange c00008 handle QWidgetWindow(0x5556741d9be0, name="LXQtPanel panel1Window") QScreen(0x555673f48e80, name="eDP-1")
+2020-01-21 16:52:40.372 (0x7ffea7e69b20) Debug: Systray started
+2020-01-21 16:52:40.467 (0x7ffc6f03ade0) Debug: Inhibit got: 18
+2020-01-21 16:52:40.467 (0x7ffc6f03ade0) Debug: Starting idlenesswatcher
+2020-01-21 16:52:41.469 (0x7ffea7e69b20) Debug: Unknown property margin-button
+2020-01-21 16:52:41.469 (0x7ffea7e69b20) Debug: Unknown property margin-button
+2020-01-21 16:52:41.469 (0x7ffea7e69b20) Debug: Unknown property margin-button
+2020-01-21 16:52:45.178 (0x7ffca616ef70) Warning: Icon theme "elementary" not found.
+2020-01-21 16:55:24.939 (0x7ffea7e69b20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 3089, resource id: 31457286, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 16:57:30.006 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "unbind"
+2020-01-21 16:57:30.007 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "unbind"
+2020-01-21 16:57:59.058 (0x7ffc6f03ade0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-21 16:58:17.039 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "unbind"
+2020-01-21 16:58:17.039 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "unbind"
+2020-01-21 16:58:17.039 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "bind"
+2020-01-21 16:58:17.039 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "bind"
+2020-01-21 16:58:33.165 (0x7ffc6f03ade0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-21 17:02:25.017 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "unbind"
+2020-01-21 17:02:25.017 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "unbind"
+2020-01-21 17:02:25.018 (0x7fff7068b840) Warning: LockScreenManager: could not inhibit session provider
+2020-01-21 17:02:25.877 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "bind"
+2020-01-21 17:02:25.877 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "bind"
+2020-01-21 17:07:15.309 (0x7ffea7e69b20) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-21 17:07:42.548 (0x7ffc6f03ade0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-21 17:19:01.601 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "unbind"
+2020-01-21 17:19:01.616 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "unbind"
+2020-01-21 17:19:01.616 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "bind"
+2020-01-21 17:19:01.616 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "bind"
+2020-01-21 17:19:17.521 (0x7fff7068b840) Warning: "Session 'session', new input device '/dev/input/mouse1', keyboard setting will be (optionaly) reloaded..."
+2020-01-21 17:19:17.566 (0x7fff7068b840) Warning: "Session 'session', new input device '/dev/input/event8', keyboard setting will be (optionaly) reloaded..."
+2020-01-21 17:19:17.568 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "bind"
+2020-01-21 17:19:17.573 (0x7ffea7e69b20) Warning: UdevQt: unhandled device action "bind"
+2020-01-21 17:21:24.504 (0x7fffdf1bdd40) Warning: Icon theme "elementary" not found.
+2020-01-21 17:21:24.513 (0x7fffdf1bdd40) Debug: No outputs have backlight property
+2020-01-21 17:21:24.514 (0x7fffdf1bdd40) Debug: Found output: "eDP-1"
+2020-01-21 17:21:24.514 (0x7fffdf1bdd40) Debug: Output: "eDP-1" added
+2020-01-21 17:21:24.514 (0x7fffdf1bdd40) Debug: Found output: "DP-1"
+2020-01-21 17:21:24.515 (0x7fffdf1bdd40) Debug: Output is not connected
+2020-01-21 17:21:24.515 (0x7fffdf1bdd40) Debug: Found output: "HDMI-1"
+2020-01-21 17:21:24.515 (0x7fffdf1bdd40) Debug: Crtc is not null. Output not enabled.
+2020-01-21 17:21:24.515 (0x7fffdf1bdd40) Debug: Found output: "DP-2"
+2020-01-21 17:21:24.515 (0x7fffdf1bdd40) Debug: Output is not connected
+2020-01-21 17:21:24.515 (0x7fffdf1bdd40) Debug: Found output: "HDMI-2"
+2020-01-21 17:21:24.515 (0x7fffdf1bdd40) Debug: Output is not connected
+2020-01-21 17:22:06.995 (0x7ffe4aa71980) Warning: Icon theme "elementary" not found.
+2020-01-21 17:22:07.394 (0x7ffe4aa71980) Debug: Connecting to KScreen...
+2020-01-21 17:22:07.403 (0x7ffe4aa71980) Debug: Width x Height 2.59109 x 1.66924
+2020-01-21 17:22:07.404 (0x7ffe4aa71980) Debug: Width x Height 5.18219 x 3.33849
+2020-01-21 17:22:12.993 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:22:13.942 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:22:14.892 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-21 17:22:23.033 (0x7ffe4aa71980) Debug: Width x Height 5.18219 x 3.33849
+2020-01-21 17:22:26.294 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:22:27.314 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:22:55.181 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:22:56.231 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:22:57.280 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-21 17:22:58.315 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-21 17:22:59.315 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "6 second(s) remaining" , 6
+2020-01-21 17:23:00.314 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "5 second(s) remaining" , 5
+2020-01-21 17:23:07.797 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:23:34.171 (0x7ffe4aa71980) Debug: Width x Height 2.59109 x 1.85471
+2020-01-21 17:23:37.227 (0x7ffe4aa71980) Debug: Width x Height 2.59109 x 1.66924
+2020-01-21 17:23:46.188 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:23:47.237 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:23:48.287 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-21 17:23:49.315 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-21 17:23:50.314 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "6 second(s) remaining" , 6
+2020-01-21 17:23:51.314 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "5 second(s) remaining" , 5
+2020-01-21 17:23:53.690 (0x7ffe4aa71980) Debug: Width x Height 2.59109 x 1.85471
+2020-01-21 17:23:56.814 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:23:59.051 (0x7ffe4aa71980) Debug: Width x Height 5.18219 x 3.33849
+2020-01-21 17:24:02.241 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:24:03.291 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:24:04.314 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-21 17:24:05.315 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-21 17:24:15.664 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:24:16.713 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:24:17.763 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-21 17:24:17.919 (0x7ffe4aa71980) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Read: 0
+2020-01-21 17:24:17.920 (0x7ffe4aa71980) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Write: 1
+2020-01-21 17:24:21.314 (0x7ffe4aa71980) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:25:26.157 (0x7fff15a4b1a0) Warning: Icon theme "elementary" not found.
+2020-01-21 17:25:26.270 (0x7fff15a4b1a0) Debug: Connecting to KScreen...
+2020-01-21 17:25:26.283 (0x7fff15a4b1a0) Debug: Width x Height 2.59109 x 1.66924
+2020-01-21 17:25:26.284 (0x7fff15a4b1a0) Debug: Width x Height 5.18219 x 3.33849
+2020-01-21 17:25:37.671 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:25:38.721 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:26:10.452 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:26:11.967 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:26:19.899 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:26:20.848 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:26:47.988 (0x7fff15a4b1a0) Debug: minWidgetLength 225 maxMonitorSize 5760 scale 0.0390625
+2020-01-21 17:27:03.834 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:27:04.697 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:27:05.747 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-21 17:27:15.564 (0x7fff15a4b1a0) Debug: Width x Height 2.59109 x 1.66924
+2020-01-21 17:27:17.353 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:27:18.314 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:27:19.314 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-21 17:27:20.314 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-21 17:27:21.314 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "6 second(s) remaining" , 6
+2020-01-21 17:27:22.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "5 second(s) remaining" , 5
+2020-01-21 17:27:33.324 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:27:37.870 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:28:04.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:28:12.246 (0x7fff15a4b1a0) Debug: Width x Height 2.59109 x 1.85471
+2020-01-21 17:28:15.291 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:28:16.314 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:28:18.181 (0x7fff15a4b1a0) Debug: Width x Height 5.18219 x 3.33849
+2020-01-21 17:28:21.314 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:28:22.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-21 17:28:23.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-21 17:28:24.313 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-21 17:28:25.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "6 second(s) remaining" , 6
+2020-01-21 17:28:26.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "5 second(s) remaining" , 5
+2020-01-21 17:28:27.314 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "4 second(s) remaining" , 4
+2020-01-21 17:28:28.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "3 second(s) remaining" , 3
+2020-01-21 17:28:29.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "2 second(s) remaining" , 2
+2020-01-21 17:28:30.315 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "1 second(s) remaining" , 1
+2020-01-21 17:28:38.888 (0x7fff15a4b1a0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-21 17:32:22.821 (0x7ffea7e69b20) Debug: Service "org.freedesktop.StatusNotifierItem-1247-1" unregistered
+2020-01-21 17:32:22.822 (0x7ffea7e69b20) Debug: Service "org.freedesktop.StatusNotifierItem-1245-1" unregistered
+2020-01-21 17:32:22.845 (0x7ffea7e69b20) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-21 17:32:24.916 (0x7fff7068b840) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-21 17:32:24.917 (0x7fff7068b840) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-21 17:33:24.201 (0x7ffcea070ab0) Debug: New PolkitAgentListener  0x557de0068ea0
+2020-01-21 17:33:24.202 (0x7ffcea070ab0) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffcea070ac0) for  0x557de0068ea0
+2020-01-21 17:33:24.838 (0x7ffe4709cd20) Warning: Icon theme "elementary" not found.
+2020-01-21 17:33:26.462 (0x7ffe4709cd20) Debug: ()
+2020-01-21 17:33:27.093 (0x7ffe4709cd20) Debug: WinIdChange 1000008 handle QWidgetWindow(0x55fdbd12df80, name="LXQtPanel panel1Window") QScreen(0x55fdbce9a240, name="eDP-1")
+2020-01-21 17:33:27.111 (0x7ffe4709cd20) Debug: Systray started
+2020-01-21 17:33:27.162 (0x7ffd8fb722e0) Warning: Icon theme "elementary" not found.
+2020-01-21 17:33:27.172 (0x7ffd8fb722e0) Debug: systemd: "CanHibernate" = "na"
+2020-01-21 17:33:27.173 (0x7ffd8fb722e0) Warning: ** Dbus error **************************
+2020-01-21 17:33:27.173 (0x7ffd8fb722e0) Warning: Error name  "org.freedesktop.DBus.Error.InvalidArgs"
+2020-01-21 17:33:27.174 (0x7ffd8fb722e0) Warning: Error msg   "No such interface “org.freedesktop.DBus.Properties”"
+2020-01-21 17:33:27.174 (0x7ffd8fb722e0) Warning: ****************************************
+2020-01-21 17:33:27.174 (0x7ffd8fb722e0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-21 17:33:27.181 (0x7ffd8fb722e0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-21 17:33:27.248 (0x7ffee6dce970) Debug: systemd: "CanReboot" = "yes"
+2020-01-21 17:33:27.256 (0x7ffee6dce970) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-21 17:33:27.320 (0x7ffe63224d20) Debug: Inhibit got: 18
+2020-01-21 17:33:27.321 (0x7ffe63224d20) Debug: Starting idlenesswatcher
+2020-01-21 17:33:28.221 (0x7ffe4709cd20) Debug: Unknown property margin-button
+2020-01-21 17:33:28.221 (0x7ffe4709cd20) Debug: Unknown property margin-button
+2020-01-21 17:33:28.221 (0x7ffe4709cd20) Debug: Unknown property margin-button
+2020-01-21 17:33:29.268 (0x7ffcfeee5da0) Warning: Icon theme "elementary" not found.
+2020-01-21 17:34:55.360 (0x7ffe4709cd20) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 2851, resource id: 33554461, major code: 18 (ChangeProperty), minor code: 0
+2020-01-21 17:35:38.511 (0x7ffe4709cd20) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-21 17:38:12.188 (0x7ffc05fe7890) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-21 17:38:12.195 (0x7ffe4709cd20) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-21 17:38:14.280 (0x7ffee6dce970) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-21 17:38:14.281 (0x7ffee6dce970) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-22 11:02:24.115 (0x7ffea9845e70) Debug: New PolkitAgentListener  0x558f2d8c60a0
+2020-01-22 11:02:24.115 (0x7ffea9845e70) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffea9845e80) for  0x558f2d8c60a0
+2020-01-22 11:02:24.158 (0x7fff6cb5b6b0) Warning: Icon theme "elementary" not found.
+2020-01-22 11:02:24.204 (0x7ffcb78b6cd0) Warning: Icon theme "elementary" not found.
+2020-01-22 11:02:24.216 (0x7ffcb78b6cd0) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 11:02:24.217 (0x7ffcb78b6cd0) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 11:02:24.218 (0x7ffcb78b6cd0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 11:02:24.227 (0x7ffcb78b6cd0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 11:02:24.241 (0x7ffc40f560a0) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 11:02:24.251 (0x7ffc40f560a0) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 11:02:24.600 (0x7fff6cb5b6b0) Debug: ()
+2020-01-22 11:02:24.625 (0x7fff6cb5b6b0) Debug: WinIdChange 1400008 handle QWidgetWindow(0x55a7b98162d0, name="LXQtPanel panel1Window") QScreen(0x55a7b9584dc0, name="eDP-1")
+2020-01-22 11:02:24.643 (0x7fff6cb5b6b0) Debug: Systray started
+2020-01-22 11:02:24.835 (0x7ffecdc4a5a0) Debug: Inhibit got: 18
+2020-01-22 11:02:24.836 (0x7ffecdc4a5a0) Debug: Starting idlenesswatcher
+2020-01-22 11:02:25.768 (0x7fff6cb5b6b0) Debug: Unknown property margin-button
+2020-01-22 11:02:25.769 (0x7fff6cb5b6b0) Debug: Unknown property margin-button
+2020-01-22 11:02:25.769 (0x7fff6cb5b6b0) Debug: Unknown property margin-button
+2020-01-22 11:02:29.164 (0x7fff4a7a3490) Warning: Icon theme "elementary" not found.
+2020-01-22 11:03:08.962 (0x7fffed9c7920) Warning: Icon theme "elementary" not found.
+2020-01-22 11:05:40.175 (0x7fff6cb5b6b0) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-22 11:05:42.269 (0x7ffc40f560a0) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-22 11:05:42.270 (0x7ffc40f560a0) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-22 11:06:23.315 (0x7ffcef9ac140) Debug: New PolkitAgentListener  0x56366be254a0
+2020-01-22 11:06:23.315 (0x7ffcef9ac140) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffcef9ac150) for  0x56366be254a0
+2020-01-22 11:06:23.383 (0x7ffffdc6b250) Warning: Icon theme "elementary" not found.
+2020-01-22 11:06:23.530 (0x7ffdd9f275a0) Warning: Icon theme "elementary" not found.
+2020-01-22 11:06:23.544 (0x7ffdd9f275a0) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 11:06:23.545 (0x7ffdd9f275a0) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 11:06:23.546 (0x7ffdd9f275a0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 11:06:23.554 (0x7ffdd9f275a0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 11:06:23.566 (0x7ffc9b440b50) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 11:06:23.574 (0x7ffc9b440b50) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 11:06:23.886 (0x7ffffdc6b250) Debug: ()
+2020-01-22 11:06:23.911 (0x7ffffdc6b250) Debug: WinIdChange 1400008 handle QWidgetWindow(0x558bee96b2c0, name="LXQtPanel panel1Window") QScreen(0x558bee6d8ff0, name="eDP-1")
+2020-01-22 11:06:23.931 (0x7ffffdc6b250) Debug: Systray started
+2020-01-22 11:06:24.123 (0x7ffe0a458670) Debug: Inhibit got: 18
+2020-01-22 11:06:24.123 (0x7ffe0a458670) Debug: Starting idlenesswatcher
+2020-01-22 11:06:25.057 (0x7ffffdc6b250) Debug: Unknown property margin-button
+2020-01-22 11:06:25.057 (0x7ffffdc6b250) Debug: Unknown property margin-button
+2020-01-22 11:06:25.057 (0x7ffffdc6b250) Debug: Unknown property margin-button
+2020-01-22 11:06:28.172 (0x7ffc0c61d2d0) Warning: Icon theme "elementary" not found.
+2020-01-22 11:06:48.797 (0x7ffd3711b750) Warning: Icon theme "elementary" not found.
+2020-01-22 11:06:57.447 (0x7ffffdc6b250) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 3295, resource id: 35651590, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 11:07:18.728 (0x7ffffdc6b250) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"
+2020-01-22 11:07:32.508 (0x7ffffdc6b250) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 3869, resource id: 35651590, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 11:07:46.813 (0x7ffffdc6b250) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 4475, resource id: 37748772, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 11:08:45.553 (0x7ffffdc6b250) Debug: Service "org.freedesktop.StatusNotifierItem-1211-1" unregistered
+2020-01-22 11:09:31.856 (0x7ffffdc6b250) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 5496, resource id: 12583056, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 11:09:57.601 (0x7ffffdc6b250) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 5710, resource id: 12583077, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 11:10:06.148 (0x7ffe0a458670) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 11:10:15.102 (0x7ffffdc6b250) Warning: UdevQt: unhandled device action "unbind"
+2020-01-22 11:10:15.102 (0x7ffffdc6b250) Warning: UdevQt: unhandled device action "unbind"
+2020-01-22 11:10:15.918 (0x7ffffdc6b250) Warning: UdevQt: unhandled device action "bind"
+2020-01-22 11:10:15.918 (0x7ffffdc6b250) Warning: UdevQt: unhandled device action "bind"
+2020-01-22 11:10:43.608 (0x7ffe0a458670) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 14:23:33.959 (0x7ffffdc6b250) Warning: UdevQt: unhandled device action "unbind"
+2020-01-22 14:23:33.959 (0x7ffffdc6b250) Warning: UdevQt: unhandled device action "unbind"
+2020-01-22 14:23:36.033 (0x7ffffdc6b250) Warning: UdevQt: unhandled device action "bind"
+2020-01-22 14:23:36.033 (0x7ffffdc6b250) Warning: UdevQt: unhandled device action "bind"
+2020-01-22 14:24:13.562 (0x7ffffdc6b250) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-22 14:24:25.018 (0x7ffffdc6b250) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6547, resource id: 37748739, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 14:24:28.646 (0x7ffffdc6b250) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6657, resource id: 12583139, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 14:25:08.315 (0x7ffffdc6b250) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-22 14:38:26.880 (0x7ffcf78daed0) Warning: Icon theme "elementary" not found.
+2020-01-22 14:38:26.953 (0x7ffcf78daed0) Debug: Connecting to KScreen...
+2020-01-22 14:38:26.966 (0x7ffcf78daed0) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 14:38:26.967 (0x7ffcf78daed0) Debug: Width x Height 5.18219 x 3.33849
+2020-01-22 14:38:51.869 (0x7ffcf78daed0) Debug: Width x Height 5.18219 x 3.33849
+2020-01-22 14:38:54.307 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 14:38:55.256 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-22 14:38:56.241 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-22 14:38:57.174 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-22 14:38:58.175 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "6 second(s) remaining" , 6
+2020-01-22 14:38:59.175 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "5 second(s) remaining" , 5
+2020-01-22 14:39:00.175 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "4 second(s) remaining" , 4
+2020-01-22 14:39:01.176 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "3 second(s) remaining" , 3
+2020-01-22 14:39:02.175 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "2 second(s) remaining" , 2
+2020-01-22 14:39:03.174 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "1 second(s) remaining" , 1
+2020-01-22 14:39:17.094 (0x7ffcf78daed0) Debug: minWidgetLength 225 maxMonitorSize 5760 scale 0.0390625
+2020-01-22 14:39:38.242 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 14:39:39.192 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-22 14:39:40.175 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-22 14:39:42.368 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 14:39:46.335 (0x7ffcf78daed0) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 14:39:46.794 (0x7ffcf78daed0) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Read: 1
+2020-01-22 14:39:46.795 (0x7ffcf78daed0) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Write: 2
+2020-01-22 14:44:19.255 (0x7ffffdc6b250) Debug: Unknown property margin-button
+2020-01-22 14:44:19.255 (0x7ffffdc6b250) Debug: Unknown property margin-button
+2020-01-22 14:44:19.255 (0x7ffffdc6b250) Debug: Unknown property margin-button
+2020-01-22 14:44:28.693 (0x7ffffdc6b250) Debug: Service "org.freedesktop.StatusNotifierItem-1330-1" unregistered
+2020-01-22 14:44:28.693 (0x7ffffdc6b250) Debug: Service "org.freedesktop.StatusNotifierItem-1332-1" unregistered
+2020-01-22 14:44:28.712 (0x7ffffdc6b250) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-22 14:44:30.817 (0x7ffc9b440b50) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-22 14:44:30.818 (0x7ffc9b440b50) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-22 14:45:30.849 (0x7fff05f10390) Debug: New PolkitAgentListener  0x5620e0d37ea0
+2020-01-22 14:45:30.850 (0x7fff05f10390) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fff05f103a0) for  0x5620e0d37ea0
+2020-01-22 14:45:33.080 (0x7ffef3aae490) Warning: Icon theme "elementary" not found.
+2020-01-22 14:45:33.099 (0x7ffef3aae490) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 14:45:33.099 (0x7ffef3aae490) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 14:45:33.100 (0x7ffef3aae490) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 14:45:33.105 (0x7ffef3aae490) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 14:45:33.311 (0x7ffed74ec320) Warning: Icon theme "elementary" not found.
+2020-01-22 14:45:35.184 (0x7ffec2bfbdc0) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 14:45:35.190 (0x7ffec2bfbdc0) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 14:45:35.390 (0x7ffed74ec320) Debug: ()
+2020-01-22 14:45:35.413 (0x7ffed74ec320) Debug: WinIdChange 1600008 handle QWidgetWindow(0x55ff21c15be0, name="LXQtPanel panel1Window") QScreen(0x55ff21982f80, name="eDP-1")
+2020-01-22 14:45:35.425 (0x7ffed74ec320) Debug: Systray started
+2020-01-22 14:45:35.622 (0x7fff3d0bc8e0) Debug: Inhibit got: 18
+2020-01-22 14:45:35.622 (0x7fff3d0bc8e0) Debug: Starting idlenesswatcher
+2020-01-22 14:45:36.159 (0x7ffcfea5eb40) Warning: Icon theme "elementary" not found.
+2020-01-22 14:45:36.529 (0x7ffed74ec320) Debug: Unknown property margin-button
+2020-01-22 14:45:36.529 (0x7ffed74ec320) Debug: Unknown property margin-button
+2020-01-22 14:45:36.530 (0x7ffed74ec320) Debug: Unknown property margin-button
+2020-01-22 14:45:58.808 (0x7ffed74ec320) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1558, resource id: 10485777, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 14:45:58.809 (0x7ffed74ec320) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1562, resource id: 10485777, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 14:45:58.809 (0x7ffed74ec320) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1565, resource id: 10485777, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 14:50:29.326 (0x7ffec2bfbdc0) Warning: The X11 connection broke (error 1). Did the X11 server die?
+2020-01-22 14:51:23.386 (0x7fff6c6f1fe0) Warning: Icon theme "elementary" not found.
+2020-01-22 14:51:23.442 (0x7fff5de095c0) Warning: Icon theme "elementary" not found.
+2020-01-22 14:51:23.454 (0x7fff5de095c0) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 14:51:23.454 (0x7fff5de095c0) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 14:51:23.455 (0x7fff5de095c0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 14:51:23.460 (0x7fff5de095c0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 14:51:23.674 (0x7ffda00f0080) Debug: New PolkitAgentListener  0x557564e9b4a0
+2020-01-22 14:51:23.674 (0x7ffda00f0080) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffda00f0090) for  0x557564e9b4a0
+2020-01-22 14:51:25.833 (0x7fff6c6f1fe0) Debug: ()
+2020-01-22 14:51:27.397 (0x7fff6c6f1fe0) Debug: WinIdChange e00008 handle QWidgetWindow(0x55d21dae8ba0, name="LXQtPanel panel1Window") QScreen(0x55d21d854f20, name="eDP-1")
+2020-01-22 14:51:27.417 (0x7fff6c6f1fe0) Debug: Systray started
+2020-01-22 14:51:27.580 (0x7ffda31e5f90) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 14:51:27.588 (0x7ffda31e5f90) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 14:51:27.641 (0x7ffebf0e9530) Debug: Inhibit got: 18
+2020-01-22 14:51:27.641 (0x7ffebf0e9530) Debug: Starting idlenesswatcher
+2020-01-22 14:51:28.155 (0x7ffda45156b0) Warning: Icon theme "elementary" not found.
+2020-01-22 14:51:28.522 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 14:51:28.523 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 14:51:28.523 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 14:51:48.430 (0x7fff6c6f1fe0) Debug: execAction "/usr/share/applications/firefox.desktop"
+2020-01-22 14:56:34.308 (0x7ffda00f0080) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+2020-01-22 14:56:34.309 (0x7ffda00f0080) Debug: GSimpleAsyncResult: 0x557564f57200
+2020-01-22 14:56:34.309 (0x7ffda00f0080) Debug: polkit_qt_listener_initiate_authentication callback for  0x557564e9b4a0
+2020-01-22 14:56:34.318 (0x7ffda00f0080) Warning: Icon theme "elementary" not found.
+2020-01-22 14:56:34.333 (0x7ffda00f0080) Debug: REQUEST
+2020-01-22 14:56:46.437 (0x7ffda00f0080) Debug: COMPLETED
+2020-01-22 14:56:46.437 (0x7ffda00f0080) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+2020-01-22 14:56:46.437 (0x7ffda00f0080) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x557564e9b4a0
+2020-01-22 14:56:59.230 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 14:56:59.230 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 14:56:59.230 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 15:02:57.672 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 15:02:57.672 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 15:02:57.672 (0x7fff6c6f1fe0) Debug: Unknown property margin-button
+2020-01-22 15:15:33.994 (0x7fffa7e69e30) Warning: Icon theme "elementary" not found.
+2020-01-22 15:16:25.058 (0x7fff6c6f1fe0) Debug: Desktop count changed from 4 to 9
+2020-01-22 15:21:24.050 (0x7ffdc4857e50) Warning: Icon theme "elementary" not found.
+2020-01-22 15:24:30.076 (0x7ffe78691360) Debug: No outputs have backlight property
+2020-01-22 15:24:30.076 (0x7ffe78691360) Debug: Found output: "eDP-1"
+2020-01-22 15:24:30.076 (0x7ffe78691360) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:30.077 (0x7ffe78691360) Debug: Found output: "DP-1"
+2020-01-22 15:24:30.077 (0x7ffe78691360) Debug: Output is not connected
+2020-01-22 15:24:30.077 (0x7ffe78691360) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:30.077 (0x7ffe78691360) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:30.078 (0x7ffe78691360) Debug: Found output: "DP-2"
+2020-01-22 15:24:30.078 (0x7ffe78691360) Debug: Output is not connected
+2020-01-22 15:24:30.078 (0x7ffe78691360) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:30.078 (0x7ffe78691360) Debug: Output is not connected
+2020-01-22 15:24:30.305 (0x7ffe710074d0) Debug: No outputs have backlight property
+2020-01-22 15:24:30.305 (0x7ffe710074d0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:30.305 (0x7ffe710074d0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:30.306 (0x7ffe710074d0) Debug: Found output: "DP-1"
+2020-01-22 15:24:30.306 (0x7ffe710074d0) Debug: Output is not connected
+2020-01-22 15:24:30.306 (0x7ffe710074d0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:30.312 (0x7ffe710074d0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:30.313 (0x7ffe710074d0) Debug: Found output: "DP-2"
+2020-01-22 15:24:30.313 (0x7ffe710074d0) Debug: Output is not connected
+2020-01-22 15:24:30.313 (0x7ffe710074d0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:30.313 (0x7ffe710074d0) Debug: Output is not connected
+2020-01-22 15:24:30.581 (0x7fff2aab0340) Debug: No outputs have backlight property
+2020-01-22 15:24:30.581 (0x7fff2aab0340) Debug: Found output: "eDP-1"
+2020-01-22 15:24:30.581 (0x7fff2aab0340) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:30.582 (0x7fff2aab0340) Debug: Found output: "DP-1"
+2020-01-22 15:24:30.582 (0x7fff2aab0340) Debug: Output is not connected
+2020-01-22 15:24:30.582 (0x7fff2aab0340) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:30.583 (0x7fff2aab0340) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:30.583 (0x7fff2aab0340) Debug: Found output: "DP-2"
+2020-01-22 15:24:30.583 (0x7fff2aab0340) Debug: Output is not connected
+2020-01-22 15:24:30.583 (0x7fff2aab0340) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:30.583 (0x7fff2aab0340) Debug: Output is not connected
+2020-01-22 15:24:30.763 (0x7ffed0ca4ba0) Debug: No outputs have backlight property
+2020-01-22 15:24:30.764 (0x7ffed0ca4ba0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:30.764 (0x7ffed0ca4ba0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:30.764 (0x7ffed0ca4ba0) Debug: Found output: "DP-1"
+2020-01-22 15:24:30.764 (0x7ffed0ca4ba0) Debug: Output is not connected
+2020-01-22 15:24:30.764 (0x7ffed0ca4ba0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:30.764 (0x7ffed0ca4ba0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:30.765 (0x7ffed0ca4ba0) Debug: Found output: "DP-2"
+2020-01-22 15:24:30.765 (0x7ffed0ca4ba0) Debug: Output is not connected
+2020-01-22 15:24:30.765 (0x7ffed0ca4ba0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:30.765 (0x7ffed0ca4ba0) Debug: Output is not connected
+2020-01-22 15:24:31.082 (0x7fffe725eb70) Debug: No outputs have backlight property
+2020-01-22 15:24:31.083 (0x7fffe725eb70) Debug: Found output: "eDP-1"
+2020-01-22 15:24:31.083 (0x7fffe725eb70) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:31.083 (0x7fffe725eb70) Debug: Found output: "DP-1"
+2020-01-22 15:24:31.083 (0x7fffe725eb70) Debug: Output is not connected
+2020-01-22 15:24:31.084 (0x7fffe725eb70) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:31.084 (0x7fffe725eb70) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:31.084 (0x7fffe725eb70) Debug: Found output: "DP-2"
+2020-01-22 15:24:31.084 (0x7fffe725eb70) Debug: Output is not connected
+2020-01-22 15:24:31.085 (0x7fffe725eb70) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:31.085 (0x7fffe725eb70) Debug: Output is not connected
+2020-01-22 15:24:31.244 (0x7fff684b7380) Debug: No outputs have backlight property
+2020-01-22 15:24:31.245 (0x7fff684b7380) Debug: Found output: "eDP-1"
+2020-01-22 15:24:31.245 (0x7fff684b7380) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:31.245 (0x7fff684b7380) Debug: Found output: "DP-1"
+2020-01-22 15:24:31.245 (0x7fff684b7380) Debug: Output is not connected
+2020-01-22 15:24:31.245 (0x7fff684b7380) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:31.245 (0x7fff684b7380) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:31.245 (0x7fff684b7380) Debug: Found output: "DP-2"
+2020-01-22 15:24:31.245 (0x7fff684b7380) Debug: Output is not connected
+2020-01-22 15:24:31.246 (0x7fff684b7380) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:31.246 (0x7fff684b7380) Debug: Output is not connected
+2020-01-22 15:24:31.398 (0x7ffee7ed6070) Debug: No outputs have backlight property
+2020-01-22 15:24:31.398 (0x7ffee7ed6070) Debug: Found output: "eDP-1"
+2020-01-22 15:24:31.398 (0x7ffee7ed6070) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:31.399 (0x7ffee7ed6070) Debug: Found output: "DP-1"
+2020-01-22 15:24:31.399 (0x7ffee7ed6070) Debug: Output is not connected
+2020-01-22 15:24:31.399 (0x7ffee7ed6070) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:31.399 (0x7ffee7ed6070) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:31.399 (0x7ffee7ed6070) Debug: Found output: "DP-2"
+2020-01-22 15:24:31.399 (0x7ffee7ed6070) Debug: Output is not connected
+2020-01-22 15:24:31.399 (0x7ffee7ed6070) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:31.399 (0x7ffee7ed6070) Debug: Output is not connected
+2020-01-22 15:24:31.535 (0x7ffdb7a734f0) Debug: No outputs have backlight property
+2020-01-22 15:24:31.540 (0x7ffdb7a734f0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:31.541 (0x7ffdb7a734f0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:31.541 (0x7ffdb7a734f0) Debug: Found output: "DP-1"
+2020-01-22 15:24:31.541 (0x7ffdb7a734f0) Debug: Output is not connected
+2020-01-22 15:24:31.541 (0x7ffdb7a734f0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:31.541 (0x7ffdb7a734f0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:31.542 (0x7ffdb7a734f0) Debug: Found output: "DP-2"
+2020-01-22 15:24:31.542 (0x7ffdb7a734f0) Debug: Output is not connected
+2020-01-22 15:24:31.542 (0x7ffdb7a734f0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:31.542 (0x7ffdb7a734f0) Debug: Output is not connected
+2020-01-22 15:24:31.695 (0x7ffe4fcd10a0) Debug: No outputs have backlight property
+2020-01-22 15:24:31.695 (0x7ffe4fcd10a0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:31.695 (0x7ffe4fcd10a0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:31.695 (0x7ffe4fcd10a0) Debug: Found output: "DP-1"
+2020-01-22 15:24:31.695 (0x7ffe4fcd10a0) Debug: Output is not connected
+2020-01-22 15:24:31.695 (0x7ffe4fcd10a0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:31.696 (0x7ffe4fcd10a0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:31.696 (0x7ffe4fcd10a0) Debug: Found output: "DP-2"
+2020-01-22 15:24:31.696 (0x7ffe4fcd10a0) Debug: Output is not connected
+2020-01-22 15:24:31.696 (0x7ffe4fcd10a0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:31.696 (0x7ffe4fcd10a0) Debug: Output is not connected
+2020-01-22 15:24:32.288 (0x7ffdcb599880) Debug: No outputs have backlight property
+2020-01-22 15:24:32.288 (0x7ffdcb599880) Debug: Found output: "eDP-1"
+2020-01-22 15:24:32.288 (0x7ffdcb599880) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:32.289 (0x7ffdcb599880) Debug: Found output: "DP-1"
+2020-01-22 15:24:32.289 (0x7ffdcb599880) Debug: Output is not connected
+2020-01-22 15:24:32.289 (0x7ffdcb599880) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:32.289 (0x7ffdcb599880) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:32.290 (0x7ffdcb599880) Debug: Found output: "DP-2"
+2020-01-22 15:24:32.297 (0x7ffdcb599880) Debug: Output is not connected
+2020-01-22 15:24:32.297 (0x7ffdcb599880) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:32.297 (0x7ffdcb599880) Debug: Output is not connected
+2020-01-22 15:24:32.460 (0x7ffc67abb4b0) Debug: No outputs have backlight property
+2020-01-22 15:24:32.460 (0x7ffc67abb4b0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:32.460 (0x7ffc67abb4b0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:32.461 (0x7ffc67abb4b0) Debug: Found output: "DP-1"
+2020-01-22 15:24:32.461 (0x7ffc67abb4b0) Debug: Output is not connected
+2020-01-22 15:24:32.461 (0x7ffc67abb4b0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:32.461 (0x7ffc67abb4b0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:32.461 (0x7ffc67abb4b0) Debug: Found output: "DP-2"
+2020-01-22 15:24:32.461 (0x7ffc67abb4b0) Debug: Output is not connected
+2020-01-22 15:24:32.462 (0x7ffc67abb4b0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:32.462 (0x7ffc67abb4b0) Debug: Output is not connected
+2020-01-22 15:24:32.627 (0x7ffeca328e50) Debug: No outputs have backlight property
+2020-01-22 15:24:32.628 (0x7ffeca328e50) Debug: Found output: "eDP-1"
+2020-01-22 15:24:32.628 (0x7ffeca328e50) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:32.628 (0x7ffeca328e50) Debug: Found output: "DP-1"
+2020-01-22 15:24:32.628 (0x7ffeca328e50) Debug: Output is not connected
+2020-01-22 15:24:32.628 (0x7ffeca328e50) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:32.629 (0x7ffeca328e50) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:32.629 (0x7ffeca328e50) Debug: Found output: "DP-2"
+2020-01-22 15:24:32.629 (0x7ffeca328e50) Debug: Output is not connected
+2020-01-22 15:24:32.629 (0x7ffeca328e50) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:32.629 (0x7ffeca328e50) Debug: Output is not connected
+2020-01-22 15:24:32.783 (0x7ffd3ae023e0) Debug: No outputs have backlight property
+2020-01-22 15:24:32.783 (0x7ffd3ae023e0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:32.783 (0x7ffd3ae023e0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:32.783 (0x7ffd3ae023e0) Debug: Found output: "DP-1"
+2020-01-22 15:24:32.783 (0x7ffd3ae023e0) Debug: Output is not connected
+2020-01-22 15:24:32.783 (0x7ffd3ae023e0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:32.784 (0x7ffd3ae023e0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:32.784 (0x7ffd3ae023e0) Debug: Found output: "DP-2"
+2020-01-22 15:24:32.784 (0x7ffd3ae023e0) Debug: Output is not connected
+2020-01-22 15:24:32.784 (0x7ffd3ae023e0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:32.784 (0x7ffd3ae023e0) Debug: Output is not connected
+2020-01-22 15:24:32.964 (0x7ffe9fe16230) Debug: No outputs have backlight property
+2020-01-22 15:24:32.964 (0x7ffe9fe16230) Debug: Found output: "eDP-1"
+2020-01-22 15:24:32.964 (0x7ffe9fe16230) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:32.964 (0x7ffe9fe16230) Debug: Found output: "DP-1"
+2020-01-22 15:24:32.964 (0x7ffe9fe16230) Debug: Output is not connected
+2020-01-22 15:24:32.965 (0x7ffe9fe16230) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:32.965 (0x7ffe9fe16230) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:32.965 (0x7ffe9fe16230) Debug: Found output: "DP-2"
+2020-01-22 15:24:32.965 (0x7ffe9fe16230) Debug: Output is not connected
+2020-01-22 15:24:32.965 (0x7ffe9fe16230) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:32.966 (0x7ffe9fe16230) Debug: Output is not connected
+2020-01-22 15:24:33.136 (0x7ffe65c05c00) Debug: No outputs have backlight property
+2020-01-22 15:24:33.136 (0x7ffe65c05c00) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.136 (0x7ffe65c05c00) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.137 (0x7ffe65c05c00) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.137 (0x7ffe65c05c00) Debug: Output is not connected
+2020-01-22 15:24:33.137 (0x7ffe65c05c00) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.137 (0x7ffe65c05c00) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.137 (0x7ffe65c05c00) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.137 (0x7ffe65c05c00) Debug: Output is not connected
+2020-01-22 15:24:33.137 (0x7ffe65c05c00) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.137 (0x7ffe65c05c00) Debug: Output is not connected
+2020-01-22 15:24:33.636 (0x7ffe65879350) Debug: No outputs have backlight property
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Output is not connected
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Output is not connected
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.637 (0x7ffe65879350) Debug: Output is not connected
+2020-01-22 15:24:33.665 (0x7ffeb27ddcb0) Debug: No outputs have backlight property
+2020-01-22 15:24:33.665 (0x7ffeb27ddcb0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.665 (0x7ffeb27ddcb0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.665 (0x7ffeb27ddcb0) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.665 (0x7ffeb27ddcb0) Debug: Output is not connected
+2020-01-22 15:24:33.665 (0x7ffeb27ddcb0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.666 (0x7ffeb27ddcb0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.666 (0x7ffeb27ddcb0) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.666 (0x7ffeb27ddcb0) Debug: Output is not connected
+2020-01-22 15:24:33.666 (0x7ffeb27ddcb0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.666 (0x7ffeb27ddcb0) Debug: Output is not connected
+2020-01-22 15:24:33.736 (0x7fff18987110) Debug: No outputs have backlight property
+2020-01-22 15:24:33.736 (0x7fff18987110) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.736 (0x7fff18987110) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.736 (0x7fff18987110) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.737 (0x7fff18987110) Debug: Output is not connected
+2020-01-22 15:24:33.737 (0x7fff18987110) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.737 (0x7fff18987110) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.737 (0x7fff18987110) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.737 (0x7fff18987110) Debug: Output is not connected
+2020-01-22 15:24:33.737 (0x7fff18987110) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.737 (0x7fff18987110) Debug: Output is not connected
+2020-01-22 15:24:33.764 (0x7ffdad11a6b0) Debug: No outputs have backlight property
+2020-01-22 15:24:33.764 (0x7ffdad11a6b0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.764 (0x7ffdad11a6b0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.764 (0x7ffdad11a6b0) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.764 (0x7ffdad11a6b0) Debug: Output is not connected
+2020-01-22 15:24:33.765 (0x7ffdad11a6b0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.765 (0x7ffdad11a6b0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.765 (0x7ffdad11a6b0) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.765 (0x7ffdad11a6b0) Debug: Output is not connected
+2020-01-22 15:24:33.765 (0x7ffdad11a6b0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.765 (0x7ffdad11a6b0) Debug: Output is not connected
+2020-01-22 15:24:33.786 (0x7fffe865bcf0) Debug: No outputs have backlight property
+2020-01-22 15:24:33.787 (0x7fffe865bcf0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.787 (0x7fffe865bcf0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.787 (0x7fffe865bcf0) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.787 (0x7fffe865bcf0) Debug: Output is not connected
+2020-01-22 15:24:33.788 (0x7fffe865bcf0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.788 (0x7fffe865bcf0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.788 (0x7fffe865bcf0) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.788 (0x7fffe865bcf0) Debug: Output is not connected
+2020-01-22 15:24:33.788 (0x7fffe865bcf0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.789 (0x7fffe865bcf0) Debug: Output is not connected
+2020-01-22 15:24:33.868 (0x7ffdb0090dc0) Debug: No outputs have backlight property
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Output is not connected
+2020-01-22 15:24:33.869 (0x7ffd160eaf40) Debug: No outputs have backlight property
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.869 (0x7ffd160eaf40) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.869 (0x7ffd160eaf40) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.869 (0x7ffd160eaf40) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.869 (0x7ffd160eaf40) Debug: Output is not connected
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Output is not connected
+2020-01-22 15:24:33.869 (0x7ffd160eaf40) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.869 (0x7ffdb0090dc0) Debug: Output is not connected
+2020-01-22 15:24:33.869 (0x7ffd160eaf40) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.870 (0x7ffd160eaf40) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.870 (0x7ffd160eaf40) Debug: Output is not connected
+2020-01-22 15:24:33.870 (0x7ffd160eaf40) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.870 (0x7ffd160eaf40) Debug: Output is not connected
+2020-01-22 15:24:33.920 (0x7ffe057d56a0) Debug: No outputs have backlight property
+2020-01-22 15:24:33.920 (0x7ffe057d56a0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.920 (0x7ffe057d56a0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.921 (0x7ffe057d56a0) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.921 (0x7ffe057d56a0) Debug: Output is not connected
+2020-01-22 15:24:33.921 (0x7ffe057d56a0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.921 (0x7ffe057d56a0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.922 (0x7ffe057d56a0) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.922 (0x7ffe057d56a0) Debug: Output is not connected
+2020-01-22 15:24:33.922 (0x7ffe057d56a0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.922 (0x7ffe057d56a0) Debug: Output is not connected
+2020-01-22 15:24:33.997 (0x7fff00f5d130) Debug: No outputs have backlight property
+2020-01-22 15:24:33.997 (0x7fff00f5d130) Debug: Found output: "eDP-1"
+2020-01-22 15:24:33.997 (0x7fff00f5d130) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:33.998 (0x7fff00f5d130) Debug: Found output: "DP-1"
+2020-01-22 15:24:33.998 (0x7fff00f5d130) Debug: Output is not connected
+2020-01-22 15:24:33.998 (0x7fff00f5d130) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:33.998 (0x7fff00f5d130) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:33.998 (0x7fff00f5d130) Debug: Found output: "DP-2"
+2020-01-22 15:24:33.998 (0x7fff00f5d130) Debug: Output is not connected
+2020-01-22 15:24:33.998 (0x7fff00f5d130) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:33.998 (0x7fff00f5d130) Debug: Output is not connected
+2020-01-22 15:24:34.020 (0x7ffdbb9b30b0) Debug: No outputs have backlight property
+2020-01-22 15:24:34.020 (0x7ffdbb9b30b0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.020 (0x7ffdbb9b30b0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.021 (0x7ffdbb9b30b0) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.021 (0x7ffdbb9b30b0) Debug: Output is not connected
+2020-01-22 15:24:34.021 (0x7ffdbb9b30b0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.021 (0x7ffdbb9b30b0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.022 (0x7ffdbb9b30b0) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.022 (0x7ffdbb9b30b0) Debug: Output is not connected
+2020-01-22 15:24:34.025 (0x7ffdbb9b30b0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.025 (0x7ffdbb9b30b0) Debug: Output is not connected
+2020-01-22 15:24:34.053 (0x7ffdd7fb5ff0) Debug: No outputs have backlight property
+2020-01-22 15:24:34.053 (0x7ffe92610220) Debug: No outputs have backlight property
+2020-01-22 15:24:34.053 (0x7ffdd7fb5ff0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.053 (0x7ffdd7fb5ff0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.053 (0x7ffdd7fb5ff0) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.053 (0x7ffe92610220) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.053 (0x7ffe92610220) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.053 (0x7ffdd7fb5ff0) Debug: Output is not connected
+2020-01-22 15:24:34.054 (0x7ffe92610220) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.054 (0x7ffdd7fb5ff0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.054 (0x7ffe92610220) Debug: Output is not connected
+2020-01-22 15:24:34.054 (0x7ffe92610220) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.054 (0x7ffdd7fb5ff0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.054 (0x7ffdd7fb5ff0) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.055 (0x7ffdd7fb5ff0) Debug: Output is not connected
+2020-01-22 15:24:34.055 (0x7ffe92610220) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.055 (0x7ffdd7fb5ff0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.055 (0x7ffdd7fb5ff0) Debug: Output is not connected
+2020-01-22 15:24:34.055 (0x7ffe92610220) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.055 (0x7ffe92610220) Debug: Output is not connected
+2020-01-22 15:24:34.055 (0x7ffe92610220) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.055 (0x7ffe92610220) Debug: Output is not connected
+2020-01-22 15:24:34.187 (0x7ffe9f82f850) Debug: No outputs have backlight property
+2020-01-22 15:24:34.188 (0x7ffe9f82f850) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.188 (0x7ffe9f82f850) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.188 (0x7ffe9f82f850) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.188 (0x7ffe9f82f850) Debug: Output is not connected
+2020-01-22 15:24:34.188 (0x7ffe9f82f850) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.188 (0x7ffe9f82f850) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.188 (0x7ffe9f82f850) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.188 (0x7ffe9f82f850) Debug: Output is not connected
+2020-01-22 15:24:34.189 (0x7ffe9f82f850) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.189 (0x7ffe9f82f850) Debug: Output is not connected
+2020-01-22 15:24:34.220 (0x7ffd06a363b0) Debug: No outputs have backlight property
+2020-01-22 15:24:34.220 (0x7fffc3c0dfa0) Debug: No outputs have backlight property
+2020-01-22 15:24:34.220 (0x7ffeefec9170) Debug: No outputs have backlight property
+2020-01-22 15:24:34.220 (0x7ffd06a363b0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.220 (0x7ffd06a363b0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.220 (0x7ffd06a363b0) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.220 (0x7ffd06a363b0) Debug: Output is not connected
+2020-01-22 15:24:34.221 (0x7ffd06a363b0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.221 (0x7ffeefec9170) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.221 (0x7fffc3c0dfa0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.221 (0x7fffc3c0dfa0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.221 (0x7ffeefec9170) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.221 (0x7ffeefec9170) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.221 (0x7ffeefec9170) Debug: Output is not connected
+2020-01-22 15:24:34.221 (0x7fffc3c0dfa0) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.221 (0x7fffc3c0dfa0) Debug: Output is not connected
+2020-01-22 15:24:34.221 (0x7ffeefec9170) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.221 (0x7ffd06a363b0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.221 (0x7fffc3c0dfa0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.223 (0x7ffd06a363b0) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.223 (0x7ffd06a363b0) Debug: Output is not connected
+2020-01-22 15:24:34.223 (0x7ffeefec9170) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.223 (0x7fffc3c0dfa0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.223 (0x7ffd06a363b0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.223 (0x7ffeefec9170) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.223 (0x7fffc3c0dfa0) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.223 (0x7ffd06a363b0) Debug: Output is not connected
+2020-01-22 15:24:34.223 (0x7ffeefec9170) Debug: Output is not connected
+2020-01-22 15:24:34.223 (0x7fffc3c0dfa0) Debug: Output is not connected
+2020-01-22 15:24:34.223 (0x7fffc3c0dfa0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.223 (0x7ffeefec9170) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.223 (0x7fffc3c0dfa0) Debug: Output is not connected
+2020-01-22 15:24:34.223 (0x7ffeefec9170) Debug: Output is not connected
+2020-01-22 15:24:34.320 (0x7ffcb0837100) Debug: No outputs have backlight property
+2020-01-22 15:24:34.320 (0x7ffc3a488e30) Debug: No outputs have backlight property
+2020-01-22 15:24:34.320 (0x7ffc3a488e30) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.320 (0x7ffcb0837100) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.320 (0x7ffc3a488e30) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.320 (0x7ffcb0837100) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.321 (0x7ffcb0837100) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.321 (0x7ffcb0837100) Debug: Output is not connected
+2020-01-22 15:24:34.321 (0x7ffc3a488e30) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.321 (0x7ffc3a488e30) Debug: Output is not connected
+2020-01-22 15:24:34.323 (0x7ffcb0837100) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.323 (0x7ffc3a488e30) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.324 (0x7ffcb0837100) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.325 (0x7ffcb0837100) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.325 (0x7ffcb0837100) Debug: Output is not connected
+2020-01-22 15:24:34.325 (0x7ffcb0837100) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.325 (0x7ffcb0837100) Debug: Output is not connected
+2020-01-22 15:24:34.325 (0x7ffc3a488e30) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.326 (0x7ffc3a488e30) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.326 (0x7ffc3a488e30) Debug: Output is not connected
+2020-01-22 15:24:34.327 (0x7ffc3a488e30) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.327 (0x7ffc3a488e30) Debug: Output is not connected
+2020-01-22 15:24:34.459 (0x7ffd4fc26360) Debug: No outputs have backlight property
+2020-01-22 15:24:34.460 (0x7ffd4fc26360) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.460 (0x7ffd4fc26360) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.460 (0x7ffd4fc26360) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.460 (0x7ffd4fc26360) Debug: Output is not connected
+2020-01-22 15:24:34.460 (0x7ffd4fc26360) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.461 (0x7ffd4fc26360) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.461 (0x7ffd4fc26360) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.461 (0x7ffd4fc26360) Debug: Output is not connected
+2020-01-22 15:24:34.461 (0x7ffd4fc26360) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.461 (0x7ffd4fc26360) Debug: Output is not connected
+2020-01-22 15:24:34.486 (0x7fffe885df60) Debug: No outputs have backlight property
+2020-01-22 15:24:34.486 (0x7ffd2b76f5e0) Debug: No outputs have backlight property
+2020-01-22 15:24:34.486 (0x7ffc3e712140) Debug: No outputs have backlight property
+2020-01-22 15:24:34.486 (0x7ffe9feb7910) Debug: No outputs have backlight property
+2020-01-22 15:24:34.486 (0x7fffe885df60) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.486 (0x7ffd2b76f5e0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.486 (0x7fffe885df60) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.486 (0x7ffd2b76f5e0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.486 (0x7ffe9feb7910) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.487 (0x7ffc3e712140) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.487 (0x7ffe9feb7910) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.487 (0x7ffc3e712140) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.487 (0x7fffe885df60) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.487 (0x7ffc3e712140) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.487 (0x7fffe885df60) Debug: Output is not connected
+2020-01-22 15:24:34.487 (0x7ffd2b76f5e0) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.487 (0x7ffc3e712140) Debug: Output is not connected
+2020-01-22 15:24:34.487 (0x7ffd2b76f5e0) Debug: Output is not connected
+2020-01-22 15:24:34.487 (0x7ffe9feb7910) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.487 (0x7ffe9feb7910) Debug: Output is not connected
+2020-01-22 15:24:34.487 (0x7fffe885df60) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.488 (0x7ffe9feb7910) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.488 (0x7ffc3e712140) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.488 (0x7ffd2b76f5e0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.488 (0x7ffe9feb7910) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.488 (0x7ffc3e712140) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.488 (0x7ffe9feb7910) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.488 (0x7ffd2b76f5e0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.488 (0x7ffe9feb7910) Debug: Output is not connected
+2020-01-22 15:24:34.488 (0x7ffc3e712140) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.488 (0x7ffe9feb7910) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.489 (0x7fffe885df60) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.489 (0x7ffe9feb7910) Debug: Output is not connected
+2020-01-22 15:24:34.489 (0x7fffe885df60) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.489 (0x7fffe885df60) Debug: Output is not connected
+2020-01-22 15:24:34.489 (0x7ffd2b76f5e0) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.489 (0x7fffe885df60) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.489 (0x7ffd2b76f5e0) Debug: Output is not connected
+2020-01-22 15:24:34.489 (0x7fffe885df60) Debug: Output is not connected
+2020-01-22 15:24:34.489 (0x7ffd2b76f5e0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.489 (0x7ffd2b76f5e0) Debug: Output is not connected
+2020-01-22 15:24:34.489 (0x7ffc3e712140) Debug: Output is not connected
+2020-01-22 15:24:34.490 (0x7ffc3e712140) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.490 (0x7ffc3e712140) Debug: Output is not connected
+2020-01-22 15:24:34.520 (0x7ffcf926b130) Debug: No outputs have backlight property
+2020-01-22 15:24:34.520 (0x7ffc84b42210) Debug: No outputs have backlight property
+2020-01-22 15:24:34.524 (0x7ffc84b42210) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.524 (0x7ffcf926b130) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.524 (0x7ffc84b42210) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.524 (0x7ffcf926b130) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.553 (0x7ffcf926b130) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.553 (0x7ffc84b42210) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.553 (0x7ffcf926b130) Debug: Output is not connected
+2020-01-22 15:24:34.553 (0x7ffc84b42210) Debug: Output is not connected
+2020-01-22 15:24:34.586 (0x7ffcf926b130) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.586 (0x7ffc84b42210) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.620 (0x7ffc8d998b80) Debug: No outputs have backlight property
+2020-01-22 15:24:34.620 (0x7ffc84b42210) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.620 (0x7ffcf926b130) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.620 (0x7ffc8d998b80) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.620 (0x7ffc8d998b80) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.621 (0x7ffcf926b130) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.621 (0x7ffc84b42210) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.621 (0x7ffcf926b130) Debug: Output is not connected
+2020-01-22 15:24:34.621 (0x7ffc84b42210) Debug: Output is not connected
+2020-01-22 15:24:34.621 (0x7ffc8d998b80) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.621 (0x7ffc8d998b80) Debug: Output is not connected
+2020-01-22 15:24:34.621 (0x7ffc84b42210) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.621 (0x7ffcf926b130) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.621 (0x7ffc84b42210) Debug: Output is not connected
+2020-01-22 15:24:34.621 (0x7ffcf926b130) Debug: Output is not connected
+2020-01-22 15:24:34.621 (0x7ffc8d998b80) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.622 (0x7ffc8d998b80) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.622 (0x7ffc8d998b80) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.623 (0x7ffc8d998b80) Debug: Output is not connected
+2020-01-22 15:24:34.653 (0x7ffc8d998b80) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.653 (0x7ffc8d998b80) Debug: Output is not connected
+2020-01-22 15:24:34.769 (0x7ffc3a656770) Debug: No outputs have backlight property
+2020-01-22 15:24:34.769 (0x7ffc3a656770) Debug: Found output: "eDP-1"
+2020-01-22 15:24:34.769 (0x7ffc3a656770) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:34.770 (0x7ffc3a656770) Debug: Found output: "DP-1"
+2020-01-22 15:24:34.770 (0x7ffc3a656770) Debug: Output is not connected
+2020-01-22 15:24:34.770 (0x7ffc3a656770) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:34.770 (0x7ffc3a656770) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:34.770 (0x7ffc3a656770) Debug: Found output: "DP-2"
+2020-01-22 15:24:34.770 (0x7ffc3a656770) Debug: Output is not connected
+2020-01-22 15:24:34.770 (0x7ffc3a656770) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:34.770 (0x7ffc3a656770) Debug: Output is not connected
+2020-01-22 15:24:36.676 (0x7ffd6133f510) Debug: No outputs have backlight property
+2020-01-22 15:24:36.676 (0x7ffd6133f510) Debug: Found output: "eDP-1"
+2020-01-22 15:24:36.676 (0x7ffd6133f510) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:36.677 (0x7ffd6133f510) Debug: Found output: "DP-1"
+2020-01-22 15:24:36.677 (0x7ffd6133f510) Debug: Output is not connected
+2020-01-22 15:24:36.677 (0x7ffd6133f510) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:36.677 (0x7ffd6133f510) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:36.677 (0x7ffd6133f510) Debug: Found output: "DP-2"
+2020-01-22 15:24:36.677 (0x7ffd6133f510) Debug: Output is not connected
+2020-01-22 15:24:36.678 (0x7ffd6133f510) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:36.678 (0x7ffd6133f510) Debug: Output is not connected
+2020-01-22 15:24:36.858 (0x7ffe215a76c0) Debug: No outputs have backlight property
+2020-01-22 15:24:36.858 (0x7ffe215a76c0) Debug: Found output: "eDP-1"
+2020-01-22 15:24:36.858 (0x7ffe215a76c0) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:36.858 (0x7ffe215a76c0) Debug: Found output: "DP-1"
+2020-01-22 15:24:36.858 (0x7ffe215a76c0) Debug: Output is not connected
+2020-01-22 15:24:36.859 (0x7ffe215a76c0) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:36.859 (0x7ffe215a76c0) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:36.859 (0x7ffe215a76c0) Debug: Found output: "DP-2"
+2020-01-22 15:24:36.859 (0x7ffe215a76c0) Debug: Output is not connected
+2020-01-22 15:24:36.859 (0x7ffe215a76c0) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:36.859 (0x7ffe215a76c0) Debug: Output is not connected
+2020-01-22 15:24:37.024 (0x7ffd2a38c010) Debug: No outputs have backlight property
+2020-01-22 15:24:37.024 (0x7ffd2a38c010) Debug: Found output: "eDP-1"
+2020-01-22 15:24:37.024 (0x7ffd2a38c010) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:37.025 (0x7ffd2a38c010) Debug: Found output: "DP-1"
+2020-01-22 15:24:37.025 (0x7ffd2a38c010) Debug: Output is not connected
+2020-01-22 15:24:37.025 (0x7ffd2a38c010) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:37.025 (0x7ffd2a38c010) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:37.025 (0x7ffd2a38c010) Debug: Found output: "DP-2"
+2020-01-22 15:24:37.025 (0x7ffd2a38c010) Debug: Output is not connected
+2020-01-22 15:24:37.025 (0x7ffd2a38c010) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:37.025 (0x7ffd2a38c010) Debug: Output is not connected
+2020-01-22 15:24:38.682 (0x7ffcc101ea60) Debug: No outputs have backlight property
+2020-01-22 15:24:38.683 (0x7ffcc101ea60) Debug: Found output: "eDP-1"
+2020-01-22 15:24:38.683 (0x7ffcc101ea60) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:38.683 (0x7ffcc101ea60) Debug: Found output: "DP-1"
+2020-01-22 15:24:38.683 (0x7ffcc101ea60) Debug: Output is not connected
+2020-01-22 15:24:38.683 (0x7ffcc101ea60) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:38.684 (0x7ffcc101ea60) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:38.684 (0x7ffcc101ea60) Debug: Found output: "DP-2"
+2020-01-22 15:24:38.684 (0x7ffcc101ea60) Debug: Output is not connected
+2020-01-22 15:24:38.684 (0x7ffcc101ea60) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:38.684 (0x7ffcc101ea60) Debug: Output is not connected
+2020-01-22 15:24:39.361 (0x7ffc41fd3660) Debug: No outputs have backlight property
+2020-01-22 15:24:39.361 (0x7ffc41fd3660) Debug: Found output: "eDP-1"
+2020-01-22 15:24:39.361 (0x7ffc41fd3660) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:24:39.361 (0x7ffc41fd3660) Debug: Found output: "DP-1"
+2020-01-22 15:24:39.361 (0x7ffc41fd3660) Debug: Output is not connected
+2020-01-22 15:24:39.361 (0x7ffc41fd3660) Debug: Found output: "HDMI-1"
+2020-01-22 15:24:39.362 (0x7ffc41fd3660) Debug: Output: "HDMI-1" added
+2020-01-22 15:24:39.362 (0x7ffc41fd3660) Debug: Found output: "DP-2"
+2020-01-22 15:24:39.362 (0x7ffc41fd3660) Debug: Output is not connected
+2020-01-22 15:24:39.362 (0x7ffc41fd3660) Debug: Found output: "HDMI-2"
+2020-01-22 15:24:39.362 (0x7ffc41fd3660) Debug: Output is not connected
+2020-01-22 15:47:55.853 (0x7ffd7d56e130) Debug: No outputs have backlight property
+2020-01-22 15:47:55.853 (0x7ffd7d56e130) Debug: Found output: "eDP-1"
+2020-01-22 15:47:55.853 (0x7ffd7d56e130) Debug: Crtc is not null. Output not enabled.
+2020-01-22 15:47:55.853 (0x7ffd7d56e130) Debug: Found output: "DP-1"
+2020-01-22 15:47:55.853 (0x7ffd7d56e130) Debug: Output is not connected
+2020-01-22 15:47:55.854 (0x7ffd7d56e130) Debug: Found output: "HDMI-1"
+2020-01-22 15:47:55.854 (0x7ffd7d56e130) Debug: Output: "HDMI-1" added
+2020-01-22 15:47:55.854 (0x7ffd7d56e130) Debug: Found output: "DP-2"
+2020-01-22 15:47:55.854 (0x7ffd7d56e130) Debug: Output is not connected
+2020-01-22 15:47:55.854 (0x7ffd7d56e130) Debug: Found output: "HDMI-2"
+2020-01-22 15:47:55.855 (0x7ffd7d56e130) Debug: Output is not connected
+2020-01-22 15:51:41.763 (0x7ffda31e5f90) Warning: The X11 connection broke (error 1). Did the X11 server die?
+2020-01-22 15:51:41.767 (0x7fff990cda70) Warning: The X11 connection broke (error 1). Did the X11 server die?
+2020-01-22 15:51:41.767 (0x7ffda45156b0) Warning: The X11 connection broke (error 1). Did the X11 server die?
+2020-01-22 15:52:37.673 (0x7ffd176490d0) Debug: New PolkitAgentListener  0x558c0a299aa0
+2020-01-22 15:52:37.674 (0x7ffd176490d0) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffd176490e0) for  0x558c0a299aa0
+2020-01-22 15:52:38.078 (0x7fff730a6d90) Warning: Icon theme "elementary" not found.
+2020-01-22 15:52:38.098 (0x7fff730a6d90) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 15:52:38.099 (0x7fff730a6d90) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 15:52:38.099 (0x7fff730a6d90) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 15:52:38.105 (0x7fff730a6d90) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 15:52:38.406 (0x7fff6d5de800) Warning: Icon theme "elementary" not found.
+2020-01-22 15:52:41.358 (0x7fff6d5de800) Debug: ()
+2020-01-22 15:52:41.988 (0x7fff6d5de800) Debug: WinIdChange 1600008 handle QWidgetWindow(0x55621b69ef80, name="LXQtPanel panel1Window") QScreen(0x55621b40adf0, name="eDP-1")
+2020-01-22 15:52:42.006 (0x7fff6d5de800) Debug: Systray started
+2020-01-22 15:52:42.163 (0x7ffe2c01a720) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 15:52:42.171 (0x7ffe2c01a720) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 15:52:42.227 (0x7ffe6340e910) Debug: Inhibit got: 18
+2020-01-22 15:52:42.228 (0x7ffe6340e910) Debug: Starting idlenesswatcher
+2020-01-22 15:52:43.119 (0x7fff6d5de800) Debug: Unknown property margin-button
+2020-01-22 15:52:43.119 (0x7fff6d5de800) Debug: Unknown property margin-button
+2020-01-22 15:52:43.119 (0x7fff6d5de800) Debug: Unknown property margin-button
+2020-01-22 15:52:43.187 (0x7fff006d5df0) Warning: Icon theme "elementary" not found.
+2020-01-22 15:53:04.415 (0x7fff6d5de800) Warning: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1618, resource id: 12583022, major code: 18 (ChangeProperty), minor code: 0
+2020-01-22 16:00:18.251 (0x7ffcc0b5a250) Warning: Icon theme "elementary" not found.
+2020-01-22 16:00:42.132 (0x7fffc2bd2690) Warning: Icon theme "elementary" not found.
+2020-01-22 16:01:08.214 (0x7fffc2bd2690) Debug: ("usermod", "-d", "/home/c", "-c", "c", "-l", "c", "viktor_mitin")
+2020-01-22 16:01:08.244 (0x7ffd176490d0) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+2020-01-22 16:01:08.244 (0x7ffd176490d0) Debug: GSimpleAsyncResult: 0x558c0a354200
+2020-01-22 16:01:08.244 (0x7ffd176490d0) Debug: polkit_qt_listener_initiate_authentication callback for  0x558c0a299aa0
+2020-01-22 16:01:08.253 (0x7ffd176490d0) Warning: Icon theme "elementary" not found.
+2020-01-22 16:01:08.266 (0x7ffd176490d0) Debug: REQUEST
+2020-01-22 16:01:14.440 (0x7ffd176490d0) Debug: COMPLETED
+2020-01-22 16:01:14.440 (0x7ffd176490d0) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+2020-01-22 16:01:14.440 (0x7ffd176490d0) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x558c0a299aa0
+2020-01-22 16:01:14.468 (0x7fffc2bd2690) Debug: "usermod: user viktor_mitin is currently used by process 1108\n"
+2020-01-22 16:02:30.250 (0x7fffc2bd2690) Debug: ("passwd", "viktor_mitin")
+2020-01-22 16:02:30.332 (0x7fffc2bd2690) Debug: "New password: Retype new password: passwd: password updated successfully\n"
+2020-01-22 16:02:50.287 (0x7fffc2bd2690) Debug: ("usermod", "-d", "/home/c", "-c", "c", "-l", "c", "viktor_mitin")
+2020-01-22 16:02:50.326 (0x7fffc2bd2690) Debug: "usermod: user viktor_mitin is currently used by process 1108\n"
+2020-01-22 16:03:49.917 (0x7ffc44d2d940) Warning: Icon theme "elementary" not found.
+2020-01-22 16:04:16.388 (0x7ffc46e56e10) Warning: Icon theme "elementary" not found.
+2020-01-22 16:08:49.413 (0x7fff91e25d70) Warning: Icon theme "elementary" not found.
+2020-01-22 16:10:35.978 (0x7fff6d5de800) Debug: Service "org.freedesktop.StatusNotifierItem-1241-1" unregistered
+2020-01-22 16:10:35.981 (0x7fff6d5de800) Debug: Service "org.freedesktop.StatusNotifierItem-1321-1" unregistered
+2020-01-22 16:10:35.981 (0x7fff6d5de800) Debug: Service "org.freedesktop.StatusNotifierItem-1323-1" unregistered
+2020-01-22 16:10:36.018 (0x7fff6d5de800) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-22 16:10:38.025 (0x7ffe2c01a720) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-22 16:10:38.026 (0x7ffe2c01a720) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-22 16:11:24.817 (0x7ffe52df9cf0) Warning: Icon theme "elementary" not found.
+2020-01-22 16:11:24.838 (0x7ffe52df9cf0) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 16:11:24.838 (0x7ffe52df9cf0) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 16:11:24.839 (0x7ffe52df9cf0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 16:11:24.844 (0x7ffe52df9cf0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 16:11:25.077 (0x7ffcc919f410) Warning: Icon theme "elementary" not found.
+2020-01-22 16:11:25.746 (0x7fff188f8dd0) Debug: New PolkitAgentListener  0x557f21d74ea0
+2020-01-22 16:11:25.746 (0x7fff188f8dd0) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fff188f8de0) for  0x557f21d74ea0
+2020-01-22 16:11:28.107 (0x7ffcc919f410) Debug: ()
+2020-01-22 16:11:28.755 (0x7ffcc919f410) Debug: WinIdChange 1200008 handle QWidgetWindow(0x55c71fe4e1e0, name="LXQtPanel panel1Window") QScreen(0x55c71fbb9d70, name="eDP-1")
+2020-01-22 16:11:28.807 (0x7ffcc919f410) Debug: Systray started
+2020-01-22 16:11:29.024 (0x7fff7a17fea0) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 16:11:29.035 (0x7fff7a17fea0) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 16:11:29.355 (0x7ffcdf8072d0) Debug: Inhibit got: 18
+2020-01-22 16:11:29.356 (0x7ffcdf8072d0) Debug: Starting idlenesswatcher
+2020-01-22 16:11:29.942 (0x7ffcc919f410) Debug: Unknown property margin-button
+2020-01-22 16:11:29.942 (0x7ffcc919f410) Debug: Unknown property margin-button
+2020-01-22 16:11:29.942 (0x7ffcc919f410) Debug: Unknown property margin-button
+2020-01-22 16:11:30.051 (0x7ffd822029b0) Warning: Icon theme "elementary" not found.
+2020-01-22 16:16:12.021 (0x7ffcc919f410) Debug: Service "org.freedesktop.StatusNotifierItem-1388-1" unregistered
+2020-01-22 16:16:12.047 (0x7ffcc919f410) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-22 16:16:14.117 (0x7fff7a17fea0) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-22 16:16:14.118 (0x7fff7a17fea0) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-22 16:17:25.073 (0x7ffc12e5f7f0) Debug: New PolkitAgentListener  0x562ae45d28a0
+2020-01-22 16:17:25.074 (0x7ffc12e5f7f0) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffc12e5f800) for  0x562ae45d28a0
+2020-01-22 16:17:25.475 (0x7ffdb0bf4760) Warning: Icon theme "elementary" not found.
+2020-01-22 16:17:25.495 (0x7ffdb0bf4760) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 16:17:25.495 (0x7ffdb0bf4760) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 16:17:25.496 (0x7ffdb0bf4760) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 16:17:25.501 (0x7ffdb0bf4760) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 16:17:25.702 (0x7ffe2cf8f480) Warning: Icon theme "elementary" not found.
+2020-01-22 16:17:27.165 (0x7ffe2cf8f480) Debug: ()
+2020-01-22 16:17:28.731 (0x7ffe2cf8f480) Debug: WinIdChange 1200008 handle QWidgetWindow(0x558103504660, name="LXQtPanel panel1Window") QScreen(0x55810326fda0, name="eDP-1")
+2020-01-22 16:17:29.398 (0x7ffe2cf8f480) Debug: Systray started
+2020-01-22 16:17:29.589 (0x7ffc0ff1b6d0) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 16:17:29.597 (0x7ffc0ff1b6d0) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 16:17:30.026 (0x7ffe2c0e5830) Debug: Inhibit got: 18
+2020-01-22 16:17:30.027 (0x7ffe2c0e5830) Debug: Starting idlenesswatcher
+2020-01-22 16:17:30.511 (0x7ffe2cf8f480) Debug: Unknown property margin-button
+2020-01-22 16:17:30.512 (0x7ffe2cf8f480) Debug: Unknown property margin-button
+2020-01-22 16:17:30.512 (0x7ffe2cf8f480) Debug: Unknown property margin-button
+2020-01-22 16:17:31.028 (0x7fff7209d520) Warning: Icon theme "elementary" not found.
+2020-01-22 16:19:17.279 (0x7ffe2cf8f480) Debug: Unknown property margin-button
+2020-01-22 16:19:17.279 (0x7ffe2cf8f480) Debug: Unknown property margin-button
+2020-01-22 16:19:17.280 (0x7ffe2cf8f480) Debug: Unknown property margin-button
+2020-01-22 16:25:52.661 (0x7ffe2cf8f480) Debug: Service "org.freedesktop.StatusNotifierItem-1367-1" unregistered
+2020-01-22 16:25:52.668 (0x7ffe2cf8f480) Debug: Service "org.freedesktop.StatusNotifierItem-1243-1" unregistered
+2020-01-22 16:25:52.669 (0x7ffe2cf8f480) Debug: Service "org.freedesktop.StatusNotifierItem-1365-1" unregistered
+2020-01-22 16:25:52.694 (0x7ffe2cf8f480) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-22 16:25:54.714 (0x7ffc0ff1b6d0) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-22 16:25:54.714 (0x7ffc0ff1b6d0) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-22 16:29:00.226 (0x7ffd35c16060) Warning: Icon theme "elementary" not found.
+2020-01-22 16:29:00.262 (0x7ffda49c7220) Debug: New PolkitAgentListener  0x56443e4be6a0
+2020-01-22 16:29:00.262 (0x7ffda49c7220) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffda49c7230) for  0x56443e4be6a0
+2020-01-22 16:29:00.999 (0x7ffc28ab0ae0) Warning: Icon theme "elementary" not found.
+2020-01-22 16:29:01.008 (0x7ffc28ab0ae0) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 16:29:01.009 (0x7ffc28ab0ae0) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 16:29:01.010 (0x7ffc28ab0ae0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 16:29:01.016 (0x7ffc28ab0ae0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 16:29:01.714 (0x7ffd35c16060) Debug: ()
+2020-01-22 16:29:03.280 (0x7ffd35c16060) Debug: WinIdChange 1200007 handle QWidgetWindow(0x55aa399a9a40, name="LXQtPanel panel1Window") QScreen(0x55aa3972cdc0, name="eDP-1")
+2020-01-22 16:29:03.326 (0x7ffd35c16060) Debug: Systray started
+2020-01-22 16:29:04.064 (0x7ffe38dea320) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 16:29:04.070 (0x7ffe38dea320) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 16:29:04.529 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:29:04.529 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:29:04.530 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:29:05.144 (0x7ffd86ff8470) Warning: Icon theme "elementary" not found.
+2020-01-22 16:29:05.217 (0x7ffe1c8a6b30) Debug: Inhibit got: 18
+2020-01-22 16:29:05.218 (0x7ffe1c8a6b30) Debug: Starting idlenesswatcher
+2020-01-22 16:33:45.728 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:33:45.728 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:33:45.728 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:34:40.726 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:34:40.726 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:34:40.726 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:35:10.239 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:35:10.240 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:35:10.240 (0x7ffd35c16060) Debug: Unknown property margin-button
+2020-01-22 16:36:02.634 (0x7ffd35c16060) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2020-01-22 16:38:03.642 (0x7ffec605e270) Warning: Icon theme "elementary" not found.
+2020-01-22 16:38:03.753 (0x7ffec605e270) Debug: Connecting to KScreen...
+2020-01-22 16:38:03.769 (0x7ffec605e270) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 16:38:03.769 (0x7ffec605e270) Debug: Width x Height 5.18219 x 3.33849
+2020-01-22 16:38:11.297 (0x7ffec605e270) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 16:38:17.045 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:38:25.931 (0x7ffcede0e690) Debug: No outputs have backlight property
+2020-01-22 16:38:25.931 (0x7ffcede0e690) Debug: Found output: "eDP-1"
+2020-01-22 16:38:25.931 (0x7ffcede0e690) Debug: Output: "eDP-1" added
+2020-01-22 16:38:25.932 (0x7ffcede0e690) Debug: Found output: "DP-1"
+2020-01-22 16:38:25.932 (0x7ffcede0e690) Debug: Output is not connected
+2020-01-22 16:38:25.932 (0x7ffcede0e690) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:25.932 (0x7ffcede0e690) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:25.933 (0x7ffcede0e690) Debug: Found output: "DP-2"
+2020-01-22 16:38:25.933 (0x7ffcede0e690) Debug: Output is not connected
+2020-01-22 16:38:25.933 (0x7ffcede0e690) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:25.933 (0x7ffcede0e690) Debug: Output is not connected
+2020-01-22 16:38:26.115 (0x7fff260e3a80) Debug: No outputs have backlight property
+2020-01-22 16:38:26.115 (0x7fff260e3a80) Debug: Found output: "eDP-1"
+2020-01-22 16:38:26.115 (0x7fff260e3a80) Debug: Output: "eDP-1" added
+2020-01-22 16:38:26.115 (0x7fff260e3a80) Debug: Found output: "DP-1"
+2020-01-22 16:38:26.115 (0x7fff260e3a80) Debug: Output is not connected
+2020-01-22 16:38:26.115 (0x7fff260e3a80) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:26.116 (0x7fff260e3a80) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:26.116 (0x7fff260e3a80) Debug: Found output: "DP-2"
+2020-01-22 16:38:26.116 (0x7fff260e3a80) Debug: Output is not connected
+2020-01-22 16:38:26.116 (0x7fff260e3a80) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:26.116 (0x7fff260e3a80) Debug: Output is not connected
+2020-01-22 16:38:26.258 (0x7fff82648150) Debug: No outputs have backlight property
+2020-01-22 16:38:26.259 (0x7fff82648150) Debug: Found output: "eDP-1"
+2020-01-22 16:38:26.259 (0x7fff82648150) Debug: Output: "eDP-1" added
+2020-01-22 16:38:26.259 (0x7fff82648150) Debug: Found output: "DP-1"
+2020-01-22 16:38:26.260 (0x7fff82648150) Debug: Output is not connected
+2020-01-22 16:38:26.260 (0x7fff82648150) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:26.260 (0x7fff82648150) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:26.260 (0x7fff82648150) Debug: Found output: "DP-2"
+2020-01-22 16:38:26.260 (0x7fff82648150) Debug: Output is not connected
+2020-01-22 16:38:26.260 (0x7fff82648150) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:26.260 (0x7fff82648150) Debug: Output is not connected
+2020-01-22 16:38:26.427 (0x7ffd1729e4d0) Debug: No outputs have backlight property
+2020-01-22 16:38:26.428 (0x7ffd1729e4d0) Debug: Found output: "eDP-1"
+2020-01-22 16:38:26.428 (0x7ffd1729e4d0) Debug: Output: "eDP-1" added
+2020-01-22 16:38:26.428 (0x7ffd1729e4d0) Debug: Found output: "DP-1"
+2020-01-22 16:38:26.428 (0x7ffd1729e4d0) Debug: Output is not connected
+2020-01-22 16:38:26.428 (0x7ffd1729e4d0) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:26.428 (0x7ffd1729e4d0) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:26.429 (0x7ffd1729e4d0) Debug: Found output: "DP-2"
+2020-01-22 16:38:26.429 (0x7ffd1729e4d0) Debug: Output is not connected
+2020-01-22 16:38:26.429 (0x7ffd1729e4d0) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:26.429 (0x7ffd1729e4d0) Debug: Output is not connected
+2020-01-22 16:38:26.593 (0x7ffecbc0fa50) Debug: No outputs have backlight property
+2020-01-22 16:38:26.593 (0x7ffecbc0fa50) Debug: Found output: "eDP-1"
+2020-01-22 16:38:26.593 (0x7ffecbc0fa50) Debug: Output: "eDP-1" added
+2020-01-22 16:38:26.593 (0x7ffecbc0fa50) Debug: Found output: "DP-1"
+2020-01-22 16:38:26.593 (0x7ffecbc0fa50) Debug: Output is not connected
+2020-01-22 16:38:26.594 (0x7ffecbc0fa50) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:26.594 (0x7ffecbc0fa50) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:26.594 (0x7ffecbc0fa50) Debug: Found output: "DP-2"
+2020-01-22 16:38:26.594 (0x7ffecbc0fa50) Debug: Output is not connected
+2020-01-22 16:38:26.594 (0x7ffecbc0fa50) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:26.594 (0x7ffecbc0fa50) Debug: Output is not connected
+2020-01-22 16:38:26.767 (0x7ffc26c5ff40) Debug: No outputs have backlight property
+2020-01-22 16:38:26.767 (0x7ffc26c5ff40) Debug: Found output: "eDP-1"
+2020-01-22 16:38:26.767 (0x7ffc26c5ff40) Debug: Output: "eDP-1" added
+2020-01-22 16:38:26.767 (0x7ffc26c5ff40) Debug: Found output: "DP-1"
+2020-01-22 16:38:26.767 (0x7ffc26c5ff40) Debug: Output is not connected
+2020-01-22 16:38:26.768 (0x7ffc26c5ff40) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:26.768 (0x7ffc26c5ff40) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:26.768 (0x7ffc26c5ff40) Debug: Found output: "DP-2"
+2020-01-22 16:38:26.768 (0x7ffc26c5ff40) Debug: Output is not connected
+2020-01-22 16:38:26.768 (0x7ffc26c5ff40) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:26.768 (0x7ffc26c5ff40) Debug: Output is not connected
+2020-01-22 16:38:26.949 (0x7fff2bc766d0) Debug: No outputs have backlight property
+2020-01-22 16:38:26.949 (0x7fff2bc766d0) Debug: Found output: "eDP-1"
+2020-01-22 16:38:26.949 (0x7fff2bc766d0) Debug: Output: "eDP-1" added
+2020-01-22 16:38:26.949 (0x7fff2bc766d0) Debug: Found output: "DP-1"
+2020-01-22 16:38:26.950 (0x7fff2bc766d0) Debug: Output is not connected
+2020-01-22 16:38:26.950 (0x7fff2bc766d0) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:26.950 (0x7fff2bc766d0) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:26.950 (0x7fff2bc766d0) Debug: Found output: "DP-2"
+2020-01-22 16:38:26.950 (0x7fff2bc766d0) Debug: Output is not connected
+2020-01-22 16:38:26.950 (0x7fff2bc766d0) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:26.950 (0x7fff2bc766d0) Debug: Output is not connected
+2020-01-22 16:38:27.439 (0x7ffe76866100) Debug: No outputs have backlight property
+2020-01-22 16:38:27.439 (0x7ffe76866100) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.440 (0x7ffe76866100) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.440 (0x7ffe76866100) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.440 (0x7ffe76866100) Debug: Output is not connected
+2020-01-22 16:38:27.440 (0x7ffe76866100) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.440 (0x7ffe76866100) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.440 (0x7ffe76866100) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.440 (0x7ffe76866100) Debug: Output is not connected
+2020-01-22 16:38:27.440 (0x7ffe76866100) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.441 (0x7ffe76866100) Debug: Output is not connected
+2020-01-22 16:38:27.481 (0x7ffc9637d6d0) Debug: No outputs have backlight property
+2020-01-22 16:38:27.481 (0x7ffc9637d6d0) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.481 (0x7ffc9637d6d0) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.482 (0x7ffc9637d6d0) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.482 (0x7ffc9637d6d0) Debug: Output is not connected
+2020-01-22 16:38:27.482 (0x7ffc9637d6d0) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.483 (0x7ffc9637d6d0) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.483 (0x7ffc9637d6d0) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.483 (0x7ffc9637d6d0) Debug: Output is not connected
+2020-01-22 16:38:27.483 (0x7ffc9637d6d0) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.483 (0x7ffc9637d6d0) Debug: Output is not connected
+2020-01-22 16:38:27.553 (0x7fff616ec360) Debug: No outputs have backlight property
+2020-01-22 16:38:27.553 (0x7fff616ec360) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.553 (0x7fff616ec360) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.553 (0x7fff616ec360) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.554 (0x7fff616ec360) Debug: Output is not connected
+2020-01-22 16:38:27.554 (0x7fff616ec360) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.554 (0x7fff616ec360) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.554 (0x7fff616ec360) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.554 (0x7fff616ec360) Debug: Output is not connected
+2020-01-22 16:38:27.554 (0x7fff616ec360) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.554 (0x7fff616ec360) Debug: Output is not connected
+2020-01-22 16:38:27.554 (0x7fffb3d68c40) Debug: No outputs have backlight property
+2020-01-22 16:38:27.554 (0x7fffb3d68c40) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Output is not connected
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Output is not connected
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.555 (0x7fffb3d68c40) Debug: Output is not connected
+2020-01-22 16:38:27.567 (0x7ffe2d7cb860) Debug: No outputs have backlight property
+2020-01-22 16:38:27.567 (0x7ffe2d7cb860) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.567 (0x7ffe2d7cb860) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.567 (0x7ffe2d7cb860) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.568 (0x7ffe2d7cb860) Debug: Output is not connected
+2020-01-22 16:38:27.568 (0x7ffe2d7cb860) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.568 (0x7ffe2d7cb860) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.568 (0x7ffe2d7cb860) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.568 (0x7ffe2d7cb860) Debug: Output is not connected
+2020-01-22 16:38:27.568 (0x7ffe2d7cb860) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.568 (0x7ffe2d7cb860) Debug: Output is not connected
+2020-01-22 16:38:27.591 (0x7ffe900474a0) Debug: No outputs have backlight property
+2020-01-22 16:38:27.591 (0x7ffe900474a0) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.592 (0x7ffe900474a0) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.592 (0x7ffe900474a0) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.592 (0x7ffe900474a0) Debug: Output is not connected
+2020-01-22 16:38:27.592 (0x7ffe900474a0) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.592 (0x7ffe900474a0) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.592 (0x7ffe900474a0) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.593 (0x7ffe900474a0) Debug: Output is not connected
+2020-01-22 16:38:27.593 (0x7ffe900474a0) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.593 (0x7ffe900474a0) Debug: Output is not connected
+2020-01-22 16:38:27.612 (0x7ffec17a4bf0) Debug: No outputs have backlight property
+2020-01-22 16:38:27.612 (0x7ffec17a4bf0) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.612 (0x7ffec17a4bf0) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.613 (0x7ffec17a4bf0) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.613 (0x7ffec17a4bf0) Debug: Output is not connected
+2020-01-22 16:38:27.613 (0x7ffec17a4bf0) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.613 (0x7ffec17a4bf0) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.613 (0x7ffec17a4bf0) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.613 (0x7ffec17a4bf0) Debug: Output is not connected
+2020-01-22 16:38:27.613 (0x7ffec17a4bf0) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.613 (0x7ffec17a4bf0) Debug: Output is not connected
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: No outputs have backlight property
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Output is not connected
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Output is not connected
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.641 (0x7fffec6e2300) Debug: Output is not connected
+2020-01-22 16:38:27.666 (0x7ffe5d20d240) Debug: No outputs have backlight property
+2020-01-22 16:38:27.666 (0x7ffe5d20d240) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.666 (0x7ffe5d20d240) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.666 (0x7ffe5d20d240) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.666 (0x7ffe5d20d240) Debug: Output is not connected
+2020-01-22 16:38:27.666 (0x7ffe5d20d240) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.667 (0x7ffe5d20d240) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.667 (0x7ffe5d20d240) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.667 (0x7ffe5d20d240) Debug: Output is not connected
+2020-01-22 16:38:27.667 (0x7ffe5d20d240) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.667 (0x7ffe5d20d240) Debug: Output is not connected
+2020-01-22 16:38:27.696 (0x7ffe7cdd4960) Debug: No outputs have backlight property
+2020-01-22 16:38:27.696 (0x7ffe7cdd4960) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.696 (0x7ffe7cdd4960) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.696 (0x7ffe7cdd4960) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.696 (0x7ffe7cdd4960) Debug: Output is not connected
+2020-01-22 16:38:27.696 (0x7ffe7cdd4960) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.696 (0x7ffe7cdd4960) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.696 (0x7ffe7cdd4960) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.697 (0x7ffe7cdd4960) Debug: Output is not connected
+2020-01-22 16:38:27.697 (0x7ffe7cdd4960) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.697 (0x7ffe7cdd4960) Debug: Output is not connected
+2020-01-22 16:38:27.726 (0x7ffd06086de0) Debug: No outputs have backlight property
+2020-01-22 16:38:27.726 (0x7ffd06086de0) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.726 (0x7ffd06086de0) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.726 (0x7ffd06086de0) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.726 (0x7ffd06086de0) Debug: Output is not connected
+2020-01-22 16:38:27.726 (0x7ffd06086de0) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.726 (0x7ffd06086de0) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.727 (0x7ffd06086de0) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.727 (0x7ffd06086de0) Debug: Output is not connected
+2020-01-22 16:38:27.727 (0x7ffd06086de0) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.727 (0x7ffd06086de0) Debug: Output is not connected
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: No outputs have backlight property
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: Output is not connected
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.757 (0x7ffc52389520) Debug: Output is not connected
+2020-01-22 16:38:27.758 (0x7ffc52389520) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.758 (0x7ffc52389520) Debug: Output is not connected
+2020-01-22 16:38:27.788 (0x7ffd7d56f410) Debug: No outputs have backlight property
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Output is not connected
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Output is not connected
+2020-01-22 16:38:27.789 (0x7ffd7d56f410) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.790 (0x7ffd7d56f410) Debug: Output is not connected
+2020-01-22 16:38:27.818 (0x7fff45ba7630) Debug: No outputs have backlight property
+2020-01-22 16:38:27.818 (0x7fff45ba7630) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.818 (0x7fff45ba7630) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.818 (0x7fff45ba7630) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.818 (0x7fff45ba7630) Debug: Output is not connected
+2020-01-22 16:38:27.818 (0x7fff45ba7630) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.818 (0x7fff45ba7630) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.819 (0x7fff45ba7630) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.819 (0x7fff45ba7630) Debug: Output is not connected
+2020-01-22 16:38:27.819 (0x7fff45ba7630) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.819 (0x7fff45ba7630) Debug: Output is not connected
+2020-01-22 16:38:27.846 (0x7ffc1a2d5fb0) Debug: No outputs have backlight property
+2020-01-22 16:38:27.846 (0x7ffc1a2d5fb0) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Output is not connected
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Output is not connected
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.847 (0x7ffc1a2d5fb0) Debug: Output is not connected
+2020-01-22 16:38:27.873 (0x7ffd6f82b880) Debug: No outputs have backlight property
+2020-01-22 16:38:27.873 (0x7ffd6f82b880) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Output is not connected
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Output is not connected
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.874 (0x7ffd6f82b880) Debug: Output is not connected
+2020-01-22 16:38:27.907 (0x7ffc96a64b80) Debug: No outputs have backlight property
+2020-01-22 16:38:27.907 (0x7ffc96a64b80) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.907 (0x7ffc96a64b80) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.907 (0x7ffc96a64b80) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.907 (0x7ffc96a64b80) Debug: Output is not connected
+2020-01-22 16:38:27.907 (0x7ffc96a64b80) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.908 (0x7ffc96a64b80) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.908 (0x7ffc96a64b80) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.908 (0x7ffc96a64b80) Debug: Output is not connected
+2020-01-22 16:38:27.908 (0x7ffc96a64b80) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.908 (0x7ffc96a64b80) Debug: Output is not connected
+2020-01-22 16:38:27.936 (0x7ffeb2d8e810) Debug: No outputs have backlight property
+2020-01-22 16:38:27.936 (0x7ffeb2d8e810) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Output is not connected
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Output is not connected
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.937 (0x7ffeb2d8e810) Debug: Output is not connected
+2020-01-22 16:38:27.966 (0x7fff4a1dcf60) Debug: No outputs have backlight property
+2020-01-22 16:38:27.966 (0x7fff4a1dcf60) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Output is not connected
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Output is not connected
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.967 (0x7fff4a1dcf60) Debug: Output is not connected
+2020-01-22 16:38:27.997 (0x7ffca0192b90) Debug: No outputs have backlight property
+2020-01-22 16:38:27.997 (0x7ffca0192b90) Debug: Found output: "eDP-1"
+2020-01-22 16:38:27.997 (0x7ffca0192b90) Debug: Output: "eDP-1" added
+2020-01-22 16:38:27.997 (0x7ffca0192b90) Debug: Found output: "DP-1"
+2020-01-22 16:38:27.997 (0x7ffca0192b90) Debug: Output is not connected
+2020-01-22 16:38:27.997 (0x7ffca0192b90) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:27.998 (0x7ffca0192b90) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:27.998 (0x7ffca0192b90) Debug: Found output: "DP-2"
+2020-01-22 16:38:27.998 (0x7ffca0192b90) Debug: Output is not connected
+2020-01-22 16:38:27.998 (0x7ffca0192b90) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:27.998 (0x7ffca0192b90) Debug: Output is not connected
+2020-01-22 16:38:28.027 (0x7ffd27952220) Debug: No outputs have backlight property
+2020-01-22 16:38:28.027 (0x7ffd27952220) Debug: Found output: "eDP-1"
+2020-01-22 16:38:28.027 (0x7ffd27952220) Debug: Output: "eDP-1" added
+2020-01-22 16:38:28.027 (0x7ffd27952220) Debug: Found output: "DP-1"
+2020-01-22 16:38:28.027 (0x7ffd27952220) Debug: Output is not connected
+2020-01-22 16:38:28.027 (0x7ffd27952220) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:28.027 (0x7ffd27952220) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:28.028 (0x7ffd27952220) Debug: Found output: "DP-2"
+2020-01-22 16:38:28.028 (0x7ffd27952220) Debug: Output is not connected
+2020-01-22 16:38:28.028 (0x7ffd27952220) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:28.028 (0x7ffd27952220) Debug: Output is not connected
+2020-01-22 16:38:28.058 (0x7fff48ee7c50) Debug: No outputs have backlight property
+2020-01-22 16:38:28.058 (0x7fff48ee7c50) Debug: Found output: "eDP-1"
+2020-01-22 16:38:28.058 (0x7fff48ee7c50) Debug: Output: "eDP-1" added
+2020-01-22 16:38:28.059 (0x7fff48ee7c50) Debug: Found output: "DP-1"
+2020-01-22 16:38:28.059 (0x7fff48ee7c50) Debug: Output is not connected
+2020-01-22 16:38:28.059 (0x7fff48ee7c50) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:28.059 (0x7fff48ee7c50) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:28.059 (0x7fff48ee7c50) Debug: Found output: "DP-2"
+2020-01-22 16:38:28.059 (0x7fff48ee7c50) Debug: Output is not connected
+2020-01-22 16:38:28.060 (0x7fff48ee7c50) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:28.060 (0x7fff48ee7c50) Debug: Output is not connected
+2020-01-22 16:38:28.083 (0x7ffd6427aad0) Debug: No outputs have backlight property
+2020-01-22 16:38:28.083 (0x7ffd6427aad0) Debug: Found output: "eDP-1"
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Output: "eDP-1" added
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Found output: "DP-1"
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Output is not connected
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Found output: "DP-2"
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Output is not connected
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:28.084 (0x7ffd6427aad0) Debug: Output is not connected
+2020-01-22 16:38:28.723 (0x7ffdf53b3330) Debug: No outputs have backlight property
+2020-01-22 16:38:28.724 (0x7ffdf53b3330) Debug: Found output: "eDP-1"
+2020-01-22 16:38:28.724 (0x7ffdf53b3330) Debug: Output: "eDP-1" added
+2020-01-22 16:38:28.724 (0x7ffdf53b3330) Debug: Found output: "DP-1"
+2020-01-22 16:38:28.724 (0x7ffdf53b3330) Debug: Output is not connected
+2020-01-22 16:38:28.724 (0x7ffdf53b3330) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:28.725 (0x7ffdf53b3330) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:28.725 (0x7ffdf53b3330) Debug: Found output: "DP-2"
+2020-01-22 16:38:28.725 (0x7ffdf53b3330) Debug: Output is not connected
+2020-01-22 16:38:28.725 (0x7ffdf53b3330) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:28.725 (0x7ffdf53b3330) Debug: Output is not connected
+2020-01-22 16:38:29.035 (0x7ffccafc7e30) Debug: No outputs have backlight property
+2020-01-22 16:38:29.035 (0x7ffccafc7e30) Debug: Found output: "eDP-1"
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Output: "eDP-1" added
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Found output: "DP-1"
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Output is not connected
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Found output: "DP-2"
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Output is not connected
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:29.036 (0x7ffccafc7e30) Debug: Output is not connected
+2020-01-22 16:38:29.221 (0x7fff79ce9320) Debug: No outputs have backlight property
+2020-01-22 16:38:29.221 (0x7fff79ce9320) Debug: Found output: "eDP-1"
+2020-01-22 16:38:29.222 (0x7fff79ce9320) Debug: Output: "eDP-1" added
+2020-01-22 16:38:29.222 (0x7fff79ce9320) Debug: Found output: "DP-1"
+2020-01-22 16:38:29.222 (0x7fff79ce9320) Debug: Output is not connected
+2020-01-22 16:38:29.223 (0x7fff79ce9320) Debug: Found output: "HDMI-1"
+2020-01-22 16:38:29.223 (0x7fff79ce9320) Debug: Output: "HDMI-1" added
+2020-01-22 16:38:29.223 (0x7fff79ce9320) Debug: Found output: "DP-2"
+2020-01-22 16:38:29.223 (0x7fff79ce9320) Debug: Output is not connected
+2020-01-22 16:38:29.224 (0x7fff79ce9320) Debug: Found output: "HDMI-2"
+2020-01-22 16:38:29.224 (0x7fff79ce9320) Debug: Output is not connected
+2020-01-22 16:38:55.043 (0x7ffec605e270) Debug: minWidgetLength 225 maxMonitorSize 5760 scale 0.0390625
+2020-01-22 16:39:06.060 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:39:07.111 (0x7ffec605e270) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-22 16:39:08.153 (0x7ffec605e270) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-22 16:39:09.153 (0x7ffec605e270) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-22 16:39:10.152 (0x7ffec605e270) Warning: QString::arg: Argument missing: "6 second(s) remaining" , 6
+2020-01-22 16:39:29.236 (0x7ffec605e270) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 16:39:31.096 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:39:32.147 (0x7ffec605e270) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-22 16:39:33.152 (0x7ffec605e270) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-22 16:39:34.152 (0x7ffec605e270) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-22 16:39:37.153 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:40:13.577 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:40:26.152 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:41:16.652 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:41:18.521 (0x7ffec605e270) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Read: 2
+2020-01-22 16:41:18.522 (0x7ffec605e270) Debug: [ MonitorSettingsDialog::saveConfiguration] # monitors Write: 3
+2020-01-22 16:41:44.757 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:42:04.652 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:42:07.156 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:42:21.120 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:43:22.345 (0x7ffec605e270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:43:42.435 (0x7ffec605e270) Debug: Output:  "eDP-1"
+2020-01-22 16:43:42.435 (0x7ffec605e270) Debug: Output:  "DP-1"
+2020-01-22 16:43:42.435 (0x7ffec605e270) Debug: Output:  "HDMI-1"
+2020-01-22 16:43:42.436 (0x7ffec605e270) Debug: Width x Height 5.18219 x 3.33849
+2020-01-22 16:43:42.436 (0x7ffec605e270) Debug: Output:  "DP-2"
+2020-01-22 16:43:42.436 (0x7ffec605e270) Debug: Output:  "HDMI-2"
+2020-01-22 16:44:38.212 (0x7ffe38c38a50) Warning: Icon theme "elementary" not found.
+2020-01-22 16:44:38.315 (0x7ffe38c38a50) Debug: Connecting to KScreen...
+2020-01-22 16:44:38.329 (0x7ffe38c38a50) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 16:44:38.330 (0x7ffe38c38a50) Debug: Width x Height 5.18219 x 3.33849
+2020-01-22 16:44:44.275 (0x7ffe38c38a50) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 16:44:46.722 (0x7ffe38c38a50) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 16:44:47.671 (0x7ffe38c38a50) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-22 16:46:56.495 (0x7ffdffe245c0) Warning: Icon theme "elementary" not found.
+2020-01-22 16:46:56.557 (0x7ffdffe245c0) Debug: add "us" ""
+2020-01-22 16:46:56.629 (0x7ffdffe245c0) Debug: Detected "Logitech USB Optical Mouse" on "/dev/input/event8"
+2020-01-22 16:46:56.633 (0x7ffdffe245c0) Debug: Detected "SYNA3092:00 06CB:CD78 Touchpad" on "/dev/input/event12"
+2020-01-22 16:46:56.634 (0x7ffdffe245c0) Debug: Detected "PS/2 Generic Mouse" on "/dev/input/event9"
+2020-01-22 16:46:56.635 (0x7ffdffe245c0) Debug: Detected "SynPS/2 Synaptics TouchPad" on "/dev/input/event10"
+2020-01-22 16:47:17.770 (0x7ffdffe245c0) Debug: add "ru" "legacy"
+2020-01-22 16:47:37.154 (0x7ffdffe245c0) Debug: add "ua" "winkeys"
+2020-01-22 16:47:38.395 (0x7ffdffe245c0) Debug: "setxkbmap -model pc105 -layout us,ru,ua -variant ,legacy,winkeys"
+2020-01-22 16:49:24.152 (0x7fff6716acb0) Warning: Icon theme "elementary" not found.
+2020-01-22 16:49:24.204 (0x7fff6716acb0) Debug: add "us" ""
+2020-01-22 16:49:24.205 (0x7fff6716acb0) Debug: add "ru" "legacy"
+2020-01-22 16:49:24.205 (0x7fff6716acb0) Debug: add "ua" "winkeys"
+2020-01-22 16:49:24.271 (0x7fff6716acb0) Debug: Detected "Logitech USB Optical Mouse" on "/dev/input/event8"
+2020-01-22 16:49:24.273 (0x7fff6716acb0) Debug: Detected "SYNA3092:00 06CB:CD78 Touchpad" on "/dev/input/event12"
+2020-01-22 16:49:24.275 (0x7fff6716acb0) Debug: Detected "PS/2 Generic Mouse" on "/dev/input/event9"
+2020-01-22 16:49:24.276 (0x7fff6716acb0) Debug: Detected "SynPS/2 Synaptics TouchPad" on "/dev/input/event10"
+2020-01-22 16:50:45.978 (0x7ffd7c8eed90) Warning: Icon theme "elementary" not found.
+2020-01-22 16:50:46.037 (0x7ffd7c8eed90) Debug: add "us" ""
+2020-01-22 16:50:46.037 (0x7ffd7c8eed90) Debug: add "ru" "legacy"
+2020-01-22 16:50:46.037 (0x7ffd7c8eed90) Debug: add "ua" "winkeys"
+2020-01-22 16:50:46.107 (0x7ffd7c8eed90) Debug: Detected "Logitech USB Optical Mouse" on "/dev/input/event8"
+2020-01-22 16:50:46.113 (0x7ffd7c8eed90) Debug: Detected "SYNA3092:00 06CB:CD78 Touchpad" on "/dev/input/event12"
+2020-01-22 16:50:46.115 (0x7ffd7c8eed90) Debug: Detected "PS/2 Generic Mouse" on "/dev/input/event9"
+2020-01-22 16:50:46.116 (0x7ffd7c8eed90) Debug: Detected "SynPS/2 Synaptics TouchPad" on "/dev/input/event10"
+2020-01-22 16:52:52.765 (0x7fff0c16c4b0) Warning: Icon theme "elementary" not found.
+2020-01-22 16:52:54.864 (0x7ffe38dea320) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 16:52:54.875 (0x7ffd35c16060) Debug: Service "org.freedesktop.StatusNotifierItem-1267-1" unregistered
+2020-01-22 16:52:55.056 (0x7ffe38dea320) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 16:53:45.644 (0x7ffe9b105a20) Debug: New PolkitAgentListener  0x55a42cab36a0
+2020-01-22 16:53:45.645 (0x7ffe9b105a20) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffe9b105a30) for  0x55a42cab36a0
+2020-01-22 16:53:47.060 (0x7fff9b632e20) Warning: Icon theme "elementary" not found.
+2020-01-22 16:53:47.080 (0x7fff9b632e20) Debug: systemd: "CanHibernate" = "na"
+2020-01-22 16:53:47.081 (0x7fff9b632e20) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-22 16:53:47.081 (0x7fff9b632e20) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-22 16:53:47.086 (0x7fff9b632e20) Debug: systemd: "CanSuspend" = "yes"
+2020-01-22 16:53:47.292 (0x7ffcdee7a230) Warning: Icon theme "elementary" not found.
+2020-01-22 16:53:47.908 (0x7ffffa23cf70) Debug: systemd: "CanReboot" = "yes"
+2020-01-22 16:53:47.915 (0x7ffffa23cf70) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-22 16:53:47.942 (0x7ffcdee7a230) Debug: ()
+2020-01-22 16:53:47.969 (0x7ffcdee7a230) Debug: WinIdChange 1000007 handle QWidgetWindow(0x55c3d4057a30, name="LXQtPanel panel1Window") QScreen(0x55c3d3d44d80, name="eDP-1")
+2020-01-22 16:53:47.991 (0x7ffcdee7a230) Debug: Systray started
+2020-01-22 16:53:48.836 (0x7fffb1262e70) Debug: Inhibit got: 18
+2020-01-22 16:53:48.836 (0x7fffb1262e70) Debug: Starting idlenesswatcher
+2020-01-22 16:53:49.155 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 16:53:49.155 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 16:53:49.156 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 16:53:49.982 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2020-01-22 16:53:51.171 (0x7ffeea8456f0) Warning: Icon theme "elementary" not found.
+2020-01-22 16:53:53.116 (0x7ffe53fdfca0) Debug: No outputs have backlight property
+2020-01-22 16:53:53.116 (0x7ffe53fdfca0) Debug: Found output: "eDP-1"
+2020-01-22 16:53:53.116 (0x7ffe53fdfca0) Debug: Output: "eDP-1" added
+2020-01-22 16:53:53.116 (0x7ffe53fdfca0) Debug: Found output: "DP-1"
+2020-01-22 16:53:53.117 (0x7ffe53fdfca0) Debug: Output is not connected
+2020-01-22 16:53:53.117 (0x7ffe53fdfca0) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:53.117 (0x7ffe53fdfca0) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:53.117 (0x7ffe53fdfca0) Debug: Found output: "DP-2"
+2020-01-22 16:53:53.117 (0x7ffe53fdfca0) Debug: Output is not connected
+2020-01-22 16:53:53.117 (0x7ffe53fdfca0) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:53.117 (0x7ffe53fdfca0) Debug: Output is not connected
+2020-01-22 16:53:53.268 (0x7ffc66754190) Debug: No outputs have backlight property
+2020-01-22 16:53:53.268 (0x7ffc66754190) Debug: Found output: "eDP-1"
+2020-01-22 16:53:53.268 (0x7ffc66754190) Debug: Output: "eDP-1" added
+2020-01-22 16:53:53.268 (0x7ffc66754190) Debug: Found output: "DP-1"
+2020-01-22 16:53:53.269 (0x7ffc66754190) Debug: Output is not connected
+2020-01-22 16:53:53.269 (0x7ffc66754190) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:53.269 (0x7ffc66754190) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:53.269 (0x7ffc66754190) Debug: Found output: "DP-2"
+2020-01-22 16:53:53.269 (0x7ffc66754190) Debug: Output is not connected
+2020-01-22 16:53:53.269 (0x7ffc66754190) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:53.269 (0x7ffc66754190) Debug: Output is not connected
+2020-01-22 16:53:53.444 (0x7ffce89ba7f0) Debug: No outputs have backlight property
+2020-01-22 16:53:53.444 (0x7ffce89ba7f0) Debug: Found output: "eDP-1"
+2020-01-22 16:53:53.445 (0x7ffce89ba7f0) Debug: Output: "eDP-1" added
+2020-01-22 16:53:53.445 (0x7ffce89ba7f0) Debug: Found output: "DP-1"
+2020-01-22 16:53:53.445 (0x7ffce89ba7f0) Debug: Output is not connected
+2020-01-22 16:53:53.445 (0x7ffce89ba7f0) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:53.445 (0x7ffce89ba7f0) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:53.445 (0x7ffce89ba7f0) Debug: Found output: "DP-2"
+2020-01-22 16:53:53.445 (0x7ffce89ba7f0) Debug: Output is not connected
+2020-01-22 16:53:53.445 (0x7ffce89ba7f0) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:53.446 (0x7ffce89ba7f0) Debug: Output is not connected
+2020-01-22 16:53:53.604 (0x7ffde6e35390) Debug: No outputs have backlight property
+2020-01-22 16:53:53.604 (0x7ffde6e35390) Debug: Found output: "eDP-1"
+2020-01-22 16:53:53.605 (0x7ffde6e35390) Debug: Output: "eDP-1" added
+2020-01-22 16:53:53.605 (0x7ffde6e35390) Debug: Found output: "DP-1"
+2020-01-22 16:53:53.605 (0x7ffde6e35390) Debug: Output is not connected
+2020-01-22 16:53:53.605 (0x7ffde6e35390) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:53.605 (0x7ffde6e35390) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:53.605 (0x7ffde6e35390) Debug: Found output: "DP-2"
+2020-01-22 16:53:53.605 (0x7ffde6e35390) Debug: Output is not connected
+2020-01-22 16:53:53.605 (0x7ffde6e35390) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:53.606 (0x7ffde6e35390) Debug: Output is not connected
+2020-01-22 16:53:53.753 (0x7ffdccdbb5c0) Debug: No outputs have backlight property
+2020-01-22 16:53:53.754 (0x7ffdccdbb5c0) Debug: Found output: "eDP-1"
+2020-01-22 16:53:53.754 (0x7ffdccdbb5c0) Debug: Output: "eDP-1" added
+2020-01-22 16:53:53.754 (0x7ffdccdbb5c0) Debug: Found output: "DP-1"
+2020-01-22 16:53:53.754 (0x7ffdccdbb5c0) Debug: Output is not connected
+2020-01-22 16:53:53.755 (0x7ffdccdbb5c0) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:53.755 (0x7ffdccdbb5c0) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:53.755 (0x7ffdccdbb5c0) Debug: Found output: "DP-2"
+2020-01-22 16:53:53.755 (0x7ffdccdbb5c0) Debug: Output is not connected
+2020-01-22 16:53:53.755 (0x7ffdccdbb5c0) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:53.755 (0x7ffdccdbb5c0) Debug: Output is not connected
+2020-01-22 16:53:53.932 (0x7fffe3ef8a90) Debug: No outputs have backlight property
+2020-01-22 16:53:53.932 (0x7fffe3ef8a90) Debug: Found output: "eDP-1"
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Output: "eDP-1" added
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Found output: "DP-1"
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Output is not connected
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Found output: "DP-2"
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Output is not connected
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:53.933 (0x7fffe3ef8a90) Debug: Output is not connected
+2020-01-22 16:53:54.149 (0x7ffeb1924350) Debug: No outputs have backlight property
+2020-01-22 16:53:54.150 (0x7ffeb1924350) Debug: Found output: "eDP-1"
+2020-01-22 16:53:54.150 (0x7ffeb1924350) Debug: Output: "eDP-1" added
+2020-01-22 16:53:54.150 (0x7ffeb1924350) Debug: Found output: "DP-1"
+2020-01-22 16:53:54.150 (0x7ffeb1924350) Debug: Output is not connected
+2020-01-22 16:53:54.151 (0x7ffeb1924350) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:54.151 (0x7ffeb1924350) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:54.151 (0x7ffeb1924350) Debug: Found output: "DP-2"
+2020-01-22 16:53:54.151 (0x7ffeb1924350) Debug: Output is not connected
+2020-01-22 16:53:54.152 (0x7ffeb1924350) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:54.152 (0x7ffeb1924350) Debug: Output is not connected
+2020-01-22 16:53:54.808 (0x7ffdf02d5540) Debug: No outputs have backlight property
+2020-01-22 16:53:54.808 (0x7ffdf02d5540) Debug: Found output: "eDP-1"
+2020-01-22 16:53:54.809 (0x7ffdf02d5540) Debug: Output: "eDP-1" added
+2020-01-22 16:53:54.809 (0x7ffdf02d5540) Debug: Found output: "DP-1"
+2020-01-22 16:53:54.809 (0x7ffdf02d5540) Debug: Output is not connected
+2020-01-22 16:53:54.809 (0x7ffdf02d5540) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:54.810 (0x7ffdf02d5540) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:54.810 (0x7ffdf02d5540) Debug: Found output: "DP-2"
+2020-01-22 16:53:54.810 (0x7ffdf02d5540) Debug: Output is not connected
+2020-01-22 16:53:54.810 (0x7ffdf02d5540) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:54.810 (0x7ffdf02d5540) Debug: Output is not connected
+2020-01-22 16:53:54.981 (0x7ffc1ad4e8f0) Debug: No outputs have backlight property
+2020-01-22 16:53:54.982 (0x7ffc1ad4e8f0) Debug: Found output: "eDP-1"
+2020-01-22 16:53:54.982 (0x7ffc1ad4e8f0) Debug: Output: "eDP-1" added
+2020-01-22 16:53:54.982 (0x7ffc1ad4e8f0) Debug: Found output: "DP-1"
+2020-01-22 16:53:54.983 (0x7ffc1ad4e8f0) Debug: Output is not connected
+2020-01-22 16:53:54.983 (0x7ffc1ad4e8f0) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:54.983 (0x7ffc1ad4e8f0) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:54.983 (0x7ffc1ad4e8f0) Debug: Found output: "DP-2"
+2020-01-22 16:53:54.983 (0x7ffc1ad4e8f0) Debug: Output is not connected
+2020-01-22 16:53:54.983 (0x7ffc1ad4e8f0) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:54.983 (0x7ffc1ad4e8f0) Debug: Output is not connected
+2020-01-22 16:53:55.203 (0x7ffd4f3c36e0) Debug: No outputs have backlight property
+2020-01-22 16:53:55.203 (0x7ffd4f3c36e0) Debug: Found output: "eDP-1"
+2020-01-22 16:53:55.203 (0x7ffd4f3c36e0) Debug: Output: "eDP-1" added
+2020-01-22 16:53:55.203 (0x7ffd4f3c36e0) Debug: Found output: "DP-1"
+2020-01-22 16:53:55.203 (0x7ffd4f3c36e0) Debug: Output is not connected
+2020-01-22 16:53:55.204 (0x7ffd4f3c36e0) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:55.204 (0x7ffd4f3c36e0) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:55.204 (0x7ffd4f3c36e0) Debug: Found output: "DP-2"
+2020-01-22 16:53:55.204 (0x7ffd4f3c36e0) Debug: Output is not connected
+2020-01-22 16:53:55.204 (0x7ffd4f3c36e0) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:55.204 (0x7ffd4f3c36e0) Debug: Output is not connected
+2020-01-22 16:53:55.498 (0x7ffdc7056f50) Debug: No outputs have backlight property
+2020-01-22 16:53:55.498 (0x7ffdc7056f50) Debug: Found output: "eDP-1"
+2020-01-22 16:53:55.498 (0x7ffdc7056f50) Debug: Output: "eDP-1" added
+2020-01-22 16:53:55.499 (0x7ffdc7056f50) Debug: Found output: "DP-1"
+2020-01-22 16:53:55.499 (0x7ffdc7056f50) Debug: Output is not connected
+2020-01-22 16:53:55.499 (0x7ffdc7056f50) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:55.499 (0x7ffdc7056f50) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:55.499 (0x7ffdc7056f50) Debug: Found output: "DP-2"
+2020-01-22 16:53:55.499 (0x7ffdc7056f50) Debug: Output is not connected
+2020-01-22 16:53:55.499 (0x7ffdc7056f50) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:55.499 (0x7ffdc7056f50) Debug: Output is not connected
+2020-01-22 16:53:55.719 (0x7fff419b6160) Debug: No outputs have backlight property
+2020-01-22 16:53:55.719 (0x7fff419b6160) Debug: Found output: "eDP-1"
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Output: "eDP-1" added
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Found output: "DP-1"
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Output is not connected
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Found output: "DP-2"
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Output is not connected
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:55.720 (0x7fff419b6160) Debug: Output is not connected
+2020-01-22 16:53:56.448 (0x7ffe1f3ac5e0) Debug: No outputs have backlight property
+2020-01-22 16:53:56.448 (0x7ffe1f3ac5e0) Debug: Found output: "eDP-1"
+2020-01-22 16:53:56.448 (0x7ffe1f3ac5e0) Debug: Output: "eDP-1" added
+2020-01-22 16:53:56.448 (0x7ffe1f3ac5e0) Debug: Found output: "DP-1"
+2020-01-22 16:53:56.448 (0x7ffe1f3ac5e0) Debug: Output is not connected
+2020-01-22 16:53:56.448 (0x7ffe1f3ac5e0) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:56.449 (0x7ffe1f3ac5e0) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:56.449 (0x7ffe1f3ac5e0) Debug: Found output: "DP-2"
+2020-01-22 16:53:56.449 (0x7ffe1f3ac5e0) Debug: Output is not connected
+2020-01-22 16:53:56.449 (0x7ffe1f3ac5e0) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:56.449 (0x7ffe1f3ac5e0) Debug: Output is not connected
+2020-01-22 16:53:56.673 (0x7ffd96d65030) Debug: No outputs have backlight property
+2020-01-22 16:53:56.674 (0x7ffd96d65030) Debug: Found output: "eDP-1"
+2020-01-22 16:53:56.674 (0x7ffd96d65030) Debug: Output: "eDP-1" added
+2020-01-22 16:53:56.674 (0x7ffd96d65030) Debug: Found output: "DP-1"
+2020-01-22 16:53:56.674 (0x7ffd96d65030) Debug: Output is not connected
+2020-01-22 16:53:56.675 (0x7ffd96d65030) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:56.675 (0x7ffd96d65030) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:56.675 (0x7ffd96d65030) Debug: Found output: "DP-2"
+2020-01-22 16:53:56.675 (0x7ffd96d65030) Debug: Output is not connected
+2020-01-22 16:53:56.675 (0x7ffd96d65030) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:56.675 (0x7ffd96d65030) Debug: Output is not connected
+2020-01-22 16:53:56.854 (0x7ffe6c8097b0) Debug: No outputs have backlight property
+2020-01-22 16:53:56.854 (0x7ffe6c8097b0) Debug: Found output: "eDP-1"
+2020-01-22 16:53:56.854 (0x7ffe6c8097b0) Debug: Output: "eDP-1" added
+2020-01-22 16:53:56.854 (0x7ffe6c8097b0) Debug: Found output: "DP-1"
+2020-01-22 16:53:56.854 (0x7ffe6c8097b0) Debug: Output is not connected
+2020-01-22 16:53:56.855 (0x7ffe6c8097b0) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:56.855 (0x7ffe6c8097b0) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:56.855 (0x7ffe6c8097b0) Debug: Found output: "DP-2"
+2020-01-22 16:53:56.855 (0x7ffe6c8097b0) Debug: Output is not connected
+2020-01-22 16:53:56.855 (0x7ffe6c8097b0) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:56.855 (0x7ffe6c8097b0) Debug: Output is not connected
+2020-01-22 16:53:57.136 (0x7fff4b570320) Debug: No outputs have backlight property
+2020-01-22 16:53:57.136 (0x7fff4b570320) Debug: Found output: "eDP-1"
+2020-01-22 16:53:57.137 (0x7fff4b570320) Debug: Output: "eDP-1" added
+2020-01-22 16:53:57.137 (0x7fff4b570320) Debug: Found output: "DP-1"
+2020-01-22 16:53:57.137 (0x7fff4b570320) Debug: Output is not connected
+2020-01-22 16:53:57.137 (0x7fff4b570320) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:57.137 (0x7fff4b570320) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:57.137 (0x7fff4b570320) Debug: Found output: "DP-2"
+2020-01-22 16:53:57.138 (0x7fff4b570320) Debug: Output is not connected
+2020-01-22 16:53:57.138 (0x7fff4b570320) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:57.138 (0x7fff4b570320) Debug: Output is not connected
+2020-01-22 16:53:57.367 (0x7ffe16c1edb0) Debug: No outputs have backlight property
+2020-01-22 16:53:57.367 (0x7ffe16c1edb0) Debug: Found output: "eDP-1"
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Output: "eDP-1" added
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Found output: "DP-1"
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Output is not connected
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Found output: "HDMI-1"
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Output: "HDMI-1" added
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Found output: "DP-2"
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Output is not connected
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Found output: "HDMI-2"
+2020-01-22 16:53:57.368 (0x7ffe16c1edb0) Debug: Output is not connected
+2020-01-22 16:54:28.267 (0x7ffd4607b220) Warning: Icon theme "elementary" not found.
+2020-01-22 16:54:28.322 (0x7ffd4607b220) Debug: add "us" ""
+2020-01-22 16:54:28.322 (0x7ffd4607b220) Debug: add "ru" "legacy"
+2020-01-22 16:54:28.322 (0x7ffd4607b220) Debug: add "ua" "winkeys"
+2020-01-22 16:54:28.385 (0x7ffd4607b220) Debug: Detected "Logitech USB Optical Mouse" on "/dev/input/event8"
+2020-01-22 16:54:28.388 (0x7ffd4607b220) Debug: Detected "SYNA3092:00 06CB:CD78 Touchpad" on "/dev/input/event13"
+2020-01-22 16:54:28.389 (0x7ffd4607b220) Debug: Detected "PS/2 Generic Mouse" on "/dev/input/event9"
+2020-01-22 16:54:28.391 (0x7ffd4607b220) Debug: Detected "SynPS/2 Synaptics TouchPad" on "/dev/input/event10"
+2020-01-22 17:01:23.215 (0x7ffdf7419730) Warning: Icon theme "elementary" not found.
+2020-01-22 17:01:23.304 (0x7ffdf7419730) Debug: Connecting to KScreen...
+2020-01-22 17:01:23.317 (0x7ffdf7419730) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 17:01:23.318 (0x7ffdf7419730) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 17:01:29.641 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 17:01:30.651 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-22 17:02:11.793 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 17:02:20.246 (0x7ffdf7419730) Debug: Width x Height 5.18219 x 3.33849
+2020-01-22 17:02:23.651 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 17:02:24.651 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-22 17:02:25.652 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-22 17:02:26.653 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "7 second(s) remaining" , 7
+2020-01-22 17:02:27.651 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "6 second(s) remaining" , 6
+2020-01-22 17:05:34.886 (0x7ffeb3b52cb0) Warning: Icon theme "elementary" not found.
+2020-01-22 17:05:34.944 (0x7ffeb3b52cb0) Debug: add "us" ""
+2020-01-22 17:05:34.944 (0x7ffeb3b52cb0) Debug: add "ru" "legacy"
+2020-01-22 17:05:34.944 (0x7ffeb3b52cb0) Debug: add "ua" "winkeys"
+2020-01-22 17:05:35.008 (0x7ffeb3b52cb0) Debug: Detected "Logitech USB Optical Mouse" on "/dev/input/event8"
+2020-01-22 17:05:35.009 (0x7ffeb3b52cb0) Debug: Detected "SYNA3092:00 06CB:CD78 Touchpad" on "/dev/input/event13"
+2020-01-22 17:05:35.011 (0x7ffeb3b52cb0) Debug: Detected "PS/2 Generic Mouse" on "/dev/input/event9"
+2020-01-22 17:05:35.012 (0x7ffeb3b52cb0) Debug: Detected "SynPS/2 Synaptics TouchPad" on "/dev/input/event10"
+2020-01-22 17:08:24.610 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 17:08:25.651 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "9 second(s) remaining" , 9
+2020-01-22 17:08:26.651 (0x7ffdf7419730) Warning: QString::arg: Argument missing: "8 second(s) remaining" , 8
+2020-01-22 17:08:34.241 (0x7ffdf7419730) Debug: minWidgetLength 225 maxMonitorSize 3840 scale 0.0585938
+2020-01-22 17:08:40.792 (0x7ffdf7419730) Debug: Output:  "eDP-1"
+2020-01-22 17:08:40.792 (0x7ffdf7419730) Debug: Output:  "DP-1"
+2020-01-22 17:08:40.792 (0x7ffdf7419730) Debug: Output:  "HDMI-1"
+2020-01-22 17:08:40.792 (0x7ffdf7419730) Debug: Output:  "DP-2"
+2020-01-22 17:08:40.793 (0x7ffdf7419730) Debug: Output:  "HDMI-2"
+2020-01-22 17:08:51.769 (0x7ffcdee7a230) Debug: execAction "/usr/share/applications/pcmanfm-qt.desktop"
+2020-01-22 17:08:59.042 (0x7ffe8530f270) Warning: Icon theme "elementary" not found.
+2020-01-22 17:08:59.174 (0x7ffe8530f270) Debug: Connecting to KScreen...
+2020-01-22 17:08:59.189 (0x7ffe8530f270) Debug: Width x Height 2.59109 x 1.66924
+2020-01-22 17:08:59.190 (0x7ffe8530f270) Debug: Width x Height 5.18219 x 3.33849
+2020-01-22 17:09:00.282 (0x7ffe8530f270) Debug: minWidgetLength 225 maxMonitorSize 5760 scale 0.0390625
+2020-01-22 17:09:18.668 (0x7ffe8530f270) Warning: QString::arg: Argument missing: "10 second(s) remaining" , 10
+2020-01-22 17:13:18.268 (0x7ffe9b105a20) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+2020-01-22 17:13:18.268 (0x7ffe9b105a20) Debug: GSimpleAsyncResult: 0x55a42cb6e200
+2020-01-22 17:13:18.268 (0x7ffe9b105a20) Debug: polkit_qt_listener_initiate_authentication callback for  0x55a42cab36a0
+2020-01-22 17:13:18.294 (0x7ffe9b105a20) Warning: Icon theme "elementary" not found.
+2020-01-22 17:13:18.326 (0x7ffe9b105a20) Debug: REQUEST
+2020-01-22 17:13:22.986 (0x7ffe9b105a20) Debug: COMPLETED
+2020-01-22 17:13:22.986 (0x7ffe9b105a20) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+2020-01-22 17:13:22.986 (0x7ffe9b105a20) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55a42cab36a0
+2020-01-22 17:13:28.303 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:13:28.304 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:13:28.304 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:13:37.740 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:13:37.740 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:13:37.740 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:14:20.506 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “ToolTip”")
+2020-01-22 17:14:20.514 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “OverlayIconName”")
+2020-01-22 17:14:20.524 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “OverlayIconPixmap”")
+2020-01-22 17:14:20.524 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “AttentionIconPixmap”")
+2020-01-22 17:15:30.647 (0x7ffcdee7a230) Debug: Service "org.kde.StatusNotifierItem-1349-2" unregistered
+2020-01-22 17:15:32.996 (0x7ffcdee7a230) Debug: Service "org.freedesktop.StatusNotifierItem-2108-1" unregistered
+2020-01-22 17:15:37.329 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “ToolTip”")
+2020-01-22 17:15:37.337 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “OverlayIconName”")
+2020-01-22 17:15:37.339 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “OverlayIconPixmap”")
+2020-01-22 17:15:37.339 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “AttentionIconPixmap”")
+2020-01-22 17:17:26.729 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:17:26.729 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:17:26.729 (0x7ffcdee7a230) Debug: Unknown property margin-button
+2020-01-22 17:17:51.585 (0x7ffcdee7a230) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2020-01-22 17:18:05.024 (0x7ffcdee7a230) Debug: Service "org.freedesktop.StatusNotifierItem-1322-1" unregistered
+2020-01-22 17:18:05.076 (0x7ffcdee7a230) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-22 17:18:07.125 (0x7ffffa23cf70) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-22 17:18:07.125 (0x7ffffa23cf70) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-23 10:17:38.266 (0x7ffe615c1d30) Debug: New PolkitAgentListener  0x55e915704ea0
+2020-01-23 10:17:38.266 (0x7ffe615c1d30) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffe615c1d40) for  0x55e915704ea0
+2020-01-23 10:17:38.305 (0x7ffce41bcdb0) Warning: Icon theme "elementary" not found.
+2020-01-23 10:17:38.372 (0x7ffe4b3c15e0) Warning: Icon theme "elementary" not found.
+2020-01-23 10:17:38.390 (0x7ffe4b3c15e0) Debug: systemd: "CanHibernate" = "na"
+2020-01-23 10:17:38.390 (0x7ffe4b3c15e0) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-23 10:17:38.391 (0x7ffe4b3c15e0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-23 10:17:38.398 (0x7ffe4b3c15e0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-23 10:17:38.410 (0x7ffc1c467fb0) Debug: systemd: "CanReboot" = "yes"
+2020-01-23 10:17:38.417 (0x7ffc1c467fb0) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-23 10:17:38.428 (0x7ffce41bcdb0) Debug: ()
+2020-01-23 10:17:38.465 (0x7ffce41bcdb0) Debug: WinIdChange e00007 handle QWidgetWindow(0x5597dc760b20, name="LXQtPanel panel1Window") QScreen(0x5597dc456cd0, name="eDP-1")
+2020-01-23 10:17:38.497 (0x7ffce41bcdb0) Debug: Systray started
+2020-01-23 10:17:38.949 (0x7ffce41bcdb0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “ToolTip”")
+2020-01-23 10:17:38.954 (0x7ffce41bcdb0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “OverlayIconName”")
+2020-01-23 10:17:38.979 (0x7ffce41bcdb0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “OverlayIconPixmap”")
+2020-01-23 10:17:38.979 (0x7ffce41bcdb0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “AttentionIconPixmap”")
+2020-01-23 10:17:39.152 (0x7ffd22544530) Debug: Inhibit got: 18
+2020-01-23 10:17:39.153 (0x7ffd22544530) Debug: Starting idlenesswatcher
+2020-01-23 10:17:39.590 (0x7ffce41bcdb0) Debug: Unknown property margin-button
+2020-01-23 10:17:39.590 (0x7ffce41bcdb0) Debug: Unknown property margin-button
+2020-01-23 10:17:39.590 (0x7ffce41bcdb0) Debug: Unknown property margin-button
+2020-01-23 10:17:43.159 (0x7fffa88647f0) Warning: Icon theme "elementary" not found.
+2020-01-23 10:17:45.572 (0x7ffce41bcdb0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2020-01-23 10:20:26.133 (0x7fff35da87e0) Warning: Icon theme "elementary" not found.
+2020-01-23 10:20:26.190 (0x7fff35da87e0) Debug: add "us" ""
+2020-01-23 10:20:26.191 (0x7fff35da87e0) Debug: add "ru" "legacy"
+2020-01-23 10:20:26.191 (0x7fff35da87e0) Debug: add "ua" "winkeys"
+2020-01-23 10:20:26.256 (0x7fff35da87e0) Debug: Detected "Logitech USB Optical Mouse" on "/dev/input/event8"
+2020-01-23 10:20:26.258 (0x7fff35da87e0) Debug: Detected "SYNA3092:00 06CB:CD78 Touchpad" on "/dev/input/event13"
+2020-01-23 10:20:26.259 (0x7fff35da87e0) Debug: Detected "PS/2 Generic Mouse" on "/dev/input/event9"
+2020-01-23 10:20:26.260 (0x7fff35da87e0) Debug: Detected "SynPS/2 Synaptics TouchPad" on "/dev/input/event10"
+2020-01-23 10:22:32.739 (0x7ffce41bcdb0) Debug: Service "org.freedesktop.StatusNotifierItem-1381-1" unregistered
+2020-01-23 10:22:32.743 (0x7ffce41bcdb0) Debug: Service "org.freedesktop.StatusNotifierItem-1251-1" unregistered
+2020-01-23 10:22:32.746 (0x7ffce41bcdb0) Debug: Service "org.freedesktop.StatusNotifierItem-1383-1" unregistered
+2020-01-23 10:22:32.772 (0x7ffce41bcdb0) Warning: The X11 connection broke: I/O error (code 1)
+2020-01-23 10:22:34.773 (0x7ffc1c467fb0) Warning: Module lxqt-panel.desktop won't terminate ... killing.
+2020-01-23 10:22:34.776 (0x7ffc1c467fb0) Warning: QProcess: Destroyed while process ("lxqt-panel") is still running.
+2020-01-23 10:23:19.393 (0x7ffc397dd5d0) Debug: New PolkitAgentListener  0x556bfbb91ea0
+2020-01-23 10:23:19.394 (0x7ffc397dd5d0) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffc397dd5e0) for  0x556bfbb91ea0
+2020-01-23 10:23:19.429 (0x7ffcf75118c0) Warning: Icon theme "elementary" not found.
+2020-01-23 10:23:19.473 (0x7ffdaf8cc5d0) Warning: Icon theme "elementary" not found.
+2020-01-23 10:23:19.492 (0x7ffdaf8cc5d0) Debug: systemd: "CanHibernate" = "na"
+2020-01-23 10:23:19.492 (0x7ffdaf8cc5d0) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+2020-01-23 10:23:19.493 (0x7ffdaf8cc5d0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+2020-01-23 10:23:19.502 (0x7ffdaf8cc5d0) Debug: systemd: "CanSuspend" = "yes"
+2020-01-23 10:23:19.514 (0x7ffc8942c060) Debug: systemd: "CanReboot" = "yes"
+2020-01-23 10:23:19.522 (0x7ffc8942c060) Debug: systemd: "CanPowerOff" = "yes"
+2020-01-23 10:23:19.567 (0x7ffcf75118c0) Debug: ()
+2020-01-23 10:23:19.599 (0x7ffcf75118c0) Debug: WinIdChange 1400007 handle QWidgetWindow(0x55899802b380, name="LXQtPanel panel1Window") QScreen(0x558997d1abf0, name="eDP-1")
+2020-01-23 10:23:19.620 (0x7ffcf75118c0) Debug: Systray started
+2020-01-23 10:23:20.076 (0x7ffcf75118c0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “ToolTip”")
+2020-01-23 10:23:20.077 (0x7ffcf75118c0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “OverlayIconName”")
+2020-01-23 10:23:20.106 (0x7ffcf75118c0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “OverlayIconPixmap”")
+2020-01-23 10:23:20.107 (0x7ffcf75118c0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.InvalidArgs", "No such property “AttentionIconPixmap”")
+2020-01-23 10:23:20.361 (0x7ffc914a6460) Debug: Inhibit got: 18
+2020-01-23 10:23:20.362 (0x7ffc914a6460) Debug: Starting idlenesswatcher
+2020-01-23 10:23:20.721 (0x7ffcf75118c0) Debug: Unknown property margin-button
+2020-01-23 10:23:20.722 (0x7ffcf75118c0) Debug: Unknown property margin-button
+2020-01-23 10:23:20.722 (0x7ffcf75118c0) Debug: Unknown property margin-button
+2020-01-23 10:23:24.161 (0x7ffd19c4ef50) Warning: Icon theme "elementary" not found.
+2020-01-23 10:23:26.545 (0x7ffcf75118c0) Debug: Error on DBus request: QDBusError("org.freedesktop.DBus.Error.UnknownProperty", "Property org.kde.StatusNotifierItem.IconThemePath was not found in object /StatusNotifierItem")
+2020-01-23 10:23:55.350 (0x7fffc2bd21b0) Warning: Icon theme "elementary" not found.
+2020-01-23 10:23:55.412 (0x7fffc2bd21b0) Debug: add "us" ""
+2020-01-23 10:23:55.412 (0x7fffc2bd21b0) Debug: add "ru" "legacy"
+2020-01-23 10:23:55.412 (0x7fffc2bd21b0) Debug: add "ua" "winkeys"
+2020-01-23 10:23:55.481 (0x7fffc2bd21b0) Debug: Detected "Logitech USB Optical Mouse" on "/dev/input/event8"
+2020-01-23 10:23:55.483 (0x7fffc2bd21b0) Debug: Detected "SYNA3092:00 06CB:CD78 Touchpad" on "/dev/input/event13"
+2020-01-23 10:23:55.484 (0x7fffc2bd21b0) Debug: Detected "PS/2 Generic Mouse" on "/dev/input/event9"
+2020-01-23 10:23:55.485 (0x7fffc2bd21b0) Debug: Detected "SynPS/2 Synaptics TouchPad" on "/dev/input/event10"
+2020-01-23 10:31:04.339 (0x7ffd42c88660) Warning: Icon theme "elementary" not found.
+2020-01-23 10:31:04.391 (0x7ffd42c88660) Debug: add "us" ""
+2020-01-23 10:31:04.391 (0x7ffd42c88660) Debug: add "ru" "legacy"
+2020-01-23 10:31:04.391 (0x7ffd42c88660) Debug: add "ua" "winkeys"
+2020-01-23 10:31:04.461 (0x7ffd42c88660) Debug: Detected "Logitech USB Optical Mouse" on "/dev/input/event8"
+2020-01-23 10:31:04.471 (0x7ffd42c88660) Debug: Detected "SYNA3092:00 06CB:CD78 Touchpad" on "/dev/input/event13"
+2020-01-23 10:31:04.477 (0x7ffd42c88660) Debug: Detected "PS/2 Generic Mouse" on "/dev/input/event9"
+2020-01-23 10:31:04.479 (0x7ffd42c88660) Debug: Detected "SynPS/2 Synaptics TouchPad" on "/dev/input/event10"
+2020-01-23 10:32:01.812 (0x7ffd42c88660) Debug: add "ua" "winkeys"
+2020-01-23 10:32:03.402 (0x7ffd42c88660) Debug: "setxkbmap -model pc105 -layout us,ru,ua -variant ,legacy,winkeys -option grp:lalt_lshift_toggle"
