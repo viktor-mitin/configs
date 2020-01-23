@@ -108,6 +108,7 @@ alias gd='git diff '
 alias gb='git branch -av '
 alias gl='git log '
 alias gla='git la '
+alias gcm='git commit -m '
 alias gt='git log --tags --simplify-by-decoration --pretty="format:%ai %d" --decorate --graph --all'
 
 #alias g='grep -r '
