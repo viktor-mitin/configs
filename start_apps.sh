@@ -7,6 +7,9 @@ exec 2>&1
 
 date
 
+#set default brightness value
+echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brightness
+
 #set -eu
 
 die ()
