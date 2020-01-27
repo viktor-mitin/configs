@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ -x /usr/sbin/ifmetric -a "${IF_METRIC}" ]; then
+    /usr/sbin/ifmetric "${IFACE}" "${IF_METRIC}"
+fi
+
+if [ "$IFACE" = enp0s20f0u5 ]; then
+  date >> /var/log/metric.log
+  echo "enp0s20f0u5 up" >> /var/log/metric.log
+  /usr/sbin/ifmetric enp0s20f0u5 99
+fi
