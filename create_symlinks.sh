@@ -28,15 +28,15 @@ move_to_bak ~/.config/openbox
 move_to_bak ~/.config/lxqt
 move_to_bak ~/.config/autostart
 
-ln -s ~/configs/.config/openbox   ~/.config/openbox
-ln -s ~/configs/.config/lxqt      ~/.config/lxqt
-ln -s ~/configs/.config/autostart ~/.config/autostart
+ln -f -s ~/configs/.config/openbox   ~/.config/openbox
+ln -f -s ~/configs/.config/lxqt      ~/.config/lxqt
+ln -f -s ~/configs/.config/autostart ~/.config/autostart
 ###################################################################
 
-ln -s ~/configs/.Xresources .
-ln -s ~/configs/.bashrc .
-ln -s ~/configs/.inputrc .
-ln -s ~/configs/.vimrc .
-ln -s ~/configs/.gitconfig .
-ln -s ~/configs/htoprc ~/.config/htop/htoprc
+ln -f -s ~/configs/.Xresources .
+ln -f -s ~/configs/.bashrc .
+ln -f -s ~/configs/.inputrc .
+ln -f -s ~/configs/.vimrc .
+ln -f -s ~/configs/.gitconfig .
+ln -f -s ~/configs/htoprc ~/.config/htop/htoprc
 #ln -s ~/configs/muttrc ~/.mutt/muttrc
