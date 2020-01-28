@@ -62,6 +62,7 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="ViberPC"/>
         <value type="string" value="Telegram Desktop"/>
         <value type="string" value="Skype1"/>
         <value type="string" value="blueman"/>

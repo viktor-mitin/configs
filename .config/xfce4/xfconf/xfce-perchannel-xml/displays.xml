@@ -19,13 +19,13 @@
     <property name="HDMI-1" type="string" value="Dell 27&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="3054eb35c56c7867197549ac4e1fc267c9ae55da"/>
-      <property name="Resolution" type="string" value="3840x2160"/>
-      <property name="RefreshRate" type="double" value="30.000000"/>
+      <property name="Resolution" type="string" value="1920x1200"/>
+      <property name="RefreshRate" type="double" value="59.950171"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
+        <property name="X" type="int" value="1920"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>

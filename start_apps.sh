@@ -10,40 +10,27 @@ date
 #set default brightness value
 echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brightness
 
-#set -eu
-
-die ()
-{
-    echo '>> ERROR:'
-    echo '>>' "$*"
-    exit 1
-}
-
-
 move_window ()
 {
-#    for i in {1..5} #bash only loop (not sh)
-    for i in $(seq 25)
-    do
+    for i in $(seq 25); do    # for i in {1..5} #bash only loop (not sh)
         wmctrl -r "$1" -t"$2" && return 0
-        sleep 2
+        sleep 1
         echo "Sleep for 1 second, attempt #$i"
     done
 
 	STR="ERROR: Cannot move window $1 to desktop $2"
     echo "$STR" #for log file output
-    notify-send -t 0 "$STR"
+    notify-send -t 0 "$STR"  # sudo apt-get --reinstall install libnotify-bin notify-osd
 }
 
 #touch /forcefsck
 
 ############################## run apps ###########################
+google-chrome &
 skypeforlinux&
-
-#Lubuntu 18.04 has bug with Xserver+xterm:
-#Sometimes xterm windows cannot switch to full screen mode after startup
-#The next sleep overcomes the issue. TBD
-sleep 3
+#firefox &
+telegram-desktop &
+/opt/viber/Viber &
 
 (nice -n 10 xterm -T term1)&
 (nice -n 11 xterm -T term2)&
@@ -57,13 +44,6 @@ sleep 3
 #(nice -n 19 xterm -T term10)&
 (nice -n 9 xterm -T term11 -e 'ping google.com')&
 (nice -n  9 xterm -e 'while true; do sudo htop ; done')&
-#(xterm -e 'sudo htop')$
-
-sleep 3
-#firefox &
-google-chrome &
-telegram-desktop &
-/opt/viber/Viber &
 
 ##################### move apps to workspaces ###################
 move_window term1  0
@@ -81,11 +61,7 @@ move_window skype  6
 #move_window firefox 7
 move_window Telegram  7
 move_window Viber  7
-move_window Google 8
-
-##################### toggle full screen #########################
-#wmctrl -r "Google Chrome" -b toggle,maximized_vert
-#wmctrl -r "Google Chrome" -b toggle,maximized_horz
+move_window "Google Chrome" 8
 
 ##################### switch to the last desktop ################
 wmctrl -s 8
@@ -94,13 +70,11 @@ test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/upda
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
 #run hosts specific applications or configuration
-if grep -q 3489 /etc/hostname ; then
-	~/configs/host_3489_start_apps.sh
-fi
+grep -q 3489 /etc/hostname && ~/configs/host_3489_start_apps.sh
 
 
 #################################################################
-#Lxde logout after config modification
-#Allows to test the script after the updates
+#Lxde logout after config modification to test the script
 #
-# pkill -SIGTERM -f lxsession
+# pkill -SIGTERM -f lxsession   #lubuntu
+# pkill xfce4-session # xubuntu
