@@ -74,10 +74,10 @@
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
       <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
-      <property name="&lt;Super&gt;e" type="string" value="mousepad"/>
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;3" type="string" value="libreoffice --writer"/>
       <property name="override" type="bool" value="true"/>
+      <property name="&lt;Super&gt;e" type="string" value="xterm"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
