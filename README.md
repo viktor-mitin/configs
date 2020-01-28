@@ -1,6 +1,6 @@
-# Lubuntu Linux Configs
+# Lubuntu/Xubuntu Linux configurations and scripts
 
-This repository contains several useful lubuntu configs: bash, vim, xterm, readline, lxde, docker, git.
+This repository contains useful lubuntu/xubuntu configs: bash, vim, xterm, readline, lxde, docker, git, etc.
 ===
-Tested with lubuntu 18.04.1
+Tested with lubuntu/xubuntu 18.04.1 and newer versions.
 
