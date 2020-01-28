@@ -33,14 +33,14 @@
     <property name="shadow_opacity" type="empty"/>
     <property name="show_app_icon" type="empty"/>
     <property name="show_dock_shadow" type="empty"/>
-    <property name="show_frame_shadow" type="empty"/>
+    <property name="show_frame_shadow" type="bool" value="false"/>
     <property name="show_popup_shadow" type="empty"/>
     <property name="snap_to_border" type="empty"/>
     <property name="snap_to_windows" type="empty"/>
     <property name="snap_width" type="empty"/>
-    <property name="theme" type="empty"/>
+    <property name="theme" type="string" value="Arc-Dark"/>
     <property name="title_alignment" type="empty"/>
-    <property name="title_font" type="empty"/>
+    <property name="title_font" type="string" value="Noto Sans Bold 12"/>
     <property name="title_horizontal_offset" type="empty"/>
     <property name="title_shadow_active" type="empty"/>
     <property name="title_shadow_inactive" type="empty"/>
