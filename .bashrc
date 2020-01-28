@@ -108,8 +108,16 @@ alias gd='git diff '
 alias gb='git branch -av '
 alias gl='git log '
 alias gla='git la '
-alias gcm='git commit -m '
 alias gt='git log --tags --simplify-by-decoration --pretty="format:%ai %d" --decorate --graph --all'
+
+gcm() {
+	if [ $# -ne 1 ]; then
+		echo "Error: wrong git commit message was given as first parameter"
+	else
+        git add .
+        git commit -m "$1"
+	fi
+}
 
 #alias g='grep -r '
 #alias gst='git status '
