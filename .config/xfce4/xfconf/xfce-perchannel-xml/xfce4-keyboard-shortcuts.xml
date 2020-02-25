@@ -78,6 +78,8 @@
       <property name="&lt;Super&gt;3" type="string" value="libreoffice --writer"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;e" type="string" value="xterm"/>
+      <property name="F11" type="string" value="amixer -D pulse sset Master 5%-"/>
+      <property name="F12" type="string" value="amixer -D pulse sset Master 5%+"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
