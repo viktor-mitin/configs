@@ -45,7 +45,6 @@
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="&lt;Super&gt;f" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Super&gt;4" type="string" value="libreoffice --calc"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
@@ -80,6 +79,7 @@
       <property name="&lt;Super&gt;e" type="string" value="xterm"/>
       <property name="F11" type="string" value="amixer -D pulse sset Master 5%-"/>
       <property name="F12" type="string" value="amixer -D pulse sset Master 5%+"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;s" type="string" value="xflock4"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
