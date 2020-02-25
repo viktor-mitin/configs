@@ -22,12 +22,14 @@
         <value type="int" value="13"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
-      <property name="size" type="uint" value="35"/>
+      <property name="size" type="uint" value="30"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="disable-struts" type="bool" value="false"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -39,6 +41,9 @@
     <property name="plugin-3" type="string" value="tasklist">
       <property name="show-handle" type="bool" value="false"/>
       <property name="flat-buttons" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="0"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
     </property>
     <property name="plugin-4" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -75,7 +80,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="parole"/>
+      <property name="mpris-players" type="string" value="chrome.instance1414;chrome.instance1415;chrome.instance1433;chrome.instance1441;chrome.instance1486;chrome.instance1619;chrome.instance1620;chrome.instance1660;chrome.instance3136;chrome.instance3157;chrome.instance3828;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
