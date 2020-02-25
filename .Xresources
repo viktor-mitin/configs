@@ -35,7 +35,7 @@ XTerm*faceName:  DejaVu Sans Mono Book
 
 XTerm*allowBoldFonts:       false
 
-XTerm*faceSize:     12
+XTerm*faceSize:     16
 XTerm*faceSize1:     8
 XTerm*faceSize2:    10
 XTerm*faceSize3:    12
