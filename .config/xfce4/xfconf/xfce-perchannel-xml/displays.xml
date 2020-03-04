@@ -4,7 +4,7 @@
   <property name="ActiveProfile" type="string" value="8c8cc377080db2528b5f08bdfbf36e1cead0b335"/>
   <property name="Default" type="empty">
     <property name="eDP-1" type="string" value="Laptop">
-      <property name="Active" type="bool" value="false"/>
+      <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="36badddee1b28a5f3276358aa3ccdd4e5db51cd1"/>
       <property name="Resolution" type="string" value="1920x1080"/>
       <property name="RefreshRate" type="double" value="59.977152"/>

@@ -3,7 +3,7 @@
 <channel name="keyboard-layout" version="1.0">
   <property name="Default" type="empty">
     <property name="XkbDisable" type="bool" value="false"/>
-    <property name="XkbModel" type="string" value="hp250x"/>
+    <property name="XkbModel" type="string" value="pc105"/>
     <property name="XkbOptions" type="empty">
       <property name="Group" type="string" value="grp:lalt_lshift_toggle"/>
     </property>
