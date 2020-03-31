@@ -1,16 +1,18 @@
 #!/bin/sh -x
 
-#export GDK_SCALE=2
-#export GDK_DPI_SCALE=0.7
-##export QT_AUTO_SCREEN_SCALE_FACTOR=1
-#export QT_SCALE_FACTOR=2
-
 #send stdout to the log file
 exec > /tmp/start_apps.log
 #redirect stderr to stdout
 exec 2>&1
 
+#export GDK_SCALE=2
+#export GDK_DPI_SCALE=0.7
+##export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export QT_SCALE_FACTOR=2
+
 date
+
+~/configs/scripts/disable_touchpad.sh
 
 #set default brightness value
 echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brightness
@@ -75,7 +77,8 @@ test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/upda
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
 #run hosts specific applications or configuration
-grep -q 3489 /etc/hostname && ~/configs/host_3489_start_apps.sh
+#grep -q 3489 /etc/hostname && ~/configs/host_3489_start_apps.sh
+
 
 
 #################################################################
