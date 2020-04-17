@@ -8,6 +8,6 @@
       <property name="Group" type="string" value="grp:lalt_lshift_toggle"/>
     </property>
     <property name="XkbLayout" type="string" value="us,ua,ru"/>
-    <property name="XkbVariant" type="string" value=",winkeys,legacy"/>
+    <property name="XkbVariant" type="string" value=",,"/>
   </property>
 </channel>
