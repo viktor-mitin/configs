@@ -22,17 +22,19 @@ move_window ()
     for i in $(seq 25); do    # for i in {1..5} #bash only loop (not sh)
         wmctrl -r "$1" -t"$2" && return 0
         sleep 1
-        echo "Sleep for 1 second, attempt #$i"
+        echo "move_window $1: Sleep for 1 second, attempt #$i"
     done
 
 	STR="ERROR: Cannot move window $1 to desktop $2"
     echo "$STR" #for log file output
+    wmctrl -l #list all open windows for debug
     notify-send -t 0 "$STR"  # sudo apt-get --reinstall install libnotify-bin notify-osd
 }
 
 #touch /forcefsck
 
 ############################## run apps ###########################
+teams &
 google-chrome &
 skypeforlinux&
 #firefox &
@@ -69,6 +71,7 @@ move_window skype  6
 move_window Telegram  7
 move_window Viber  7
 move_window "Google Chrome" 8
+move_window "Microsoft Teams"  8
 
 ##################### switch to the last desktop ################
 wmctrl -s 8
