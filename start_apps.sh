@@ -51,8 +51,8 @@ telegram-desktop &
 (nice -n 17 xterm -T term8)&
 #(nice -n 18 xterm -T term9)&
 #(nice -n 19 xterm -T term10)&
-(nice -n 9 xterm -T term11 -e 'ping google.com')&
-(nice -n  9 xterm -e 'while true; do sudo htop ; done')&
+(nice -n 9 xterm -fs 12 -T term11 -e 'ping google.com')&
+(nice -n  9 xterm -fs 10 -e 'while true; do sudo htop ; done')&
 
 ##################### move apps to workspaces ###################
 move_window term1  0
