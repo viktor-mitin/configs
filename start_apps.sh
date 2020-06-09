@@ -5,10 +5,10 @@ exec > /tmp/start_apps.log
 #redirect stderr to stdout
 exec 2>&1
 
-#export GDK_SCALE=2
-#export GDK_DPI_SCALE=0.7
-##export QT_AUTO_SCREEN_SCALE_FACTOR=1
-#export QT_SCALE_FACTOR=2
+export GDK_SCALE=2
+export GDK_DPI_SCALE=0.7
+#export QT_AUTO_SCREEN_SCALE_FACTOR=1
+export QT_SCALE_FACTOR=2
 
 date
 

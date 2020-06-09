@@ -1,7 +1,8 @@
 autocmd!
-autocmd FileType c,cpp,php,python,bash,sh set expandtab
 autocmd BufRead,BufNewFile *.bb,*.bbappend setfiletype conf "enable bitbake colors highlighting
 autocmd BufRead,BufNewFile *.avsc setfiletype json
+autocmd BufRead,BufNewFile *.ts setfiletype typescript
+autocmd FileType c,cpp,php,python,bash,sh,typescript set expandtab
 
 let _curfile = expand("%:t")
 if _curfile =~ "Makefile" || _curfile =~ "makefile" || _curfile =~ ".*\.mk"
