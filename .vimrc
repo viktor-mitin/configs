@@ -240,7 +240,7 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
-nmap x <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
+nmap <M-x> <Esc>:mksession! ~/w/vim_temp.vim<CR>:qa<CR>
 "nmap \ex <Esc>:qa!<CR>
 
 
@@ -279,7 +279,8 @@ autocmd BufWinLeave * call clearmatches()
 :nnoremap <silent> <F10> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 
 
-map ,, yiw<Esc>oprint(f'<C-R>"={<C-R>"}')<Esc>==
+"map ,, yiw<Esc>oprint(f'<C-R>"={<C-R>"}')<Esc>==
+map ,, yiw<Esc>oconsole.log(`<C-R>"=${<C-R>"}`)<Esc>==
 map <F9> yiw<Esc>ofrom pprint import pprint<CR>pprint(<C-R>")<Esc>==
 
 
