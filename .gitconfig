@@ -1,8 +1,6 @@
 [user]
-	email = viktor.mitin.19@gmail.com
+	email = Viktor.Mitin.19@gmail.com
 	name = Viktor Mitin
-#[credential "https://github.com"]
-#	username = Viktor.Mitin.19@gmail.com
 [alias]
 	co = checkout
 	br = branch
@@ -26,7 +24,13 @@
 #    subjectprefix = "Xen-devel] [PATCH"
 #	signoff = true
 
-[credential "https://github.com/tr/acorn_troa-publish.git"]
+[credential "https://github.com"]
+	username = viktor-mitin
+	email = Viktor.Mitin.19@gmail.com
+
+[credential "https://git.sami.int.thomsonreuters.com"]
 	username = viktor.mitin
+    email = viktor.mitin@thomsonreuters.com
+
 [credential]
 	helper = store
