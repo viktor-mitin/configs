@@ -35,7 +35,7 @@ XTerm*faceName:  DejaVu Sans Mono Book
 
 XTerm*allowBoldFonts:       false
 
-XTerm*faceSize:     18
+XTerm*faceSize:     16
 XTerm*faceSize1:     8
 XTerm*faceSize2:    10
 XTerm*faceSize3:    12
@@ -48,7 +48,7 @@ XTerm*faceSize9:    36
 
 
 !Xft settings
-Xft.dpi: 130
+Xft.dpi: 96
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hinting: 1

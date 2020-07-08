@@ -5,10 +5,10 @@ exec > /tmp/start_apps.log
 #redirect stderr to stdout
 exec 2>&1
 
-export GDK_SCALE=2
-export GDK_DPI_SCALE=0.7
-#export QT_AUTO_SCREEN_SCALE_FACTOR=1
-export QT_SCALE_FACTOR=2
+#export GDK_SCALE=2
+#export GDK_DPI_SCALE=0.7
+##export QT_AUTO_SCREEN_SCALE_FACTOR=1
+#export QT_SCALE_FACTOR=2
 
 date
 
@@ -36,10 +36,10 @@ move_window ()
 ############################## run apps ###########################
 #teams &
 google-chrome &
-skypeforlinux &
+#skypeforlinux &
 firefox &
-telegram-desktop &
-/opt/viber/Viber &
+#telegram-desktop &
+#/opt/viber/Viber &
 
 (nice -n 10 xterm -T term1)&
 (nice -n 11 xterm -T term2)&
@@ -66,9 +66,9 @@ move_window term8  3
 #move_window term9  4
 move_window term11 4
 move_window htop   5
-move_window skype  6
-move_window Telegram  7
-move_window Viber  7
+#move_window skype  6
+#move_window Telegram  7
+#move_window Viber  7
 move_window "Google Chrome" 8
 move_window firefox 8
 #move_window "Microsoft Teams"  8
