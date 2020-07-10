@@ -5,7 +5,8 @@
     <property name="mode" type="int" value="0"/>
     <property name="idle-activation" type="empty">
       <property name="delay" type="int" value="35"/>
+      <property name="enabled" type="bool" value="false"/>
     </property>
-    <property name="enabled" type="bool" value="true"/>
+    <property name="enabled" type="bool" value="false"/>
   </property>
 </channel>

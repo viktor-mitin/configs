@@ -48,6 +48,9 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="size-max" type="uint" value="22"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="xfce4-power-manager"/>
+      </property>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
     <property name="plugin-7" type="string" value="indicator">
@@ -76,7 +79,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="parole"/>
+      <property name="mpris-players" type="string" value="chrome.instance1837;chrome.instance1933;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
