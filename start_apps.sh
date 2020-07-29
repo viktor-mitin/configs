@@ -38,7 +38,7 @@ move_window ()
 google-chrome &
 #skypeforlinux &
 firefox &
-#telegram-desktop &
+telegram-desktop &
 #/opt/viber/Viber &
 
 (nice -n 10 xterm -T term1)&
@@ -67,7 +67,7 @@ move_window term8  3
 move_window term11 4
 move_window htop   5
 #move_window skype  6
-#move_window Telegram  7
+move_window Telegram  7
 #move_window Viber  7
 move_window "Google Chrome" 8
 move_window firefox 8
