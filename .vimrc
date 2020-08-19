@@ -283,6 +283,7 @@ map ,, yiw<Esc>oprint(f'<C-R>"={<C-R>"}')<Esc>==
 "map ,, yiw<Esc>oconsole.log(`<C-R>"=${<C-R>"}`)<Esc>==
 map <F9> yiw<Esc>ofrom pprint import pprint<CR>pprint(<C-R>")<Esc>==
 
+"map ,, yiw<Esc>:%s/'<C-R>"'/Ts_field.<C-R>"/gc<CR>
 
 
 "Change UNDER_SCORES to CamelCase Edit

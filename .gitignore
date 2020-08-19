@@ -2,6 +2,8 @@
 .config/xfce4/panel/whiskermenu-1.rc
 .config/xfce4/desktop
 #.config/xfce4/xfconf/xfce-perchannel-xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml
 .config/xfce4/xfce4-screenshooter
 #.config/autostart
 
