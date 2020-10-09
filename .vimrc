@@ -2,7 +2,7 @@ autocmd!
 autocmd BufRead,BufNewFile *.bb,*.bbappend setfiletype conf "enable bitbake colors highlighting
 autocmd BufRead,BufNewFile *.avsc setfiletype json
 autocmd BufRead,BufNewFile *.ts setfiletype typescript
-autocmd FileType c,cpp,php,python,bash,sh,java,typescript set expandtab
+autocmd FileType c,cpp,php,python,bash,sh,java,typescript,go set expandtab
 
 let _curfile = expand("%:t")
 if _curfile =~ "Makefile" || _curfile =~ "makefile" || _curfile =~ ".*\.mk"
@@ -257,8 +257,8 @@ let g:netrw_winsize=35 "set netrw winsize to take 40% of the window width
 
 
 "Highlight column 80 with blue color
-"set colorcolumn=80
-"highlight ColorColumn ctermbg=Blue
+set colorcolumn=80
+highlight ColorColumn ctermbg=Blue
 
 ""Highlight column 80 with blue color
 "highlight OverLength ctermbg=blue
