@@ -36,7 +36,7 @@ move_window ()
 ############################## run apps ###########################
 #teams &
 google-chrome &
-#skypeforlinux &
+skype &
 firefox &
 telegram-desktop &
 #/opt/viber/Viber &
@@ -66,7 +66,7 @@ move_window term8  3
 #move_window term9  4
 move_window term11 4
 move_window htop   5
-#move_window skype  6
+move_window skype  6
 move_window Telegram  7
 #move_window Viber  7
 move_window "Google Chrome" 8

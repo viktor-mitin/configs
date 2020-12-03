@@ -56,4 +56,5 @@ Xft.hintstyle: hintfull
 Xft.antialias: 1
 Xft.rgba: rgb
 
+XTerm*VT100*selectToClipboard: true
 
