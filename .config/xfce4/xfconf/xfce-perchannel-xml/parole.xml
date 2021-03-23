@@ -11,12 +11,14 @@
     <property name="font" type="string" value="Sans Bold 20"/>
   </property>
   <property name="window" type="empty">
-    <property name="maximized" type="bool" value="false"/>
+    <property name="maximized" type="bool" value="true"/>
+    <property name="width" type="int" value="3840"/>
+    <property name="height" type="int" value="2073"/>
   </property>
   <property name="audio" type="empty">
     <property name="volume" type="int" value="50"/>
   </property>
   <property name="folders" type="empty">
-    <property name="last-used-media" type="string" value="/home/c/Videos"/>
+    <property name="last-used-media" type="string" value="/home/c/Downloads"/>
   </property>
 </channel>
