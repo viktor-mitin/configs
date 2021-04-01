@@ -6,7 +6,29 @@
 	br = branch
 	bra = branch -av
 	st = status
+
 	la = log --oneline --decorate --graph --all
+    ec = config --global --edit
+    up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+    cob = checkout -b
+    fob = "!f() { git cob $1 && git push --set-upstream origin $1; }; f"
+    cm = !git add . && git commit -e
+    save = !git add . && git commit -m 'CHECKPOINT'
+    wip = !git add -u && git commit -m 'WIP'
+    mark = commit --allow-empty -m 'MARK'
+    undo = reset HEAD~1 --mixed
+    amend = commit -a --amend
+    wipe = !git add . && git commit -qm 'WIPE CHECKPOINT' && git reset HEAD~1 --hard
+    prepare = "!f() { git pull && git add . && git clean -xdf }; f"
+    publish = !git ready && git flow publish
+    ready = !git prepare && git commit -e
+    rprune = "!f() { git remote prune ${1-origin}; }; f"
+    gone = "!f() { git fetch -p; git branch -vv | grep gone] | cut -d ' ' -f 3 | xargs git branch -D 2>/dev/null; }; f"
+    merged = "!f() { git branch --merged ${1-develop} | grep -v "" ${1-develop}"" | grep -v "" ${2-master}"" | xargs git branch -d 2>/dev/null; }; f"
+    done = "!f() { git checkout ${1-develop} && git up && git merged ${1-develop} && git gone && git rprune ${2-origin}; }; f"
+    fdone = "!f() { git done ${1-master} && git rprune ${2-upstream} && git pull --all && git merge --ff-only ${2-upstream}/${1-master} && git push; }; f"
+    fclone = "!f() { local UPSTREAM_URI=$1; local ALIAS=${UPSTREAM_URI##*/}; ALIAS=${2:-${ALIAS%.*}}; local UPSTREAM=${3:-octo}; local ORIGIN=$(echo $ORIGIN_URI | rev | cut -d '/' -f 2 | rev); git clone ${1} ${ALIAS}; cd ${ALIAS}; UPSTREAM_URI=${UPSTREAM_URI/$ORIGIN/$UPSTREAM}; git remote add upstream ${UPSTREAM_URI} && git fdone; }; f"
+    frebase = "!f() { local BRANCH=$(git rev-parse --abbrev-ref HEAD); git fdone ${1-master}; git checkout $BRANCH; git rebase -i ${1-master}; }; f"
 [color]
 	ui = auto
 [sendemail]
@@ -28,9 +50,11 @@
 	username = viktor-mitin
 	email = Viktor.Mitin.19@gmail.com
 
-[credential "https://git.sami.int.thomsonreuters.com"]
+[credential "https://ihsmarkit@dev.azure.com"]
 	username = viktor.mitin
-    email = viktor.mitin@thomsonreuters.com
+    email = viktor.mitin@ihsmarkit.com
 
 [credential]
 	helper = store
+[core]
+	pager = less -F -X
