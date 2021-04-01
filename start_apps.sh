@@ -15,7 +15,7 @@ date
 ~/configs/scripts/disable_touchpad.sh
 
 #set default brightness value
-echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brightness
+#echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brightness
 
 move_window ()
 {
@@ -34,9 +34,9 @@ move_window ()
 #touch /forcefsck
 
 ############################## run apps ###########################
-#teams &
+teams &
 google-chrome &
-skype &
+#skype &
 firefox &
 telegram-desktop &
 #/opt/viber/Viber &
@@ -66,12 +66,12 @@ move_window term8  3
 #move_window term9  4
 move_window term11 4
 move_window htop   5
-move_window skype  6
-move_window Telegram  7
+#move_window skype  6
+move_window Telegram  6
 #move_window Viber  7
+move_window "Microsoft Teams"  7
+move_window firefox 7
 move_window "Google Chrome" 8
-move_window firefox 8
-#move_window "Microsoft Teams"  8
 
 ##################### switch to the last desktop ################
 wmctrl -s 8
