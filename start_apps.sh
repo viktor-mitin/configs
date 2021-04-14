@@ -76,6 +76,8 @@ move_window "Google Chrome" 8
 ##################### switch to the last desktop ################
 wmctrl -s 8
 
+octo login aws --profile=default
+
 test -f /usr/bin/update-manager && sudo mv /usr/bin/update-manager /usr/bin/update-manager_bak
 test -f /usr/bin/update-notifier && sudo mv /usr/bin/update-notifier /usr/bin/update-notifier_bak
 
