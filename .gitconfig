@@ -2,6 +2,7 @@
 	email = Viktor.Mitin.19@gmail.com
 	name = Viktor Mitin
 [alias]
+	pt = push --tags
 	co = checkout
 	br = branch
 	bra = branch -av

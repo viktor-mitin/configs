@@ -13,12 +13,15 @@
   <property name="window" type="empty">
     <property name="maximized" type="bool" value="true"/>
     <property name="width" type="int" value="3840"/>
-    <property name="height" type="int" value="2073"/>
+    <property name="height" type="int" value="2074"/>
   </property>
   <property name="audio" type="empty">
     <property name="volume" type="int" value="50"/>
   </property>
   <property name="folders" type="empty">
-    <property name="last-used-media" type="string" value="/home/c/Downloads"/>
+    <property name="last-used-media" type="string" value="/home/c/Downloads/Telegram Desktop"/>
+  </property>
+  <property name="playlist" type="empty">
+    <property name="show-playlist" type="bool" value="true"/>
   </property>
 </channel>

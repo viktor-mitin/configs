@@ -2,7 +2,7 @@ autocmd!
 autocmd BufRead,BufNewFile *.bb,*.bbappend setfiletype conf "enable bitbake colors highlighting
 autocmd BufRead,BufNewFile *.avsc setfiletype json
 autocmd BufRead,BufNewFile *.ts setfiletype typescript
-autocmd FileType c,cpp,php,python,bash,sh,java,typescript,go set expandtab
+autocmd FileType c,cpp,php,python,bash,sh,java,typescript,go,tf,json set expandtab
 
 let _curfile = expand("%:t")
 if _curfile =~ "Makefile" || _curfile =~ "makefile" || _curfile =~ ".*\.mk"
@@ -279,9 +279,9 @@ autocmd BufWinLeave * call clearmatches()
 :nnoremap <silent> <F10> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
 
 
-"map ,, yiw<Esc>oprint(f'<C-R>"={<C-R>"}')<Esc>==
+map ,, yiw<Esc>oprint(f"<C-R>"={<C-R>"}")<Esc>==
 "map ,, yiw<Esc>oconsole.log(`<C-R>"=${<C-R>"}`)<Esc>==
-map ,, yiw<Esc>ofmt.Println("<C-R>"=", <C-R>")<Esc>==
+"map ,, yiw<Esc>ofmt.Println("<C-R>"=", <C-R>")<Esc>==
 map <F9> yiw<Esc>ofrom pprint import pprint<CR>pprint(<C-R>")<Esc>==
 
 "map ,, yiw<Esc>:%s/'<C-R>"'/Ts_field.<C-R>"/gc<CR>
