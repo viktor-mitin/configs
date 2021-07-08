@@ -190,4 +190,5 @@ fi
 alias python=python3
 
 export PIPENV_VENV_IN_PROJECT="enabled"
+export ACCESS_TOKEN=$(cat ~/w/token.txt)
 
