@@ -191,4 +191,5 @@ alias python=python3
 
 export PIPENV_VENV_IN_PROJECT="enabled"
 export ACCESS_TOKEN=$(cat ~/w/token.txt)
+export EXTRA_INDEX_URL=https://viktor.mitin:$ACCESS_TOKEN@pkgs.dev.azure.com/ihsmarkit/OCTO/_packaging/ekg/pypi/simple/
 
